@@ -2,10 +2,10 @@ import React from 'react';
 import ProjectLayout from "../components/ProjectLayout";
 import phoneImage from "../assets/images/chowa.png"; // Bild från t.ex. din assets-mapp
 
-const Project3 = () => {
+const Project4 = () => {
   return (
     <ProjectLayout
-      title="MUSIC FESTIVAL"
+      title="TODO"
       subtitle="A digital platform for municipal housing management"
       role="UI/UX Designer"
       timeframe="3 months"
@@ -18,4 +18,4 @@ const Project3 = () => {
   );
 };
 
-export default Project3;
+export default Project4;

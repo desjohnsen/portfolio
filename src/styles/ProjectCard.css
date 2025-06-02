@@ -129,6 +129,10 @@
   background-color: #f3efe0;
 }
 
+.project-card.pink-background .project-image {
+  background-color: #f3e0ee;
+}
+
 @media (min-width: 768px) {
   .project-card {
     max-width: 700px;

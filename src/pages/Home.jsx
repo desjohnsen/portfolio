@@ -38,6 +38,15 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       customClass: "beige-background",
       category: "Frontend",
     },
+    {
+      title: "TODO", 
+      description: "",
+      projectId: "4", 
+      image: Chowa, 
+      tags: ["Frontend"],
+      customClass: "pink-background", // Lägg till en ny bakgrundsklass om du vill
+      category: "Frontend",
+    },
   ];
 
   const categories = ["All", "UX/UI", "Frontend"];
