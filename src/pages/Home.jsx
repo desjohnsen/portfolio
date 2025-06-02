@@ -44,7 +44,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       projectId: "4", 
       image: Chowa, 
       tags: ["Frontend"],
-      customClass: "pink-background", // Lägg till en ny bakgrundsklass om du vill
+      customClass: "pink-background", 
       category: "Frontend",
     },
   ];

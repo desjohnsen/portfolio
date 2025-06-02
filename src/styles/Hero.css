@@ -354,7 +354,7 @@ body {
 
 @media (max-width: 320px) {
   .hero-text p {
-    max-width: 25ch ;
+    max-width: 26ch ;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
