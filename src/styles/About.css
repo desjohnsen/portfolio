@@ -9,9 +9,14 @@
   --card-radius: 1.5rem;
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 .about-section {
   max-width: 225px;
-  margin: 7.3rem auto;
+  margin: 7.24rem auto;
   padding: 2rem 1.5rem;
   background: white;
   border-radius: var(--card-radius);
@@ -58,6 +63,7 @@
   max-width: 260px;
   width: 100%;
   object-fit: cover;
+  animation: fadeIn 1s ease-in forwards;
 }
 
 @media (min-width: 768px) {
@@ -84,9 +90,4 @@
   .about-image-wrapper {
     order: 0;
   }  
-
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
 }
