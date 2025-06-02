@@ -1,0 +1,65 @@
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0 1rem;
+  }
+  
+  .categories {
+    margin: 0.01rem 0 2.3rem 0;
+    display: flex;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+  }
+  
+  .categories button {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #e5e5e5;
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #111111;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    font-weight: 500;
+    min-width: 70px;
+    text-align: center;
+  }
+  
+  .categories button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: #111111;
+    color: #111111;
+  }
+  
+  .categories button.active {
+    background-color: #111111;
+    color: white;
+    border-color: #111111;
+  }
+  
+  @media (min-width: 768px) {
+    .projects-wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .categories {
+      display: flex;
+      justify-content: center;
+      gap: 0.4rem;
+      padding-inline: 0.9rem; 
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .categories button {
+      padding: 0.6rem 1.2rem;
+    }
+  }
+  

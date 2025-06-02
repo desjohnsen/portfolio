@@ -1,0 +1,92 @@
+:root {
+  --background: rgba(255, 255, 255, 0.6);
+  --border-color: #e5e5e5;
+  --text-color: #111;
+  --gray-text: #555;
+  --hover-bg: rgba(0, 0, 0, 0.05);
+  --font-main: 'Montserrat', sans-serif;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  --card-radius: 1.5rem;
+}
+
+.about-section {
+  max-width: 225px;
+  margin: 7.3rem auto;
+  padding: 2rem 1.5rem;
+  background: white;
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: var(--font-main);
+  color: var(--text-color);
+  text-align: left;
+}
+
+.about-content {
+  flex: 1;
+  animation: fadeIn 1s ease-in forwards; 
+}
+
+.about-title {
+  font-size: 1.5rem; 
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center; 
+}
+
+.about-text {
+  font-size: 0.77rem; 
+  color: var(--gray-text);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 28ch;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  max-width: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    flex-direction: row;
+    padding: 3rem 3rem;
+    gap: 4rem;
+    margin: 4rem auto;
+    margin-top: 7rem;
+    max-width: 900px;
+  }
+
+  .about-title {
+    text-align: left; 
+    margin-left: 2.2rem;
+    font-size: 1.7rem;
+  }
+
+  .about-text {
+    font-size: 0.9rem; 
+    max-width: 38ch;
+  }
+
+  .about-image-wrapper {
+    order: 0;
+  }  
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
