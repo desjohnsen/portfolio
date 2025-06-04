@@ -10,7 +10,7 @@ const Contact = ({ contactSectionRef }) => {
     const form = formRef.current;
     const formData = new FormData(form);
 
-    fetch('', {
+    fetch('https://formspree.io/f/mjkrkbgw', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams(formData).toString(),
@@ -58,15 +58,7 @@ const Contact = ({ contactSectionRef }) => {
           onSubmit={handleSubmit}
           className="contact-form"
           name="contact"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="form-name" value="contact" />
-          <p style={{ display: 'none' }}>
-            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-          </p>
-
           <div className="form-row">
             <div className="form-group">
               <label htmlFor="name">Name</label>
