@@ -56,7 +56,7 @@ const Contact = ({ contactSectionRef }) => {
       {formSubmitted ? (
         <div className="thank-you-popup">
           <p>
-            Thanks for your message! <br />
+            Thank you for your message! <br />
             I’ll get back to you as soon as I can.
           </p>
         </div>
