@@ -10,14 +10,22 @@ const Contact = ({ contactSectionRef }) => {
     const form = formRef.current;
     const formData = new FormData(form);
 
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+
     fetch('https://formspree.io/f/mjkrkbgw', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString(),
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, message }),
     })
-      .then(() => {
-        setFormSubmitted(true);
-        form.reset();
+      .then((res) => {
+        if (res.ok) {
+          setFormSubmitted(true);
+          form.reset();
+        } else {
+          alert('Something went wrong!');
+        }
       })
       .catch(() => alert('Something went wrong!'));
   };
@@ -53,12 +61,7 @@ const Contact = ({ contactSectionRef }) => {
           </p>
         </div>
       ) : (
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className="contact-form"
-          name="contact"
-        >
+        <form ref={formRef} onSubmit={handleSubmit} className="contact-form" name="contact">
           <div className="form-row">
             <div className="form-group">
               <label htmlFor="name">Name</label>
