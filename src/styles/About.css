@@ -99,11 +99,12 @@
     margin-top: 7rem;
     margin-left: auto;
     margin-right: auto;
+    flex-direction: row;
   }
 
   .about-title {
-    text-align: center; 
-    margin-left: 2.2rem;
+    text-align: left; 
+    margin-left: 0rem;
     font-size: 1.7rem;
   }
 
@@ -116,13 +117,13 @@
     order: 0;
   }  
 
-  @media (min-width: 769px) {
+  @media (min-width: 1024px) {
     .about-section {
-      max-width: 700px;
-      padding: 1rem;
-      margin-top: 7rem;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 1000px;
+    }
+  
+    .about-title {
+      margin-left: 4.2rem; 
     }
   }
 }
