@@ -8,7 +8,7 @@ const Project1 = () => {
       title="Järfällahus"
       subtitle="A collaborative digital platform with Järfällahus to enhance community engagement and simplify access to local activities."
       role="UI/UX Designer"
-      timeframe="12 weeks"
+      timeframe="10 weeks"
       tools="Figma"
     >
       <section id="overview">

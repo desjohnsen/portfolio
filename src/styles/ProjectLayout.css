@@ -172,30 +172,11 @@
     align-items: flex-start;
     position: relative;
   }
-
-  .sidebar-nav {
-    display: block;
-    width: 140px;
-    max-width: none;
-    padding: 1rem;
-    border-radius: 1rem;
-    height: 360px;
-    flex-shrink: 0;
-    top: 10.6rem; 
-    position: sticky;
-    overflow-y: auto; 
-  }
-
+  
   .case-study-flex {
     display: flex;
     width: 100%;
     gap: 2rem;
-  }
-
-  .sidebar-nav a {
-    padding-left: 0.5rem;
-    border-left-width: 4px;
-    margin-top: 1rem;
   }
 
   .project-title {
@@ -238,6 +219,31 @@
     padding-left: 1rem;  
     padding-right: 1rem;
     gap: 14.9rem; 
+  }
+
+  .sidebar-nav {
+    display: block;
+    width: 140px;
+    max-width: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 360px;
+    flex-shrink: 0;
+    top: 10.6rem; 
+    position: sticky;
+    overflow-y: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+
+  .sidebar-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sidebar-nav a {
+    padding-left: 0.5rem;
+    border-left-width: 4px;
+    margin-top: 1rem;
   }
   
   .project-main-content {
@@ -298,5 +304,23 @@
     padding-left: 3rem; 
     padding-right: 1rem;
     gap: 3.9rem; 
+  }
+}
+
+@media (max-width: 320px) {
+  .case-study-layout {
+    padding: 0.9rem 0rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .case-study-layout {
+    padding: 1rem 0rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .case-study-layout {
+    padding: 1rem 0rem;
   }
 }
