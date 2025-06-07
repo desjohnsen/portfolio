@@ -121,8 +121,9 @@
   }
   
   .send-button:hover {
-    color: #ffffff;
-    background-color: #2a2828;
+    background-color: #f2f2f2;
+    border: 1px solid #373737;
+    color: #000000;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   }
   
