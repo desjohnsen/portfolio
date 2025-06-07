@@ -176,7 +176,7 @@
     .form-row {
       display: flex;
       flex-direction: row;
-      gap: 0.7rem;
+      gap: 0.9rem;
       flex-wrap: wrap;
       max-width: 100%;
       box-sizing: border-box;
