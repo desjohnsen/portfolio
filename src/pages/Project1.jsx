@@ -14,10 +14,10 @@ const Project1 = () => {
       <section id="overview">
         <h2>Overview</h2>
         <p>Our mission was to improve Sångvägen’s reputation by creating a welcoming and vibrant digital platform that fosters a sense of safety, inclusion, and community.<br /><br /> 
-           Developed in close collaboration with Järfällahus and local stakeholders as part of a real client project during our studies at Chas Academy, the platform was informed by real user insights and built by a cross-functional team of 11 students: <br /><br />
-           👩‍🎨 2 UX/UI designers <br />
-          ⚙️ 2 DevOps engineers  <br />
-          💻 7 fullstack developers (open source stack)
+           Developed in close collaboration with Järfällahus and local stakeholders as part of a real client project during our studies at Chas Academy, the platform was informed by real user insights and built by a cross-functional team of 11 students:<br /><br />
+           👩‍🎨 <strong>2 UX/UI designers</strong> <br />
+          ⚙️ <strong>2 DevOps engineers</strong>  <br />
+          💻 <strong>7 fullstack developers (open source stack)</strong>
 
         </p>
       </section>
@@ -31,10 +31,10 @@ const Project1 = () => {
       <section id="goals">
         <h2>Goals</h2>
         <p>
-         - Create a visually appealing, intuitive platform consistent with Järfällahus branding but with a fresh, modern twist <br /><br />
-         - Increase resident engagement by promoting local activities and enabling easy event registration. <br /><br />
-         - Foster a stronger sense of community and inclusion across diverse user groups including families, youth, and seniors. <br /><br />
-         - Ensure accessibility and ease of use, especially for less tech-savvy users.</p>
+        - <strong> Create </strong> a visually appealing, intuitive platform consistent with Järfällahus branding but with a fresh, modern twist <br /><br />
+         - <strong> Increase </strong> resident engagement by promoting local activities and enabling easy event registration. <br /><br />
+         - <strong> Foster </strong> a stronger sense of community and inclusion across diverse user groups including families, youth, and seniors. <br /><br />
+         - <strong> Ensure </strong> accessibility and ease of use, especially for less tech-savvy users.</p>
       </section>
 
       <section id="research">
@@ -42,9 +42,9 @@ const Project1 = () => {
         <p>We conducted qualitative user interviews with residents of Sångvägen and the wider Järfälla area to understand perceptions of safety, inclusion, and community involvement.<br /><br /> 
            These insights revealed that transparency, accessible language, and mobile-friendly content were essential to reach a broad demographic. <br /><br />
            From the data, we identified three primary behavioral user types that shaped our design focus: <br /><br />
-           👀 The Unaware – low drive but responsive to clear, inspiring content; prefers traditional or passive channels <br /><br />
-           🫀 The Empathetic – values inclusion and seeks participation in community-building events <br /><br />
-           ☀️ The Optimist – hopeful and observant; engages more digitally, particularly via social platforms <br /><br />
+           <strong> 👀 The Unaware </strong> – low drive but responsive to clear, inspiring content; prefers traditional or passive channels <br /><br />
+           <strong> 🫀 The Empathetic </strong> – values inclusion and seeks participation in community-building events <br /><br />
+           <strong> ☀️ The Optimist </strong> – hopeful and observant; engages more digitally, particularly via social platforms <br /><br />
            These personas helped us prioritize clarity, engagement, and visual cues throughout the user journey.</p>
       </section>
 
@@ -58,10 +58,10 @@ const Project1 = () => {
       <section id="design">
         <h2>Design</h2>
         <p>Our final high-fidelity design included:<br /><br />
-          - A clean, accessible interface with rounded corners for a softer look.<br /><br />
-          - Clear CTA buttons for event registration and information browsing.<br /><br />
-          - Responsive layouts optimized for both desktop and mobile.<br /><br /> 
-          - Visual cues and feedback incorporated to guide users, especially seniors and digitally inexperienced residents.</p>
+        <strong>- A clean </strong>, accessible interface with rounded corners for a softer look.<br /><br />
+        <strong>- Clear </strong> CTA buttons for event registration and information browsing.<br /><br />
+        <strong>- Responsive </strong> layouts optimized for both desktop and mobile.<br /><br /> 
+        <strong>- Visual </strong>cues and feedback incorporated to guide users, especially seniors and digitally inexperienced residents.</p>
         <img src={phoneImage} alt="Järfällahus app" className="project-image" />
       </section>
 
