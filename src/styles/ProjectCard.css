@@ -34,7 +34,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -54,7 +54,7 @@
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--dark-text);
-  margin-bottom: 0.1rem; 
+  margin-bottom: 0.1rem;
 }
 
 .project-content p {
@@ -146,7 +146,7 @@
   }
 
   .project-content p {
-    font-size:  0.77rem;
+    font-size: 0.77rem;
   }
 
   .project-tag {
@@ -171,3 +171,9 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .case-study-btn {
+    font-size: 0.85rem;
+    padding: 0.45rem 1rem;
+  }
+}
