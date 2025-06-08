@@ -99,10 +99,10 @@
 .case-study-btn {
   background-color: black;
   border: 1px solid black;
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 0.75rem;
   border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 300;
+  font-size: 0.75rem;
+  font-weight: 400;
   color: white;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -171,9 +171,21 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .case-study-btn {
-    font-size: 0.85rem;
-    padding: 0.45rem 1rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+    font-weight: 400;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
+
+@media (min-width: 1024px) {
+  .case-study-btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+    font-weight: 400;
+  }
+}
+
