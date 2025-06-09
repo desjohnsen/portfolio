@@ -85,6 +85,13 @@
   }
 }
 
+@media (width: 390px) {
+    .about-section {
+      max-width: 310px;
+      padding: 1rem;
+    }
+  }
+
 @media (width: 425px) {
   .about-section {
     max-width: 320px;
