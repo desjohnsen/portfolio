@@ -70,7 +70,6 @@
   animation: fadeIn 1s ease-in forwards;
 }
 
-
 @media (max-width: 425px) {
   .about-section {
     max-width: 240px;
@@ -86,13 +85,20 @@
 }
 
 @media (width: 390px) {
-    .about-section {
-      max-width: 310px;
-      padding: 1rem;
-    }
+  .about-section {
+    max-width: 310px;
+    padding: 1rem;
   }
+}
 
-@media (width: 425px) {
+@media (min-width: 390px) and (max-width: 767px) {
+  .about-section {
+    max-width: 310px;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
   .about-section {
     max-width: 320px;
     padding: 1rem;
@@ -122,15 +128,15 @@
 
   .about-image-wrapper {
     order: 0;
-  }  
+  }
+}
 
-  @media (min-width: 1024px) {
-    .about-section {
-      max-width: 1000px;
-    }
+@media (min-width: 1024px) {
+  .about-section {
+    max-width: 900px;
+  }
   
-    .about-title {
-      margin-left: 4.2rem; 
-    }
+  .about-title {
+    margin-left: 2.8rem; 
   }
 }
