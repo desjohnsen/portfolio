@@ -44,6 +44,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       projectId: "4", 
       image: Chowa, 
       tags: ["Frontend"],
+      buttonLabel: "Read more →",
       customClass: "pink-background", 
       category: "Frontend",
     },
