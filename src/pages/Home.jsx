@@ -25,7 +25,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       projectId: "2",
       image: Chowa,
       tags: ["UX/UI", "Figma"],
-      customClass: "blue-background",
+      customClass: "green-background",
       category: "UX/UI",
     },
     {
