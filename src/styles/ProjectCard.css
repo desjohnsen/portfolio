@@ -86,6 +86,11 @@
 }
 
 .project-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+
   background-color: transparent;
   border: 1px solid var(--gray-text);
   padding: 0.4rem 0.75rem;
@@ -97,6 +102,11 @@
 }
 
 .case-study-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+
   background-color: black;
   border: 1px solid black;
   padding: 0.4rem 0.75rem;
