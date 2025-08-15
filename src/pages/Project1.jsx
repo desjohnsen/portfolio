@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectLayout from "../components/ProjectLayout";
-import phoneImage from "../assets/images/Chowa.png";
+import phoneImage from "../assets/images/jarfallahus.png";
 
 const Project1 = () => {
   return (

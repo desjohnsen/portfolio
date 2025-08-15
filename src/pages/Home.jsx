@@ -4,6 +4,7 @@ import MarqueeSlider from "../components/MarqueeSlider";
 import ProjectCard from '../components/ProjectCard';
 import Contact from "../components/Contact";
 import Chowa from '../assets/images/Chowa.png';
+import Jarfallahus from '../assets/images/jarfallahus.png';
 import '../styles/Home.css';
 
 const Home = ({ projectSectionRef, contactSectionRef }) => {
@@ -14,7 +15,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       title: "JÄRFÄLLAHUS",
       description: "",
       projectId: "1",
-      image: Chowa,
+      image: Jarfallahus,
       tags: ["Agile Team"],
       customClass: "blue-background",
       category: "UX/UI",
