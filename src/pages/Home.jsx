@@ -30,7 +30,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       category: "UX/UI",
     },
     {
-      title: "MUSIC FESTIVAL",
+      title: "TODO",
       description: "",
       projectId: "3",
       image: Chowa,
@@ -40,7 +40,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       category: "Frontend",
     },
     {
-      title: "TODO", 
+      title: "MUSIC FESTIVAL", 
       description: "",
       projectId: "4", 
       image: Chowa, 
