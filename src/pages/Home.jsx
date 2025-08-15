@@ -16,7 +16,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       projectId: "1",
       image: Chowa,
       tags: ["Agile Team"],
-      customClass: "green-background",
+      customClass: "blue-background",
       category: "UX/UI",
     },
     {
