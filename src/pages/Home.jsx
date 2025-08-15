@@ -4,7 +4,7 @@ import MarqueeSlider from "../components/MarqueeSlider";
 import ProjectCard from '../components/ProjectCard';
 import Contact from "../components/Contact";
 import Chowa from '../assets/images/Chowa.png';
-import Jarfallahus from '../assets/images/jarfallahus.png';
+import Jarfallahus from '../assets/images/jarfallahus-desktop.png';
 import '../styles/Home.css';
 
 const Home = ({ projectSectionRef, contactSectionRef }) => {
