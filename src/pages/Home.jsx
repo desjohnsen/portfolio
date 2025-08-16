@@ -7,6 +7,7 @@ import Chowa from '../assets/images/Chowa.png';
 import Jarfallahus from '../assets/images/jarfallahus-desktop.png';
 import Todo from '../assets/images/todo.png';
 import Musicfestival from '../assets/images/music-festival.png';
+import MissionImpossible from '../assets/images/mission-usage-impossible.png';
 import '../styles/Home.css';
 
 const Home = ({ projectSectionRef, contactSectionRef }) => {
@@ -55,10 +56,10 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       title: "MISSION USAGE IMPOSSIBLE", 
       description: "",
       projectId: "5", 
-      image: Musicfestival, 
+      image: MissionImpossible, 
       tags: ["Frontend"],
       buttonLabel: "Read more →",
-      customClass: "peach-background", 
+      customClass: "gray-background", 
       category: "Frontend",
     },
   ];

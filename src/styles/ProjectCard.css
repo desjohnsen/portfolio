@@ -144,8 +144,8 @@
   background-color: #f3e0ee;
 }
 
-.project-card.peach-background .project-image {
-  background-color: #f8d9c4;
+.project-card.gray-background .project-image {
+  background-color: #e0e0e0; 
 }
 
 @media (min-width: 768px) {
