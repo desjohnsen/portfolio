@@ -5,6 +5,8 @@ import ProjectCard from '../components/ProjectCard';
 import Contact from "../components/Contact";
 import Chowa from '../assets/images/Chowa.png';
 import Jarfallahus from '../assets/images/jarfallahus-desktop.png';
+import Todo from '../assets/images/todo.png';
+import Musicfestival from '../assets/images/music-festival.png';
 import '../styles/Home.css';
 
 const Home = ({ projectSectionRef, contactSectionRef }) => {
@@ -33,7 +35,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       title: "TODO",
       description: "",
       projectId: "3",
-      image: Chowa,
+      image: Todo,
       tags: ["Frontend"],
       buttonLabel: "Read more →",
       customClass: "beige-background",
@@ -43,7 +45,17 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       title: "MUSIC FESTIVAL", 
       description: "",
       projectId: "4", 
-      image: Chowa, 
+      image: Musicfestival, 
+      tags: ["Frontend"],
+      buttonLabel: "Read more →",
+      customClass: "pink-background", 
+      category: "Frontend",
+    },
+    {
+      title: "MISSION USAGE IMPOSSIBLE", 
+      description: "",
+      projectId: "5", 
+      image: Musicfestival, 
       tags: ["Frontend"],
       buttonLabel: "Read more →",
       customClass: "pink-background", 
