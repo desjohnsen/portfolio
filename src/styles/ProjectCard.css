@@ -25,9 +25,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 294.5px;
   box-sizing: border-box;
   background-color: inherit;
+  overflow: hidden;
 }
 
 .image-wrapper {
@@ -144,12 +144,14 @@
   background-color: #f3e0ee;
 }
 
+.project-card.peach-background .project-image {
+  background-color: #f8d9c4;
+}
+
 @media (min-width: 768px) {
   .project-card {
-    max-width: 700px;
-    padding: 1.3rem;
-    flex: 1 1 calc(33.333% - 2rem);
-    margin: 0;
+    width: 100%;
+    max-width: 430px; 
   }
 
   .project-content h2 {
@@ -172,7 +174,8 @@
   }
 
   .project-image {
-    padding: 1rem;
+    padding: 1.5rem;
+    height: 294.5px;
   }
 
   .image-wrapper img {

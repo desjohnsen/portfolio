@@ -42,13 +42,14 @@
   
   @media (min-width: 768px) {
     .projects-wrapper {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
       gap: 2.5rem;
       max-width: 1000px;
       margin: 0 auto;
+      justify-items: center; 
     }
+
     .categories {
       display: flex;
       justify-content: center;

@@ -58,7 +58,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       image: Musicfestival, 
       tags: ["Frontend"],
       buttonLabel: "Read more →",
-      customClass: "pink-background", 
+      customClass: "peach-background", 
       category: "Frontend",
     },
   ];
