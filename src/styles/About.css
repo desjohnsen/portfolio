@@ -35,22 +35,24 @@
 
 .about-content {
   flex: 1;
-  animation: fadeIn 1s ease-in forwards; 
+  animation: fadeIn 1s ease-in forwards;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-title {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  text-align: center; 
+  text-align: center;
 }
 
 .about-text {
-  font-size: 0.77rem; 
+  font-size: 0.77rem;
   color: var(--gray-text);
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  max-width: 28ch;
+  max-width: 30.8ch;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -60,7 +62,8 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 2rem;
 }
 
 .about-image {
@@ -68,6 +71,38 @@
   width: 100%;
   object-fit: cover;
   animation: fadeIn 1s ease-in forwards;
+}
+
+.skills-section {
+  width: 100%;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-card {
+  border: 1.5px solid var(--text-color);
+  border-radius: 0.5rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: var(--text-color);
+  color: white;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.skill-card:hover {
+  background: white;
+  color: var(--text-color);
+  cursor: default;
 }
 
 @media (max-width: 425px) {
@@ -105,6 +140,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .about-image-wrapper {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .about-section {
     max-width: 690px;
@@ -116,18 +157,30 @@
   }
 
   .about-title {
-    text-align: left; 
-    margin-left: 0rem;
+    text-align: left;
+    margin-left: 3.5rem;
     font-size: 1.6rem;
   }
 
   .about-text {
-    font-size: 0.85rem; 
+    font-size: 0.85rem;
     max-width: 38.5ch;
   }
 
   .about-image-wrapper {
     order: 0;
+  }
+
+  .skills-grid {
+    margin-left: 3.1rem;
+  }
+
+  .skill-card {
+    padding: 1.15rem 1rem;
+  }
+
+  .about-content {
+    margin-top: 1.95rem;
   }
 }
 
@@ -135,8 +188,25 @@
   .about-section {
     max-width: 900px;
   }
-  
+
   .about-title {
-    margin-left: 3.28rem; 
+    margin-left: 3.64rem; 
+  }
+
+  .about-content {
+    margin-top: 1.9rem;
+  }
+
+  .about-image-wrapper {
+    order: 0;
+  }
+
+  .skills-grid {
+    margin-left: 3.36rem;
+    margin-right: auto;
+  }
+
+  .skill-card {
+    padding: 1.4rem 1rem;
   }
 }
