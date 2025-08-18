@@ -118,12 +118,12 @@
   .about-title {
     text-align: left; 
     margin-left: 0rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .about-text {
-    font-size: 0.9rem; 
-    max-width: 38ch;
+    font-size: 0.85rem; 
+    max-width: 38.5ch;
   }
 
   .about-image-wrapper {
@@ -137,6 +137,6 @@
   }
   
   .about-title {
-    margin-left: 2.8rem; 
+    margin-left: 3.28rem; 
   }
 }

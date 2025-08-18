@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Illustration from "../assets/images/Illustration2.png";
+import Illustration from "../assets/images/Illustration.png";
 import "../styles/Hero.css";
 
 const Hero = () => {
