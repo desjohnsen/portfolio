@@ -30,11 +30,11 @@ const About = () => {
         <div className="skills-section">
           <div className="skills-grid">
             <div className="skill-card">UX Research</div>
-            <div className="skill-card">Prototyping</div>
-            <div className="skill-card">Design Thinking</div>
-            <div className="skill-card">Frontend Development</div>
             <div className="skill-card">UI Design</div>
-            <div className="skill-card">Agile Teamwork</div>
+            <div className="skill-card">Prototyping</div>
+            <div className="skill-card">Design Thinking </div>
+            <div className="skill-card">Frontend</div>
+            <div className="skill-card">Teamwork</div>
           </div>
         </div>
       </div>

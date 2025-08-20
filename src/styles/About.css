@@ -195,7 +195,6 @@
   .about-image {
     width: 70%;
   }
-  
 
   .about-content {
     margin-top: 1.95rem;
@@ -209,6 +208,10 @@
 
   .about-title {
     margin-left: 3.26rem; 
+  }
+
+  .about-text {
+    margin-left: 51.9px;
   }
 
   .about-content {
