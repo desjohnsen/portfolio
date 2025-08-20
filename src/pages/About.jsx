@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 import profilePic from "../assets/images/pic.jpg";
+import Jack from "../assets/images/jack.jpg";
 
 const About = () => {
   return (
@@ -41,6 +42,7 @@ const About = () => {
 
       <aside className="about-image-wrapper">
         <img src={profilePic} alt="Profile" className="about-image" />
+        <img src={Jack} alt="Profile" className="about-image" />
       </aside>
     </section>
   );
