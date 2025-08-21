@@ -153,8 +153,8 @@
 .project-content ul {
   margin: 0 0 2rem 0rem;
   padding: 0;
-  text-align: left;
   list-style: none;
+  text-align: left;
   margin-top: 1rem;
 }
 
@@ -166,12 +166,22 @@
   margin-inline: auto;
 }
 
-.project-image {
-  width: 100%;
-  max-width: 100%;
-  margin: 2rem auto;
+.project-image-wrapper {
+  background: white;
   border-radius: 1.25rem;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 500px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
   display: block;
 }
 
@@ -219,7 +229,8 @@
     font-size: 0.9rem;
   }
 
-  .project-image {
+  .project-image-wrapper {
+    max-width: 480px;
     margin: 3rem auto;
   }
 }

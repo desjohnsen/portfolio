@@ -98,7 +98,9 @@ const Project1 = () => {
           <li><strong>Responsive</strong> layouts optimized for both desktop and mobile.</li>
           <li><strong>Visual</strong> cues and feedback incorporated to guide users, especially seniors and digitally inexperienced residents.</li>
         </ul>
-        <img src={phoneImage} alt="Järfällahus app" className="project-image" />
+        <div className="project-image-wrapper">
+          <img src={phoneImage} alt="Järfällahus app" className="project-image" />
+        </div>
       </section>
 
       <section id="outcome" className="project-content">
