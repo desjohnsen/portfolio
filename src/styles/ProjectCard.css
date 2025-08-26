@@ -51,6 +51,13 @@
   text-align: center;
 }
 
+.project-content h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--dark-text);
+  margin-bottom: 0.7rem;
+}
+
 .project-content h2 {
   font-size: 1.1rem;
   font-weight: 700;
@@ -155,6 +162,10 @@
   }
 
   .project-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-content h3 {
     font-size: 1.5rem;
   }
 

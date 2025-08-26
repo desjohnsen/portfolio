@@ -150,22 +150,6 @@
   text-align: left;
 }
 
-.project-content ul {
-  margin: 0 0 2rem 0rem;
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  margin-top: 1rem;
-}
-
-.project-content li {
-  margin-bottom: 0rem;
-  font-size: 0.9rem;
-  color: var(--gray-text);
-  line-height: 1.5;
-  margin-inline: auto;
-}
-
 .project-image-wrapper {
   background: white;
   border-radius: 1.25rem;
@@ -348,3 +332,6 @@
     padding: 1rem 0rem;
   }
 }
+
+
+ 

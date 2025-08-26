@@ -14,7 +14,7 @@ const ProjectCard = ({
   return (
     <div className={`project-card ${customClass}`}>
       <div className="project-content">
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         {/*<p>{description}</p>*/}
       </div>
 

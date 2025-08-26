@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectLayout from "../components/ProjectLayout";
 import phoneImage from "../assets/images/jarfallahus.png";
+import "../styles/ProjectLayout.css";
 
 const Project1 = () => {
   return (
@@ -22,11 +23,11 @@ const Project1 = () => {
           client project during our studies at Chas Academy, the platform was informed by real user 
           insights and built by a cross-functional team of 11 students:
         </p>
-        <ul>
-          <li>👩‍🎨 <strong>2 UX/UI designers</strong></li>
-          <li>⚙️ <strong>2 DevOps engineers</strong></li>
-          <li>💻 <strong>7 fullstack developers (open source stack)</strong></li>
-        </ul>
+        <p>
+          👩‍🎨 <strong>2 UX/UI designers</strong><br />
+          ⚙️ <strong>2 DevOps engineers</strong><br />
+          💻 <strong>7 fullstack developers (open source stack)</strong>
+       </p>
       </section>
 
       <section id="problem" className="project-content">
@@ -45,12 +46,10 @@ const Project1 = () => {
 
       <section id="goals" className="project-content">
         <h2>Goals</h2>
-        <ul>
-          <li><strong>Create</strong> a visually appealing, intuitive platform consistent with Järfällahus branding but with a fresh, modern twist</li>
-          <li><strong>Increase</strong> resident engagement by promoting local activities and enabling easy event registration.</li>
-          <li><strong>Foster</strong> a stronger sense of community and inclusion across diverse user groups including families, youth, and seniors.</li>
-          <li><strong>Ensure</strong> accessibility and ease of use, especially for less tech-savvy users.</li>
-        </ul>
+        <p><strong>Create</strong> a visually appealing, intuitive platform consistent with Järfällahus branding but with a fresh, modern twist</p>
+        <p><strong>Increase</strong> resident engagement by promoting local activities and enabling easy event registration.</p>
+        <p><strong>Foster</strong> a stronger sense of community and inclusion across diverse user groups including families, youth, and seniors.</p>
+        <p><strong>Ensure</strong> accessibility and ease of use, especially for less tech-savvy users.</p>
       </section>
 
       <section id="research" className="project-content">
@@ -65,11 +64,10 @@ const Project1 = () => {
         <p>
           From the data, we identified three primary behavioral user types that shaped our design focus:
         </p>
-        <ul>
-          <li><strong>👀 The Unaware</strong> – low drive but responsive to clear, inspiring content; prefers traditional or passive channels</li>
-          <li><strong>🫀 The Empathetic</strong> – values inclusion and seeks participation in community-building events</li>
-          <li><strong>☀️ The Optimist</strong> – hopeful and observant; engages more digitally, particularly via social platforms</li>
-        </ul>
+        
+        <p><strong>👀 The Unaware</strong> – low drive but responsive to clear, inspiring content; prefers traditional or passive channels</p>
+        <p><strong>🫀 The Empathetic</strong> – values inclusion and seeks participation in community-building events</p>
+        <p><strong>☀️ The Optimist</strong> – hopeful and observant; engages more digitally, particularly via social platforms</p>
         <p>
           These personas helped us prioritize clarity, engagement, and visual cues throughout the user journey.
         </p>
@@ -92,12 +90,11 @@ const Project1 = () => {
 
       <section id="design" className="project-content">
         <h2>Design</h2>
-        <ul>
-          <li><strong>A clean</strong>, accessible interface with rounded corners for a softer look.</li>
-          <li><strong>Clear</strong> CTA buttons for event registration and information browsing.</li>
-          <li><strong>Responsive</strong> layouts optimized for both desktop and mobile.</li>
-          <li><strong>Visual</strong> cues and feedback incorporated to guide users, especially seniors and digitally inexperienced residents.</li>
-        </ul>
+          <p><strong>A clean</strong>, accessible interface with rounded corners for a softer look.</p>
+          <p><strong>Clear</strong> CTA buttons for event registration and information browsing.</p>
+          <p><strong>Responsive</strong> layouts optimized for both desktop and mobile.</p>
+          <p><strong>Visual</strong> cues and feedback incorporated to guide users, especially seniors and digitally inexperienced residents.</p>
+          
         <div className="project-image-wrapper">
           <img src={phoneImage} alt="Järfällahus app" className="project-image" />
         </div>
