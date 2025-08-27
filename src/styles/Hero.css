@@ -303,6 +303,59 @@ body {
   }
 }
 
+@media (min-width: 715px) and (max-width: 767px) {
+  .hero {
+    min-height: 70vh;
+  }
+  .hero-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem; 
+    max-width: 700px; 
+  }
+
+  .hero-image {
+    order: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 260px;
+    max-width: 100%;
+  }
+
+  .hero-text {
+    order: 1;
+    flex: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 28ch;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .hero-text h1 {
+    font-size: 1.47rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.79rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .btn {
+    font-size: 0.9rem; 
+    padding: 0.5rem 5rem; 
+  }
+}
+
+
 @media (min-width: 769px) {
   .hero {
     min-height: 70vh;
