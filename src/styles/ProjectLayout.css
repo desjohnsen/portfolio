@@ -175,6 +175,16 @@
   gap: 2rem;
 }
 
+.link {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #817f7f; 
+}
+
 @media (min-width: 768px) {
   .case-study-layout {
     flex-direction: row;

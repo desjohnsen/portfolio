@@ -6,14 +6,14 @@ const Project2 = () => {
   return (
     <ProjectLayout
       title="Chowa"
-      subtitle="haha"
+      subtitle=""
       role="UI/UX Designer"
-      timeframe="3 months"
+      timeframe=""
       tools="Figma"
     >
-      <p>Här kan du lägga in all text om projektet, precis som på din screenshot.</p>
+
       <img src={phoneImage} alt="Finnabank app" className="project-image" />
-      <p>Mer text och information här...</p>
+
     </ProjectLayout>
   );
 };

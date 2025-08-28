@@ -1,19 +1,24 @@
 import React from 'react';
-import ProjectLayout from "../components/ProjectLayout";
-import phoneImage from "../assets/images/Chowa.png"; 
+import ProjectLayout from "../components/ProjectLayout"; 
 
 const Project3 = () => {
   return (
     <ProjectLayout
-      title="MUSIC FESTIVAL"
-      subtitle="A digital platform for municipal housing management"
-      role="UI/UX Designer"
-      timeframe="3 months"
-      tools="Figma"
+      title="TODO"
+      subtitle=""
+      role=""
+      timeframe=""
+      tools=""
     >
-      <p>Här kan du lägga in all text om projektet, precis som på din screenshot.</p>
-      <img src={phoneImage} alt="Finnabank app" className="project-image" />
-      <p>Mer text och information här...</p>
+      <a
+        href="https://desjohnsen-todo-app.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="link"
+      >
+        desjohnsen-todo-app.netlify.app
+      </a>
+
     </ProjectLayout>
   );
 };
