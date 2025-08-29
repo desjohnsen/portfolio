@@ -53,7 +53,7 @@
   color: var(--gray-text);
   line-height: 1.6;
   margin-bottom: 0.6rem;
-  max-width: 30.5ch;
+  max-width: 31ch;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -63,9 +63,9 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 3.7rem;
   gap: 0.9rem;
 }
 

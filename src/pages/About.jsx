@@ -35,9 +35,17 @@ const About = () => {
             <div className="skill-card">Prototyping</div>
             <div className="skill-card">Design Thinking </div>
             <div className="skill-card">Frontend</div>
-            <div className="skill-card">Teamwork</div>
+            <div className="skill-card">Collaboration</div>
           </div>
         </div>
+
+        <p 
+          className="about-text" 
+          style={{ marginTop: '2.5rem' }}
+        >
+          This portfolio was built and designed by me using React.js and Vite, showcasing how I combine design thinking with frontend development.
+        </p>
+
       </div>
 
       <aside className="about-image-wrapper">
