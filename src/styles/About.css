@@ -44,7 +44,7 @@
 .about-title {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0rem;
   text-align: center;
 }
 
@@ -53,7 +53,7 @@
   color: var(--gray-text);
   line-height: 1.6;
   margin-bottom: 0.6rem;
-  max-width: 30.8ch;
+  max-width: 30.5ch;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -169,7 +169,7 @@
 
   .about-text {
     font-size: 0.85rem;
-    max-width: 38.5ch;
+    max-width: 39.8ch;
     margin-right: 5px;
     margin-left: 56px;
   }
