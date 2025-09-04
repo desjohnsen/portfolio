@@ -30,10 +30,6 @@
   box-shadow: none;
 }
 
-.about-section:hover {
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-}
-
 .about-content {
   flex: 1;
   animation: fadeIn 1s ease-in forwards;
@@ -184,6 +180,10 @@
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
+  }
+
+  .about-section:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
   }
 
   .about-title {
