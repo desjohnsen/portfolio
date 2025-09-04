@@ -110,7 +110,7 @@
 .image-dots {
   display: flex;
   justify-content: center;
-  margin-top: 0.1rem;
+  margin-top: 0rem;
   gap: 0.5rem;
   animation: fadeIn 1s ease-in forwards;
 }
@@ -166,6 +166,18 @@
 @media (max-width: 767px) {
   .about-image-wrapper {
     display: none;
+  }
+
+  .about-text {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .experience-section .about-text {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
