@@ -23,7 +23,7 @@
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   font-family: var(--font-main);
   color: var(--text-color);
   text-align: left;
@@ -78,6 +78,7 @@
 
 .skills-section {
   width: 100%;
+  margin-bottom: 1.3rem;
 }
 
 .skills-grid {
@@ -109,6 +110,14 @@
   cursor: default;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
+
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;  
+}
+
 
 @media (max-width: 425px) {
   .about-section {
