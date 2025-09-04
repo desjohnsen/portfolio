@@ -17,10 +17,7 @@
 .about-section {
   max-width: 225px;
   margin: 7.24rem auto;
-  padding: 2rem 1.5rem;
-  background: white;
-  border-radius: var(--card-radius);
-  box-shadow: var(--shadow);
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -28,6 +25,9 @@
   color: var(--text-color);
   text-align: left;
   position: relative;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .about-section:hover {
@@ -54,7 +54,7 @@
   color: var(--gray-text);
   line-height: 1.6;
   margin-bottom: 0.6rem;
-  max-width: 31ch;
+  max-width: 40ch;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -132,7 +132,6 @@
   background: #333;
 }
 
-
 @media (max-width: 425px) {
   .about-section {
     max-width: 240px;
@@ -176,6 +175,9 @@
 
 @media (min-width: 768px) {
   .about-section {
+    background: white;
+    border-radius: var(--card-radius);
+    box-shadow: var(--shadow);
     max-width: 690px;
     padding: 1rem;
     margin-top: 7rem;
