@@ -27,6 +27,7 @@
   font-family: var(--font-main);
   color: var(--text-color);
   text-align: left;
+  position: relative;
 }
 
 .about-section:hover {
@@ -66,11 +67,11 @@
   justify-content: flex-start;
   align-items: center;
   margin-top: 3.7rem;
-  gap: 0.9rem;
+  gap: 1.1rem;
 }
 
 .about-image {
-  max-width: 260px;
+  max-width: 240px;
   width: 100%;
   object-fit: cover;
   animation: fadeIn 1s ease-in forwards;
@@ -100,15 +101,7 @@
   font-weight: 600;
   background: #f9f9f9; 
   color: var(--text-color);
-  box-shadow: var(--shadow); 
   transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.skill-card:hover {
-  background: var(--text-color);
-  color: white;
-  cursor: default;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
 .experience-section {
@@ -116,6 +109,27 @@
   flex-direction: column;
   list-style: none;
   padding-left: 0;  
+}
+
+.image-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.1rem;
+  gap: 0.5rem;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dot.active {
+  background: #333;
 }
 
 
@@ -188,7 +202,6 @@
   }
 
   .skills-grid {
-    margin-left: 3.1rem;
     max-width: 100%; 
     gap: 1.25rem; 
     margin-left: 50px;
