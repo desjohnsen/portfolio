@@ -1,6 +1,8 @@
 import React from 'react';
 import ProjectLayout from "../components/ProjectLayout";
 import phoneImage from "../assets/images/jarfallahus.png";
+import GroupPhoto from "../assets/images/GroupPhoto.png";
+
 import "../styles/ProjectLayout.css";
 
 const Project1 = () => {
@@ -28,6 +30,10 @@ const Project1 = () => {
           ⚙️ <strong>2 DevOps engineers</strong><br />
           💻 <strong>7 fullstack developers (open source stack)</strong>
        </p>
+
+       <div className="project-image-wrapper">
+          <img src={GroupPhoto} alt="Group photo" className="project-image" />
+        </div>
       </section>
 
       <section id="problem" className="project-content">

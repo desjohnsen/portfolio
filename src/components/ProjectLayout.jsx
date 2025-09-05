@@ -7,6 +7,7 @@ import {
   Pencil,
   Palette,
   Trophy,
+  MessageSquare,
 } from "lucide-react";
 
 import "../styles/ProjectLayout.css";
@@ -113,6 +114,16 @@ const ProjectLayout = ({ title, subtitle, role, timeframe, tools, children }) =>
                 <Trophy size={16} /> <span>Outcome</span>
               </a>
             </li>
+            <li>
+              <a
+                href="#reflection"
+                onClick={(e) => scrollToSection("reflection", e)}
+                className={activeSection === "reflection" ? "active" : ""}
+              >
+                <MessageSquare size={16} /> <span>Reflection</span>
+              </a>
+            </li>
+
           </ul>
         </nav>
       </aside>
