@@ -205,6 +205,61 @@ body {
   }
 }
 
+@media (min-width: 426px) and (max-width: 600px) {
+  .hero {
+    min-height: 75vh; 
+    padding: 2rem 1.5rem;
+  }
+
+  .hero-content {
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    max-width: 360px; 
+  }
+
+  .hero-image {
+    order: 0;
+    flex: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 220px; 
+    max-width: 90%;
+  }
+
+  .hero-text {
+    order: 1;
+    flex: none;
+    padding: 0 1rem;
+    max-width: 32ch;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.82rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    font-size: 0.85rem; 
+    padding: 0.55rem 3.77rem; 
+    margin-bottom: 0.5rem;
+  }
+}
+
+
 @media (min-width: 601px) and (max-width: 767px) {
   .hero {
     min-height: 70vh;
