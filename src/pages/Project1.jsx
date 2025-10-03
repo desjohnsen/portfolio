@@ -15,6 +15,10 @@ const Project1 = () => {
       timeframe="10 weeks"
       tools="Figma"
     >
+      <p style={{ fontStyle: 'italic', color: '#555', textAlign: 'center', marginBottom: '1rem' }}>
+        Work in progress: This case study is not finalized yet.
+      </p>
+
       <section id="overview" className="project-content">
         <h2>Overview</h2>
         <p>
@@ -100,24 +104,17 @@ const Project1 = () => {
           <strong>Inclusion:</strong> some felt excluded from existing channels and needed accessible, easy-to-understand content.
         </p>
 
-        {/* Image: Interview Insights Summary */}
-        <img src="/images/interview-insights.png" alt="Key insights from interviews" className="my-4 rounded-lg shadow-md" />
 
         <p>Based on these insights, we defined <strong>three user archetypes</strong> that guided the design:</p>
         <p>👀 <strong>The Unaware</strong> low drive but responsive to inspiring, simple content.</p>
         <p>🫀 <strong>The Empathetic</strong> values inclusion and seeks community participation.</p>
         <p>☀️ <strong>The Optimist</strong> digitally engaged, proactive, and active on social media.</p>
 
-        {/* Image: Behavioral User Types / Personas */}
-        <img src="/images/personas.png" alt="User types: The Unaware, The Empathetic, The Optimist" className="my-4 rounded-lg shadow-md" />
-
         <p>
           This research phase provided a solid foundation for ideation and design, 
           ensuring that every decision was grounded in real user needs and behaviors.
         </p>
       </section>
-
- 
 
       <section id="ideation" className="project-content">
         <h2>Ideation</h2>
@@ -130,8 +127,6 @@ const Project1 = () => {
         <p>
           The design process was iterative, shaped by continuous feedback from developers, DevOps, and residents.
         </p>
-
-        {/* Here: insert wireframe sketches → low-fi prototypes → hi-fi mockups */}
       </section>
 
       <section id="design" className="project-content">
