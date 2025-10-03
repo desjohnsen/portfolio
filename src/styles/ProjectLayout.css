@@ -141,7 +141,7 @@
 }
 
 .project-content p {
-  font-size: 0.77rem;
+  font-size: 0.8rem;
   color: var(--gray-text);
   line-height: 1.5;
   margin-bottom: 1.35rem;
@@ -203,7 +203,7 @@
   }
 
   .project-subtitle {
-    font-size: 0.99rem;
+    font-size: 0.95rem;
     text-align: center;
   }
 

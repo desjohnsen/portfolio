@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectLayout from "../components/ProjectLayout";
 import phoneImage from "../assets/images/jarfallahus.png";
 import GroupPhoto from "../assets/images/GroupPhoto.png";
+import ExperienceMap from "../assets/images/experiencemap.png";
 
 import "../styles/ProjectLayout.css";
 
@@ -9,7 +10,7 @@ const Project1 = () => {
   return (
     <ProjectLayout
       title="Järfällahus"
-      subtitle="A collaborative digital platform with Järfällahus to enhance community engagement and simplify access to local activities."
+      subtitle="A digital platform with Järfällahus to enhance community engagement and simplify access to local activities."
       role="UI/UX Designer"
       timeframe="10 weeks"
       tools="Figma"
@@ -17,21 +18,24 @@ const Project1 = () => {
       <section id="overview" className="project-content">
         <h2>Overview</h2>
         <p>
-          Our mission was to improve Sångvägen’s reputation by creating a welcoming 
-          and vibrant digital platform that fosters a sense of safety, inclusion, and community.
+          The project aimed to strengthen the reputation of <strong>Sångvägen</strong>, 
+          a residential area in Järfälla, by creating a welcoming and vibrant digital platform 
+          dedicated to its community. Unlike Järfällahus’s general corporate website, this platform 
+          was designed specifically for residents of Sångvägen, with the goal of 
+          <strong> increasing engagement, fostering inclusion, and building trust</strong>.
         </p>
         <p>
-          Developed in close collaboration with Järfällahus and local stakeholders as part of a real 
-          client project during our studies at Chas Academy, the platform was informed by real user 
-          insights and built by a cross-functional team of 11 students:
+          The platform was developed in close collaboration with <strong>Järfällahus </strong> 
+          and local stakeholders, as part of a real client project during our studies at  
+          <strong> Chas Academy</strong>. It was shaped by real user insights and built by 
+          a cross-functional team of 11 students:
         </p>
         <p>
           👩‍🎨 <strong>2 UX/UI designers</strong><br />
           ⚙️ <strong>2 DevOps engineers</strong><br />
           💻 <strong>7 fullstack developers (open source stack)</strong>
-       </p>
-
-       <div className="project-image-wrapper">
+        </p>
+        <div className="project-image-wrapper">
           <img src={GroupPhoto} alt="Group photo" className="project-image" />
         </div>
       </section>
@@ -39,68 +43,106 @@ const Project1 = () => {
       <section id="problem" className="project-content">
         <h2>Problem</h2>
         <p>
-          Sångvägen faced challenges with low engagement and a lack of clear, accessible communication channels.
+          <strong>Sångvägen</strong> faced challenges with low community engagement and a lack of 
+          accessible communication channels between residents and organizers.
         </p>
         <p>
-          The existing official website was too general and difficult to navigate, leaving residents disconnected from community activities.
+          <strong>Järfällahus’s official website</strong> provided general housing information, 
+          but it did not address local activities or neighborhood-specific needs. As a result, 
+          residents often felt disconnected and uninformed about events, initiatives, and opportunities to participate. 
         </p>
         <p>
-          Our challenge was to build a simple, inviting platform that would improve the area's image by inspiring trust, 
-          encouraging participation, and making local information easily accessible.
+          Our challenge was to design a dedicated platform for Sångvägen that:
         </p>
+        <p><strong>Provides</strong> clear, accessible information tailored to the neighborhood</p>
+        <p><strong>Encourages</strong> participation and strengthens community ties</p>
+        <p><strong>Builds</strong> a positive digital identity that reflects safety, inclusion, and vibrancy</p>
       </section>
 
       <section id="goals" className="project-content">
         <h2>Goals</h2>
-        <p><strong>Create</strong> a visually appealing, intuitive platform consistent with Järfällahus branding but with a fresh, modern twist</p>
-        <p><strong>Increase</strong> resident engagement by promoting local activities and enabling easy event registration.</p>
-        <p><strong>Foster</strong> a stronger sense of community and inclusion across diverse user groups including families, youth, and seniors.</p>
-        <p><strong>Ensure</strong> accessibility and ease of use, especially for less tech-savvy users.</p>
+        <p>
+          To address these challenges, our goal was to design a platform that would 
+          not only strengthen community ties, but also remain accessible, inclusive, 
+          and aligned with the residents’ real needs.
+        </p>
+        <p><strong>Create</strong> a modern, intuitive platform aligned with Järfällahus branding.</p>
+        <p><strong>Increase</strong> engagement through local activities and simple event registration.</p>
+        <p><strong>Foster</strong> trust and inclusion across families, youth, seniors, and multicultural groups.</p>
+        <p><strong>Ensure</strong> accessibility and ease of use for less tech-savvy users.</p> 
       </section>
 
       <section id="research" className="project-content">
         <h2>Research</h2>
         <p>
-          We conducted qualitative user interviews with residents of Sångvägen and the wider Järfälla area to understand perceptions 
-          of safety, inclusion, and community involvement.
+          To ensure the platform addressed real user needs, we conducted <strong>qualitative interviews </strong> 
+          with residents of <strong>Sångvägen</strong> and the wider Järfälla area. The goal was to understand how residents 
+          perceived safety, inclusion, and their preferred ways of engaging with the community.
         </p>
         <p>
-          These insights revealed that transparency, accessible language, and mobile-friendly content were essential to reach a broad demographic.
+          Our research was complemented with <strong>experience mapping, guerrilla testing, and usability testing</strong>, 
+          which allowed us to observe behaviors, uncover pain points, and identify opportunities for improvement.
         </p>
+
+        <div className="project-image-wrapper">
+          <img src={ExperienceMap} alt="Experience map" className="project-image" />
+        </div>
+
         <p>
-          From the data, we identified three primary behavioral user types that shaped our design focus:
+          The experience map visually connects our three behavioral user types with the core values 
+          <strong> Inspiring, Community and Safety</strong>, leading to <strong>Increased Community Engagement</strong>. 
+          It served as a foundation for generating ideas and guiding the design process.
         </p>
-        
-        <p><strong>👀 The Unaware</strong> – low drive but responsive to clear, inspiring content; prefers traditional or passive channels</p>
-        <p><strong>🫀 The Empathetic</strong> – values inclusion and seeks participation in community-building events</p>
-        <p><strong>☀️ The Optimist</strong> – hopeful and observant; engages more digitally, particularly via social platforms</p>
+
+        <p>From these combined methods, several key insights emerged:<br />
+          <strong>Transparency:</strong> residents wanted clear, direct communication.<br />
+          <strong>Mobile-first:</strong> most preferred accessing information on their phones.<br />
+          <strong>Inclusion:</strong> some felt excluded from existing channels and needed accessible, easy-to-understand content.
+        </p>
+
+        {/* Image: Interview Insights Summary */}
+        <img src="/images/interview-insights.png" alt="Key insights from interviews" className="my-4 rounded-lg shadow-md" />
+
+        <p>Based on these insights, we defined <strong>three user archetypes</strong> that guided the design:</p>
+        <p>👀 <strong>The Unaware</strong> low drive but responsive to inspiring, simple content.</p>
+        <p>🫀 <strong>The Empathetic</strong> values inclusion and seeks community participation.</p>
+        <p>☀️ <strong>The Optimist</strong> digitally engaged, proactive, and active on social media.</p>
+
+        {/* Image: Behavioral User Types / Personas */}
+        <img src="/images/personas.png" alt="User types: The Unaware, The Empathetic, The Optimist" className="my-4 rounded-lg shadow-md" />
+
         <p>
-          These personas helped us prioritize clarity, engagement, and visual cues throughout the user journey.
+          This research phase provided a solid foundation for ideation and design, 
+          ensuring that every decision was grounded in real user needs and behaviors.
         </p>
       </section>
+
+ 
 
       <section id="ideation" className="project-content">
         <h2>Ideation</h2>
         <p>
-          Inspired by Järfällahus’s existing website, we retained core visual elements such as fonts and colors, 
-          while introducing softer UI components to modernize and humanize the interface.
+          Our concept was inspired by Järfällahus’s corporate identity (colors, typography) but softened with rounded UI components and modern layouts to feel approachable.
         </p>
         <p>
-          Early wireframes emphasized intuitive navigation and accessibility for all age groups.
+          Early wireframes explored simple navigation flows and accessibility for all age groups.
         </p>
         <p>
-          The ideation process was highly collaborative, involving continuous feedback loops between UX designers, 
-          fullstack developers, and DevOps engineers to ensure technical feasibility and user-centered design.
+          The design process was iterative, shaped by continuous feedback from developers, DevOps, and residents.
         </p>
+
+        {/* Here: insert wireframe sketches → low-fi prototypes → hi-fi mockups */}
       </section>
 
       <section id="design" className="project-content">
         <h2>Design</h2>
-          <p><strong>A clean</strong>, accessible interface with rounded corners for a softer look.</p>
-          <p><strong>Clear</strong> CTA buttons for event registration and information browsing.</p>
-          <p><strong>Responsive</strong> layouts optimized for both desktop and mobile.</p>
-          <p><strong>Visual</strong> cues and feedback incorporated to guide users, especially seniors and digitally inexperienced residents.</p>
-          
+        <p>
+          <strong>Clarity & simplicity:</strong> clean layout, intuitive navigation, consistent iconography.<br />
+          <strong>Approachability:</strong> rounded corners, warm colors, human-centered visual tone.<br />
+          <strong>Engagement:</strong> prominent CTA buttons for signing up for events or browsing activities.<br />
+          <strong>Accessibility:</strong> large tap areas, responsive layouts, and optimized text readability.
+        </p>
+
         <div className="project-image-wrapper">
           <img src={phoneImage} alt="Järfällahus app" className="project-image" />
         </div>
@@ -109,16 +151,24 @@ const Project1 = () => {
       <section id="outcome" className="project-content">
         <h2>Outcome</h2>
         <p>
-          We conducted both guerrilla usability tests in public spaces and structured user testing sessions with residents.
+          We tested the platform through both guerrilla usability testing in public spaces and structured sessions with local residents.
         </p>
         <p>
-          The feedback informed several design improvements, including clearer scroll cues, better button labeling, and simplified navigation.
+          Key improvements after testing included adding scroll cues to guide less digital-native users, simplifying navigation structure for clarity, and improving button labeling for consistency and accessibility.
         </p>
         <p>
-          The platform was well received and appreciated for its clarity, friendliness, and relevance to everyday life in Sångvägen.
+          Feedback was positive: residents appreciated the platform’s clarity, friendliness, and relevance to daily life.
         </p>
         <p>
-          In the end, the project contributed to a more approachable digital presence and gave residents better tools to connect with each other and their community.
+          Impact: The project gave residents a dedicated digital space to connect with their neighborhood, strengthened trust between Järfällahus and residents, and provided scalable tools for participation.
+        </p>
+      </section>
+
+      <section id="reflection" className="project-content">
+        <h2>Reflection</h2>
+        <p>
+          This project was not just about building a digital tool, but about shaping a sense of community identity online. 
+          By focusing on Sångvägen’s unique needs, we showed how design can transform perceptions of safety, belonging, and participation at a local level.
         </p>
       </section>
     </ProjectLayout>

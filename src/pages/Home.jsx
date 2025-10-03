@@ -19,7 +19,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       description: "",
       projectId: "1",
       image: Jarfallahus,
-      tags: ["Scrum"],
+      tags: ["Team project"],
       customClass: "blue-background",
       category: "UX/UI",
     },

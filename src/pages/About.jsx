@@ -1,12 +1,35 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/About.css";
 import profilePic from "../assets/images/pic.jpg";
-import Jack from "../assets/images/jack.jpg";
+
+const SkillCard = ({ front, back }) => {
+  const [flipped, setFlipped] = React.useState(false);
+
+  const handleKey = (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      setFlipped((s) => !s);
+    }
+  };
+
+  return (
+    <div
+      className={`skill-card ${flipped ? "flipped" : ""}`}
+      onClick={() => setFlipped((s) => !s)}
+      onKeyDown={handleKey}
+      role="button"
+      aria-pressed={flipped}
+      tabIndex={0}
+    >
+      <div className="card-inner">
+        <div className="card-front">{front}</div>
+        <div className="card-back">{back}</div>
+      </div>
+    </div>
+  );
+};
 
 const About = () => {
-  const images = [profilePic, Jack];
-  const [currentIndex, setCurrentIndex] = useState(0);
-
   return (
     <section className="about-section">
       <div className="about-content">
@@ -35,21 +58,6 @@ const About = () => {
           I approach every project with creativity, empathy and functional
           precision.
         </p>
-
-        <header>
-          <h2 className="about-title">Core skills</h2>
-        </header>
-
-        <div className="skills-section">
-          <div className="skills-grid">
-            <div className="skill-card">UX Research</div>
-            <div className="skill-card">UI Design</div>
-            <div className="skill-card">Prototyping</div>
-            <div className="skill-card">Design Thinking</div>
-            <div className="skill-card">Frontend</div>
-            <div className="skill-card">Collaboration</div>
-          </div>
-        </div>
 
         <header>
           <h2 className="about-title">Experience overview</h2>
@@ -113,27 +121,44 @@ const About = () => {
           </li>
         </ul>
 
-        <p className="about-text">
-          This portfolio was built and designed by me using React.js and Vite,
-          showcasing how I combine design thinking with frontend development.
+        <p className="about-text" style={{ fontStyle: "italic" }}>
+          Designed and built by me with React.js and Vite, this portfolio combines
+          design and frontend development
         </p>
       </div>
 
       <aside className="about-image-wrapper">
-        <img
-          src={images[currentIndex]}
-          alt="Profile"
-          className="about-image"
-        />
+        <img src={profilePic} alt="Profile" className="about-image" />
 
-        <div className="image-dots">
-          {images.map((_, index) => (
-            <span
-              key={index}
-              className={`dot ${index === currentIndex ? "active" : ""}`}
-              onClick={() => setCurrentIndex(index)}
-            />
-          ))}
+        <header className="skills-header">
+          <h2 className="about-title">Core skills</h2>
+        </header>
+
+        <div className="skills-grid">
+          <SkillCard
+            front="UX Design"
+            back="Designing seamless and user-friendly digital experiences"
+          />
+          <SkillCard
+            front="Wireframing"
+            back="Creating clear layouts and user flows to structure interfaces"
+          />
+          <SkillCard
+            front="Prototyping"
+            back="Building interactive prototypes to validate design concepts"
+          />
+          <SkillCard
+            front="User Testing"
+            back="Gathering insights from real users to improve usability"
+          />
+          <SkillCard
+            front="Design Thinking"
+            back="Applying structured methods to create meaningful solutions"
+          />
+          <SkillCard
+            front="Frontend Development"
+            back="Building responsive interfaces"
+          />
         </div>
       </aside>
     </section>
