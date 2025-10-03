@@ -170,6 +170,17 @@ const Project1 = () => {
           This project was not just about building a digital tool, but about shaping a sense of community identity online. 
           By focusing on Sångvägen’s unique needs, we showed how design can transform perceptions of safety, belonging, and participation at a local level.
         </p>
+        <p>
+          Feel free to explore our interactive prototype in Figma:
+        </p>
+        <a 
+          href="https://www.figma.com/proto/RF0gKgH7IwxrMxnB9VxU5u/J%C3%A4rf%C3%A4lla-Hus-Wireframes?node-id=811-2965&t=ytTDxxy6bfhO257L-1&starting-point-node-id=811%3A2965"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-button"
+        >
+          View Prototype
+        </a>
       </section>
     </ProjectLayout>
   );
