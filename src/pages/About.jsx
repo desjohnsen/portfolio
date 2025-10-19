@@ -137,27 +137,27 @@ const About = () => {
         <div className="skills-grid">
           <SkillCard
             front="UX Design"
-            back="Designing seamless and user-friendly digital experiences"
+            back="Creating intuitive, user-centered digital experiences"
           />
           <SkillCard
             front="Wireframing"
-            back="Creating clear layouts and user flows to structure interfaces"
+            back="Creating clear layouts and user flows to structure interfaces" 
           />
           <SkillCard
             front="Prototyping"
-            back="Building interactive prototypes to validate design concepts"
+            back="Building interactive prototypes to evaluate design solutions"
           />
           <SkillCard
             front="User Testing"
-            back="Gathering insights from real users to improve usability"
+            back="Conducting usability tests to refine and optimize user interactions"
           />
           <SkillCard
             front="Design Thinking"
-            back="Applying structured methods to create meaningful solutions"
+            back="Applying structured methods to design human-centered solutions" 
           />
           <SkillCard
             front="Frontend Development"
-            back="Building responsive interfaces"
+            back="Building responsive, interactive web interfaces"
           />
         </div>
       </aside>
