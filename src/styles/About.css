@@ -111,7 +111,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--border-color);
   border-radius: 0.6rem;
   background: var(--background);
   color: var(--text-color);
@@ -133,6 +132,7 @@
 
 .card-front:hover {
   background: var(--hover-bg); 
+  border-color: #888686;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   cursor: pointer;
 }
@@ -150,7 +150,7 @@
 
 .skill-card:hover .card-back {
   background-color: #2a2a2a; 
-  box-shadow: 0 60px 30px rgba(0,0,0,0.08);
+  box-shadow: 0 20px 30px rgba(0,0,0,0.08);
   cursor: pointer;
 }
 
