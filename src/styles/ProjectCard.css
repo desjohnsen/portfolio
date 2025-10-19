@@ -98,15 +98,15 @@
   align-items: center;
   justify-content: center;
   min-height: 1rem;
-
-  background-color: transparent;
-  border: 1px solid var(--gray-text);
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
   padding: 0.4rem 0.75rem;
   border-radius: 999px;
   font-size: 0.75rem;
   font-weight: 400;
   color: var(--gray-text);
   transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: default;
 }
 
 .case-study-btn {
