@@ -116,7 +116,6 @@
   min-height: 1rem;
 
   background-color: black;
-  border: 1px solid black;
   padding: 0.4rem 0.75rem;
   border-radius: 999px;
   font-size: 0.75rem;
@@ -182,6 +181,7 @@
     font-size: 0.9rem;
     padding: 0.5rem 1.2rem;
     font-weight: 400;
+    border: 1px solid black;
   }
 
   .project-image {
