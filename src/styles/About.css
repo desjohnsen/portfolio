@@ -173,7 +173,8 @@
   max-width: 240px;           
   line-height: 1.25;
   letter-spacing: 0;           
-  opacity: 0.8;                
+  opacity: 0.8;  
+  animation: fadeIn 1s ease-in forwards;              
 }
 
 @media (max-width: 425px) {
