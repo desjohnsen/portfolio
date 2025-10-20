@@ -62,7 +62,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 3.7rem;
 }
 
 .about-image {
@@ -165,6 +164,18 @@
   padding-left: 0;  
 }
 
+.about-quote {
+  font-family: "Caveat", cursive;
+  font-size: 1.16rem;          
+  font-weight: 400;            
+  color: #000;                 
+  text-align: center;
+  max-width: 240px;           
+  line-height: 1.25;
+  letter-spacing: 0;           
+  opacity: 0.8;                
+}
+
 @media (max-width: 425px) {
   .about-section {
     max-width: 240px;
@@ -250,6 +261,7 @@
 
   .about-image-wrapper {
     order: 0;
+    margin-top: 3.9rem;
   }
 
   .skills-grid {
@@ -268,12 +280,16 @@
 
   .skills-header {
     margin-left: -120px; 
-    margin-top: 201px;
+    margin-top: 115.5px;
     margin-bottom: 0.6rem;
   }
 
   .about-content {
     margin-top: 1.95rem;
+  }
+
+  .about-quote {
+    margin: 0.8rem auto 0;               
   }
 }
 
@@ -297,6 +313,7 @@
 
   .about-image-wrapper {
     order: 0;
+    margin-top: 3.9rem;
   }
 
   .skills-grid {
@@ -315,6 +332,10 @@
 
   .skills-header {
     margin-left: -155px;
-    margin-top: 92px;
+    margin-top: 16px;
+  }
+
+  .about-quote {
+    margin: 0.2rem auto 0;               
   }
 }

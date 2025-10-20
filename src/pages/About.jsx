@@ -130,6 +130,11 @@ const About = () => {
       <aside className="about-image-wrapper">
         <img src={profilePic} alt="Profile" className="about-image" />
 
+        <p className="about-quote">
+          Driven by a curiosity for design that makes a difference, 
+          with a focus on human behavior and real user needs.
+        </p>
+
         <header className="skills-header">
           <h2 className="about-title">Core skills</h2>
         </header>
