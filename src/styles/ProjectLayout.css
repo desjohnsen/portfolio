@@ -19,6 +19,7 @@
   padding: 2rem 0;
   overflow-x: visible;
   margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .sidebar-nav {
@@ -184,11 +185,12 @@
 .link:hover {
   color: #817f7f; 
 }
+
 .cta-button {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.6); 
+  background:#f9f9f9;
   border: 1px solid #e5e5e5; 
-  padding: 0.8rem 1.7rem; 
+  padding: 0.8rem 1.3rem; 
   border-radius: 999px; 
   font-size: 0.8rem;
   font-weight: 500; 
