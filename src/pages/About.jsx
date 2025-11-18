@@ -65,7 +65,7 @@ const About = () => {
 
         <ul className="experience-section">
           <li className="about-text">
-            <strong>Chas Challenge – Järfällahus (2025)</strong>
+            <strong>Chas Challenge – Järfälla hus (2025)</strong>
             <br />
             • Team of 11 (UX, DevOps, Fullstack)
             <br />

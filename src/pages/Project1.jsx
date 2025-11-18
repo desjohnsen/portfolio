@@ -9,8 +9,8 @@ import "../styles/ProjectLayout.css";
 const Project1 = () => {
   return (
     <ProjectLayout
-      title="Järfällahus"
-      subtitle="A digital platform with Järfällahus to enhance community engagement and simplify access to local activities."
+      title="Järfälla hus"
+      subtitle="A digital platform with Järfälla hus to enhance community engagement and simplify access to local activities."
       role="UI/UX Designer"
       timeframe="10 weeks"
       tools="Figma"
@@ -24,12 +24,12 @@ const Project1 = () => {
         <p>
           The project aimed to strengthen the reputation of <strong>Sångvägen</strong>, 
           a residential area in Järfälla, by creating a welcoming and vibrant digital platform 
-          dedicated to its community. Unlike Järfällahus’s general corporate website, this platform 
+          dedicated to its community. Unlike Järfälla hus’s general corporate website, this platform 
           was designed specifically for residents of Sångvägen, with the goal of 
           <strong> increasing engagement, fostering inclusion, and building trust</strong>.
         </p>
         <p>
-          The platform was developed in close collaboration with <strong>Järfällahus </strong> 
+          The platform was developed in close collaboration with <strong>Järfälla hus </strong> 
           and local stakeholders, as part of a real client project during our studies at  
           <strong> Chas Academy</strong>. It was shaped by real user insights and built by 
           a cross-functional team of 11 students:
@@ -51,7 +51,7 @@ const Project1 = () => {
           accessible communication channels between residents and organizers.
         </p>
         <p>
-          <strong>Järfällahus’s official website</strong> provided general housing information, 
+          <strong>Järfälla hus’s official website</strong> provided general housing information, 
           but it did not address local activities or neighborhood-specific needs. As a result, 
           residents often felt disconnected and uninformed about events, initiatives, and opportunities to participate. 
         </p>
@@ -70,7 +70,7 @@ const Project1 = () => {
           not only strengthen community ties, but also remain accessible, inclusive, 
           and aligned with the residents’ real needs.
         </p>
-        <p><strong>Create</strong> a modern, intuitive platform aligned with Järfällahus branding.</p>
+        <p><strong>Create</strong> a modern, intuitive platform aligned with Järfälla hus branding.</p>
         <p><strong>Increase</strong> engagement through local activities and simple event registration.</p>
         <p><strong>Foster</strong> trust and inclusion across families, youth, seniors, and multicultural groups.</p>
         <p><strong>Ensure</strong> accessibility and ease of use for less tech-savvy users.</p> 
@@ -119,7 +119,7 @@ const Project1 = () => {
       <section id="ideation" className="project-content">
         <h2>Ideation</h2>
         <p>
-          Our concept was inspired by Järfällahus’s corporate identity (colors, typography) but softened with rounded UI components and modern layouts to feel approachable.
+          Our concept was inspired by Järfälla hus’s corporate identity (colors, typography) but softened with rounded UI components and modern layouts to feel approachable.
         </p>
         <p>
           Early wireframes explored simple navigation flows and accessibility for all age groups.
@@ -139,7 +139,7 @@ const Project1 = () => {
         </p>
 
         <div className="project-image-wrapper">
-          <img src={phoneImage} alt="Järfällahus app" className="project-image" />
+          <img src={phoneImage} alt="Järfälla hus app" className="project-image" />
         </div>
       </section>
 
@@ -155,7 +155,7 @@ const Project1 = () => {
           Feedback was positive: residents appreciated the platform’s clarity, friendliness, and relevance to daily life.
         </p>
         <p>
-          Impact: The project gave residents a dedicated digital space to connect with their neighborhood, strengthened trust between Järfällahus and residents, and provided scalable tools for participation.
+          Impact: The project gave residents a dedicated digital space to connect with their neighborhood, strengthened trust between Järfälla hus and residents, and provided scalable tools for participation.
         </p>
       </section>
 

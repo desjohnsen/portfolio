@@ -15,7 +15,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
 
   const projects = [
     {
-      title: "JÄRFÄLLAHUS",
+      title: "JÄRFÄLLA HUS",
       description: "",
       projectId: "1",
       image: Jarfallahus,
