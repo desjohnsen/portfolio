@@ -81,7 +81,7 @@ body {
   color: var(--dark-text);
   max-width: 32ch;
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 
 .hero-text p {
@@ -89,7 +89,6 @@ body {
   font-weight: 400;
   color: var(--gray-text);
   line-height: 1.5;
-  margin-bottom: 2rem;
   max-width: 38ch;
 }
 
@@ -150,7 +149,6 @@ body {
 
   .hero-text p {
     margin: 0.3rem 0 2rem 0;
-    text-align: center;
   }
 }
 
@@ -164,8 +162,6 @@ body {
     max-width: 100%;
     font-size: 0.75rem;
     margin-bottom: 1rem;
-    text-align: center;
-    line-height: 1.5;
   }
 
   .btn {
@@ -190,7 +186,6 @@ body {
   }
 
   .hero-text p {
-    text-align: center;
     margin-bottom: 1rem;
     max-width: 35ch;
   }
@@ -259,7 +254,6 @@ body {
   }
 }
 
-
 @media (min-width: 601px) and (max-width: 767px) {
   .hero {
     min-height: 70vh;
@@ -301,8 +295,7 @@ body {
 
   .hero-text p {
     font-size: 0.95rem;
-    margin-bottom: 1.2rem;
-    text-align: left;
+    margin-bottom: 0.9rem;
   }
 
   .btn {
@@ -354,7 +347,7 @@ body {
 
   .hero-text p {
     font-size: 0.79rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.9rem;
   }
 
   .btn {
@@ -406,7 +399,7 @@ body {
 
   .hero-text p {
     font-size: 0.79rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.9rem;
   }
 
   .btn {
@@ -447,7 +440,7 @@ body {
 
   .hero-text p {
     font-size: 0.85rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 0.9rem;
   }
 
   .btn {
