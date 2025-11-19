@@ -121,7 +121,7 @@ const About = () => {
           </li>
         </ul>
 
-        <p className="about-text" style={{ fontStyle: "italic" }}>
+        <p className="about-text" style={{ fontStyle: "italic", color: "#888" }}>
           Designed and built by me with React.js and Vite, this portfolio combines
           design and frontend development
         </p>
