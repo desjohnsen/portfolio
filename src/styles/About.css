@@ -176,6 +176,7 @@
   opacity: 0.95;                 
   transform: rotate(-0.3deg);    
   animation: fadeIn 1.2s ease-in forwards;
+  visibility: hidden; /* Quote hidden temporarily to maintain layout; kept for future use */
 }
 
 @media (max-width: 425px) {

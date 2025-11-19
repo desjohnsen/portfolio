@@ -125,11 +125,12 @@ const About = () => {
           Designed and built by me with React.js and Vite, this portfolio combines
           design and frontend development
         </p>
-      </div>
+      </div> 
 
       <aside className="about-image-wrapper">
         <img src={profilePic} alt="Profile" className="about-image" />
 
+      {/* Quote hidden for now to maintain layout; may be used in future design */}
         <p className="about-quote">
           Driven by a curiosity for design that makes a difference, 
           with a focus on human behavior and real user needs.
