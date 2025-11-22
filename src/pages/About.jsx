@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import profilePicDesktop from "../assets/images/polaroid.jpg";
-import profilePicMobile from "../assets/images/profilepic2.jpg";
+import profilePicMobile from "../assets/images/profilepic.jpg";
 
 const SkillCard = ({ front, back }) => {
   const [flipped, setFlipped] = React.useState(false);
