@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css";
-import profilePic from "../assets/images/polaroid.jpg";
+import profilePicDesktop from "../assets/images/polaroid.jpg";
+import profilePicMobile from "../assets/images/profilepic2.jpg";
 
 const SkillCard = ({ front, back }) => {
   const [flipped, setFlipped] = React.useState(false);
@@ -39,7 +40,7 @@ const About = () => {
 
         {/* MOBILE ONLY: Profile picture under "About me" */}
         <div className="mobile-pic">
-          <img src={profilePic} alt="Profile" className="about-image" />
+          <img src={profilePicMobile} alt="Profile mobile" className="about-image" />
         </div>
 
         <p className="about-text">
@@ -164,7 +165,7 @@ const About = () => {
 
       {/* Desktop/Tablet: Original aside layout; mobile order handled separately */}
       <aside className="about-image-wrapper">
-        <img src={profilePic} alt="Profile" className="about-image" />
+        <img src={profilePicDesktop} alt="Profile desktop" className="about-image" />
         <header className="skills-header">
           <h2 className="about-title">Core skills</h2>
         </header>
