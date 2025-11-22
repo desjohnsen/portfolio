@@ -40,7 +40,7 @@
 .about-title {
   font-size: 1.45rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   text-align: center;
 }
 
@@ -167,7 +167,7 @@
 .mobile-pic {
   display: block; /* Only visible on mobile */
   text-align: center;
-  margin: 0.5rem auto;
+  margin: 0.6rem 0 0.1rem;
 }
 
 .mobile-pic img {
