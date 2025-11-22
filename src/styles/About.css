@@ -167,7 +167,7 @@
 .mobile-pic {
   display: block; /* Only visible on mobile */
   text-align: center;
-  margin: 0.6rem 0 0.1rem;
+  margin: 0.5rem 0 0.1rem;
 }
 
 .mobile-pic img {
