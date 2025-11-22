@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectLayout from "../components/ProjectLayout";
 import phoneImage from "../assets/images/jarfallahus.png";
-import GroupPhoto from "../assets/images/GroupPhoto.png";
+import GroupPhoto from "../assets/images/GroupPhoto.jpg";
 import ExperienceMap from "../assets/images/experiencemap.png";
 
 import "../styles/ProjectLayout.css";
@@ -34,14 +34,14 @@ const Project1 = () => {
           <strong> Chas Academy</strong>. It was shaped by real user insights and built by 
           a cross-functional team of 11 students:
         </p>
+        <div className="project-image-wrapper">
+          <img src={GroupPhoto} alt="Group photo" className="project-image" />
+        </div>
         <p>
           👩‍🎨 <strong>2 UX/UI designers</strong><br />
           ⚙️ <strong>2 DevOps engineers</strong><br />
           💻 <strong>7 fullstack developers (open source stack)</strong>
         </p>
-        <div className="project-image-wrapper">
-          <img src={GroupPhoto} alt="Group photo" className="project-image" />
-        </div>
       </section>
 
       <section id="problem" className="project-content">
@@ -164,9 +164,6 @@ const Project1 = () => {
         <p>
           This project was not just about building a digital tool, but about shaping a sense of community identity online. 
           By focusing on Sångvägen’s unique needs, we showed how design can transform perceptions of safety, belonging, and participation at a local level.
-        </p>
-        <p style={{ fontStyle: 'italic', color: '#555', textAlign: 'center', marginBottom: '0.2rem' }}>
-          Explore the full prototype:
         </p>
         <a 
           href="https://www.figma.com/proto/RF0gKgH7IwxrMxnB9VxU5u/J%C3%A4rf%C3%A4lla-Hus-Wireframes?node-id=811-2965&t=ytTDxxy6bfhO257L-1&starting-point-node-id=811%3A2965"
