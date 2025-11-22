@@ -35,13 +35,12 @@
   animation: fadeIn 1s ease-in forwards;
   display: flex;
   flex-direction: column;
-  margin-bottom: 3rem;
 }
 
 .about-title {
   font-size: 1.45rem;
   font-weight: 700;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
@@ -172,17 +171,16 @@
 }
 
 .mobile-pic img {
-  max-width: 200px;
+  max-width: 180px;
   width: 100%;
   height: auto;
-  border-radius: 0.5rem;
   object-fit: cover;
 }
 
 .mobile-skills {
   display: block; /* Only visible on mobile */
   text-align: center;
-  margin: 0 0 2rem;
+  margin: 0 0 1.5rem;
 }
 
 .mobile-skills .skills-header {
@@ -193,12 +191,12 @@
 .mobile-skills .skills-grid {
   display: grid;
   grid-template-columns: 1fr; 
-  gap: 0.7rem; 
+  gap: 0.9rem; 
   justify-items: center; 
 }
 
 .mobile-skills .skill-card {
-  width: 210px; 
+  width: 220px; 
   height: 50px;
   font-size: 0.77rem;
 }
