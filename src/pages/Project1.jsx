@@ -165,7 +165,7 @@ const Project1 = () => {
           This project was not just about building a digital tool, but about shaping a sense of community identity online. 
           By focusing on Sångvägen’s unique needs, we showed how design can transform perceptions of safety, belonging, and participation at a local level.
         </p>
-        <p style={{ fontStyle: 'italic', color: '#555', textAlign: 'center', marginBottom: '0.5rem' }}>
+        <p style={{ fontStyle: 'italic', color: '#555', textAlign: 'center', marginBottom: '0.2rem' }}>
           Explore the full prototype:
         </p>
         <a 
