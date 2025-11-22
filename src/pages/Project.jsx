@@ -8,7 +8,7 @@ import Project5 from './Project5';
 
 
 
-const Projects = () => {
+const Project = () => {
   const { projectId } = useParams();
 
   switch (projectId) {
@@ -27,4 +27,4 @@ const Projects = () => {
   }
 };
 
-export default Projects;
+export default Project;

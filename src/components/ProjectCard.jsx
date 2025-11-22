@@ -31,7 +31,7 @@ const ProjectCard = ({
           ))}
         </div>
         {buttonLabel && (
-          <Link to={`/projects/${projectId}`} className="case-study-btn">
+          <Link to={`/project/${projectId}`} className="case-study-btn">
             {buttonLabel}
           </Link>
         )}
