@@ -64,6 +64,39 @@ const About = () => {
           precision.
         </p>
 
+         {/* MOBILE ONLY: Core skills placed before "Experience overview" */}
+         <div className="mobile-skills">
+          <header className="skills-header">
+            <h2 className="about-title">Core skills</h2>
+          </header>
+          <div className="skills-grid">
+            <SkillCard
+              front="UX Design"
+              back={<>Creating intuitive, user-<br />centered digital experiences</>}
+            />
+            <SkillCard
+              front="Wireframing"
+              back={<>Creating clear layouts and user flows to structure interfaces</>}
+            />
+            <SkillCard
+              front="Prototyping"
+              back={<>Building interactive prototypes<br />to evaluate design solutions</>}
+            />
+            <SkillCard
+              front="User Testing"
+              back={<>Conducting usability tests to<br />refine and optimize user interactions</>}
+            />
+            <SkillCard
+              front="Design Thinking"
+              back={<>Applying structured methods to<br />design human-centered solutions</>}
+            />
+            <SkillCard
+              front="Frontend Development"
+              back={<>Building responsive,<br />interactive web interfaces</>}
+            />
+          </div>
+        </div>
+
         <header>
           <h2 className="about-title">Experience overview</h2>
         </header>
@@ -123,46 +156,13 @@ const About = () => {
           </li>
         </ul>
 
-        {/* MOBILE ONLY: Core skills under "Experience overview" */}
-        <div className="mobile-skills">
-          <header className="skills-header">
-            <h2 className="about-title">Core skills</h2>
-          </header>
-          <div className="skills-grid">
-            <SkillCard
-              front="UX Design"
-              back={<>Creating intuitive, user-<br />centered digital experiences</>}
-            />
-            <SkillCard
-              front="Wireframing"
-              back={<>Creating clear layouts and user flows to structure interfaces</>}
-            />
-            <SkillCard
-              front="Prototyping"
-              back={<>Building interactive prototypes<br />to evaluate design solutions</>}
-            />
-            <SkillCard
-              front="User Testing"
-              back={<>Conducting usability tests to<br />refine and optimize user interactions</>}
-            />
-            <SkillCard
-              front="Design Thinking"
-              back={<>Applying structured methods to<br />design human-centered solutions</>}
-            />
-            <SkillCard
-              front="Frontend Development"
-              back={<>Building responsive,<br />interactive web interfaces</>}
-            />
-          </div>
-        </div>
-
         <p className="about-text" style={{ fontStyle: "italic", color: "#888" }}>
           Designed and built by me with React.js and Vite, this portfolio combines
           design and frontend development
         </p>
       </div>
 
-      {/* DESKTOP/TABLET: Original aside for larger screens */}
+      {/* Desktop/Tablet: Original aside layout; mobile order handled separately */}
       <aside className="about-image-wrapper">
         <img src={profilePic} alt="Profile" className="about-image" />
         <header className="skills-header">
