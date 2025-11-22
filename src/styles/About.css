@@ -196,7 +196,6 @@
 }
 
 .mobile-skills .skill-card {
-  width: 238px; 
   height: 50px;
   font-size: 0.77rem;
 }
@@ -211,15 +210,29 @@
   font-size: 0.69rem;
 }
 
+@media (max-width: 374px) {
+  .mobile-skills .skill-card {
+    width: 238px; 
+  }
+}
+
 @media (min-width: 375px) and (max-width: 389px) {
   .about-section {
     max-width: 297px;
+  }
+
+  .mobile-skills .skill-card {
+    width: 296px; 
   }
 }
 
 @media (min-width: 390px) and (max-width: 425px) {
   .about-section {
     max-width: 310px;
+  }
+
+  .mobile-skills .skill-card {
+    width: 309px; 
   }
 }
 
