@@ -196,14 +196,15 @@
 }
 
 .mobile-skills .skill-card {
-  height: 50px;
+  width: 90%;
   font-size: 0.77rem;
+  aspect-ratio: 4 / 1;
 }
 
 .mobile-skills .card-front,
 .mobile-skills .card-back {
   border-radius: 0.5rem;
-  padding: 0.6rem 0.4rem;
+  padding: 0.8rem 0.4rem;
 }
 
 .mobile-skills .card-back {
