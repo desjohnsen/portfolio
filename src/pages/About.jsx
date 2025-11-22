@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import profilePic from "../assets/images/pic.jpg";
+import profilePic from "../assets/images/polaroid.jpg";
 
 const SkillCard = ({ front, back }) => {
   const [flipped, setFlipped] = React.useState(false);
@@ -36,6 +36,11 @@ const About = () => {
         <header>
           <h2 className="about-title">About me</h2>
         </header>
+
+        {/* MOBILE ONLY: Profile picture under "About me" */}
+        <div className="mobile-pic">
+          <img src={profilePic} alt="Profile" className="about-image" />
+        </div>
 
         <p className="about-text">
           I bring ideas to life through user-centered design and solid coding
@@ -77,7 +82,6 @@ const About = () => {
             <br />
             • Agile Scrum workflow
           </li>
-
           <li className="about-text">
             <strong>Mobile App – Mission: Usage Impossible (2025)</strong>
             <br />
@@ -89,7 +93,6 @@ const About = () => {
             <br />
             • Playful interaction design
           </li>
-
           <li className="about-text">
             <strong>Online Shop Project (2025)</strong>
             <br />
@@ -105,7 +108,6 @@ const About = () => {
             <br />
             • GitHub collaboration
           </li>
-
           <li className="about-text">
             <strong>Visual Identity & UX Design – Chowa (2024)</strong>
             <br />
@@ -121,49 +123,75 @@ const About = () => {
           </li>
         </ul>
 
+        {/* MOBILE ONLY: Core skills under "Experience overview" */}
+        <div className="mobile-skills">
+          <header className="skills-header">
+            <h2 className="about-title">Core skills</h2>
+          </header>
+          <div className="skills-grid">
+            <SkillCard
+              front="UX Design"
+              back={<>Creating intuitive, user-<br />centered digital experiences</>}
+            />
+            <SkillCard
+              front="Wireframing"
+              back={<>Creating clear layouts and user flows to structure interfaces</>}
+            />
+            <SkillCard
+              front="Prototyping"
+              back={<>Building interactive prototypes<br />to evaluate design solutions</>}
+            />
+            <SkillCard
+              front="User Testing"
+              back={<>Conducting usability tests to<br />refine and optimize user interactions</>}
+            />
+            <SkillCard
+              front="Design Thinking"
+              back={<>Applying structured methods to<br />design human-centered solutions</>}
+            />
+            <SkillCard
+              front="Frontend Development"
+              back={<>Building responsive,<br />interactive web interfaces</>}
+            />
+          </div>
+        </div>
+
         <p className="about-text" style={{ fontStyle: "italic", color: "#888" }}>
           Designed and built by me with React.js and Vite, this portfolio combines
           design and frontend development
         </p>
-      </div> 
+      </div>
 
+      {/* DESKTOP/TABLET: Original aside for larger screens */}
       <aside className="about-image-wrapper">
         <img src={profilePic} alt="Profile" className="about-image" />
-
-      {/* Quote hidden for now to maintain layout; may be used in future design */}
-        <p className="about-quote">
-          Driven by a curiosity for design that makes a difference, 
-          with a focus on human behavior and real user needs.
-        </p>
-
         <header className="skills-header">
           <h2 className="about-title">Core skills</h2>
         </header>
-
         <div className="skills-grid">
           <SkillCard
             front="UX Design"
-            back="Creating intuitive, user-centered digital experiences"
+            back={<>Creating intuitive, user-<br />centered digital experiences</>}
           />
           <SkillCard
             front="Wireframing"
-            back="Creating clear layouts and user flows to structure interfaces" 
+            back={<>Creating clear layouts and user flows to structure interfaces</>}
           />
           <SkillCard
             front="Prototyping"
-            back="Building interactive prototypes to evaluate design solutions"
+            back={<>Building interactive prototypes<br />to evaluate design solutions</>}
           />
           <SkillCard
             front="User Testing"
-            back="Conducting usability tests to refine and optimize user interactions"
+            back={<>Conducting usability tests to<br />refine and optimize user interactions</>}
           />
           <SkillCard
             front="Design Thinking"
-            back="Applying structured methods to design human-centered solutions" 
+            back={<>Applying structured methods to<br />design human-centered solutions</>}
           />
           <SkillCard
             front="Frontend Development"
-            back="Building responsive, interactive web interfaces"
+            back={<>Building responsive,<br />interactive web interfaces</>}
           />
         </div>
       </aside>

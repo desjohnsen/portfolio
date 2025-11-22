@@ -15,7 +15,7 @@
 }
 
 .about-section {
-  max-width: 225px;
+  max-width: 240px;
   margin: 2.9rem auto;
   padding: 1rem;
   display: flex;
@@ -52,8 +52,8 @@
   margin-bottom: 0.6rem;
   max-width: 40ch;
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .about-image-wrapper {
@@ -62,10 +62,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  display: none; /* Desktop aside hidden on mobile */
 }
 
 .about-image {
-  max-width: 250px;
+  max-width: 285px;
   width: 100%;
   object-fit: cover;
   animation: fadeIn 1s ease-in forwards;
@@ -164,46 +165,63 @@
   padding-left: 0;  
 }
 
-.about-quote {
-  font-family: "Caveat", cursive;
-  font-size: 1.18rem;            
-  font-weight: 500;              
-  color: rgba(0, 0, 0, 0.7);    
+.mobile-pic {
+  display: block; /* Only visible on mobile */
   text-align: center;
-  max-width: 250px;             
-  line-height: 1.3;              
-  letter-spacing: 0.2px;                 
-  opacity: 0.95;                 
-  transform: rotate(-0.3deg);    
-  animation: fadeIn 1.2s ease-in forwards;
-  visibility: hidden; /* Quote hidden temporarily to maintain layout; kept for future use */
+  margin: 0.5rem auto;
 }
 
-@media (max-width: 425px) {
-  .about-section {
-    max-width: 240px;
-    padding: 1rem;
-  }
+.mobile-pic img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
 }
 
-@media (width: 375px) {
+.mobile-skills {
+  display: block; /* Only visible on mobile */
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.mobile-skills .skills-header {
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+}
+
+.mobile-skills .skills-grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 0.7rem; 
+  justify-items: center; 
+}
+
+.mobile-skills .skill-card {
+  width: 210px; 
+  height: 50px;
+  font-size: 0.77rem;
+}
+
+.mobile-skills .card-front,
+.mobile-skills .card-back {
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.4rem;
+}
+
+.mobile-skills .card-back {
+  font-size: 0.69rem;
+}
+
+@media (min-width: 375px) and (max-width: 389px) {
   .about-section {
     max-width: 297px;
-    padding: 1rem;
   }
 }
 
-@media (width: 390px) {
+@media (min-width: 390px) and (max-width: 425px) {
   .about-section {
     max-width: 310px;
-    padding: 1rem;
-  }
-}
-
-@media (min-width: 390px) and (max-width: 767px) {
-  .about-section {
-    max-width: 310px;
-    padding: 1rem;
   }
 }
 
@@ -211,18 +229,6 @@
   .about-section {
     max-width: 320px;
     padding: 1rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .about-image-wrapper {
-    display: none;
-  }
-
-  .about-text {
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .experience-section .about-text {
@@ -233,6 +239,17 @@
 }
 
 @media (min-width: 768px) {
+  .mobile-pic,
+  .mobile-skills {
+    display: none;
+  }
+
+  .about-image-wrapper {
+    display: flex;
+    order: 0;
+    margin-top: 3.9rem;
+  }
+
   .about-section {
     background: white;
     border-radius: var(--card-radius);
@@ -240,6 +257,7 @@
     max-width: 690px;
     padding: 1rem;
     margin-top: 7rem;
+    margin-bottom: 7rem;
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
@@ -262,11 +280,6 @@
     margin-left: 56px;
   }
 
-  .about-image-wrapper {
-    order: 0;
-    margin-top: 3.9rem;
-  }
-
   .skills-grid {
     gap: 0; 
     margin-left: 10px;
@@ -283,16 +296,12 @@
 
   .skills-header {
     margin-left: -160px; 
-    margin-top: 112px;
-    margin-bottom: 0.6rem;
+    margin-top: 166px;
+    margin-bottom: 8px;
   }
 
   .about-content {
     margin-top: 1.95rem;
-  }
-
-  .about-quote {
-    margin: 0.8rem auto 0;               
   }
 }
 
@@ -314,19 +323,10 @@
     margin-bottom: 4.5rem;
   }
 
-  .about-image-wrapper {
-    order: 0;
-    margin-top: 3.9rem;
-  }
-
   .skills-grid {
     margin-left: 60px;
     margin-right: 60px;
     gap: 0;
-  }
-
-  .skills-section {
-    width: 100%;
   }
 
   .skill-card {
@@ -335,10 +335,6 @@
 
   .skills-header {
     margin-left: -155px;
-    margin-top: 7px;
-  }
-
-  .about-quote {
-    margin: 0.5rem auto 0;               
+    margin-top: 56px;
   }
 }

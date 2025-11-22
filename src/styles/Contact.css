@@ -1,10 +1,10 @@
 .contact-section {
-    background-color: #f9f9f9;
     padding: 2rem;
+    background-color: #f9f9f9;
     border-radius: 1.25rem 1.25rem 0 0;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     text-align: center;
-    margin-top: 50%;
+    margin-top: 7rem;
   }
   
   .contact-subtext span {
@@ -19,14 +19,15 @@
   .contact-section h2 {
     font-size: 1.7rem;
     font-weight: 800;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
   }
   
   .contact-subtext {
     font-size: 0.77rem;
     color: #555;
     line-height: 1.5;
-    margin-bottom: 2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1.2rem;
     max-width: 99%;
     margin-inline: auto;
     text-align: center;
@@ -169,9 +170,8 @@
   
     .contact-section {
       padding: 3rem 1rem;
-      max-width: 100%;
+      width: 100%;
       margin: 0 auto;
-      margin-top: 17rem;
     }
   
     .form-row {
@@ -241,4 +241,5 @@
       line-height: 1.6;
     }
   }
+  
   
