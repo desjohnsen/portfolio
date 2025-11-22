@@ -65,7 +65,7 @@ const About = () => {
           precision.
         </p>
 
-         {/* MOBILE ONLY: Core skills placed before "Experience overview" */}
+         {/* MOBILE ONLY: Core skills placed before "Experience overview" 
          <div className="mobile-skills">
           <header className="skills-header">
             <h2 className="about-title">Core skills</h2>
@@ -96,7 +96,7 @@ const About = () => {
               back={<>Building responsive,<br />interactive web interfaces</>}
             />
           </div>
-        </div>
+        </div>*/}
 
         <header>
           <h2 className="about-title">Experience overview</h2>

@@ -15,8 +15,8 @@
 }
 
 .about-section {
-  max-width: 240px;
-  margin: 2.9rem auto;
+  max-width: 380px;
+  margin: 2.7rem auto;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -167,7 +167,7 @@
 .mobile-pic {
   display: block; /* Only visible on mobile */
   text-align: center;
-  margin: 0.7rem 0 0.1rem;
+  margin: 0.95rem 0 0.1rem;
 }
 
 .mobile-pic img {
