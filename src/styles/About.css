@@ -175,7 +175,7 @@
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .mobile-skills {
