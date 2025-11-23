@@ -223,7 +223,7 @@
     }
   
     .contact-icons {
-      gap: 2.7rem; 
+      gap: 2.5rem; 
     }
     
     .contact-icons a {
@@ -243,4 +243,41 @@
     }
   }
   
-  
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 2rem;
+    margin-top: 7rem;
+  }
+
+  .contact-section h2 {
+    font-size: 2rem; 
+  }
+
+  .contact-icons {
+    gap: 1.54rem;
+  }
+
+  .contact-icons a {
+    width: 38px;
+    height: 38px;
+    font-size: 1.1rem;
+  }
+
+  .contact-form {
+    max-width: 88%;
+    margin-inline: auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.9rem;
+  }
+
+  .send-button {
+    padding: 0.5rem 2rem;
+    font-size: 0.85rem;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+  }
+}
