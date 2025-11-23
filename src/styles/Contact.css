@@ -254,7 +254,7 @@
   }
 
   .contact-icons {
-    gap: 1.54rem;
+    gap: 1.6rem;
   }
 
   .contact-icons a {
@@ -278,6 +278,5 @@
     padding: 0.5rem 2rem;
     font-size: 0.85rem;
     margin-inline: auto;
-    margin-bottom: 1rem;
   }
 }
