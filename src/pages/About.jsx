@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import profilePicDesktop from "../assets/images/polaroid.jpg";
-import profilePicMobile from "../assets/images/profilepic.jpg";
+import profilePicMobile from "../assets/images/profilepicMobile.jpg";
 
 const SkillCard = ({ front, back }) => {
   const [flipped, setFlipped] = React.useState(false);
@@ -37,11 +37,6 @@ const About = () => {
         <header>
           <h2 className="about-title">About me</h2>
         </header>
-
-        {/* MOBILE ONLY: Profile picture under "About me" */}
-        <div className="mobile-pic">
-          <img src={profilePicMobile} alt="Profile mobile" className="about-image" />
-        </div>
 
         <p className="about-text">
           I bring ideas to life through user-centered design and solid coding
@@ -156,6 +151,11 @@ const About = () => {
             • Interactive prototype in Figma
           </li>
         </ul>
+
+      {/* MOBILE ONLY: Profile picture under "About me" */}
+        <div className="mobile-pic">
+          <img src={profilePicMobile} alt="Profile mobile" className="about-image" />
+        </div>
 
         <p className="about-text" style={{ fontStyle: "italic", color: "#888" }}>
           Designed and built by me with React.js and Vite, this portfolio combines
