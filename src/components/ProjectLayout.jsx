@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import {
   BookOpenText,
   AlertCircle,
-  Target,
   Search,
   Pencil,
   Palette,
@@ -67,15 +66,6 @@ const ProjectLayout = ({ title, subtitle, role, timeframe, tools, children }) =>
                 className={activeSection === "problem" ? "active" : ""}
               >
                 <AlertCircle size={16} /> <span>Problem</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#goals"
-                onClick={(e) => scrollToSection("goals", e)}
-                className={activeSection === "goals" ? "active" : ""}
-              >
-                <Target size={16} /> <span>Goals</span>
               </a>
             </li>
             <li>
