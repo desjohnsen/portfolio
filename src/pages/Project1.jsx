@@ -14,7 +14,7 @@ const Project1 = () => {
   return (
     <ProjectLayout
       title="Järfällahus"
-      subtitle="A collaborative platform with Järfällahus designed to empower Sångvägen’s community by simplifying access to local initiatives."
+      subtitle="A collaborative platform with Järfällahus to empower Sångvägen’s community and simplify access to local initiatives."
       role="UX/UI Designer"
       timeframe="10 weeks"
       tools="Figma"
@@ -23,6 +23,8 @@ const Project1 = () => {
         <h2>Overview</h2>
         <p>
           The project aimed to strengthen the reputation of Sångvägen, a residential area in Järfälla, by creating a welcoming digital platform dedicated to its community. 
+        </p>
+        <p>
           Developed in collaboration with Järfällahus and local stakeholders during our studies at Chas Academy, the platform was shaped by real
           user insights and built by a cross-functional team from UX/UI, Fullstack, and DevOps programs.
         </p>
