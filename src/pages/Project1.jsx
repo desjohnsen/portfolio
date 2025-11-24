@@ -14,7 +14,7 @@ const Project1 = () => {
   return (
     <ProjectLayout
       title="Järfällahus"
-      subtitle="A collaborative platform with Järfällahus to empower Sångvägen’s community and simplify access to local initiatives."
+      subtitle="A collaborative platform with Järfällahus designed to empower Sångvägen’s community by simplifying access to local initiatives."
       role="UX/UI Designer"
       timeframe="10 weeks"
       tools="Figma"
