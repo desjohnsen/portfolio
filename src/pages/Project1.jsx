@@ -22,11 +22,14 @@ const Project1 = () => {
       <section id="overview" className="project-content">
         <h2>Overview</h2>
         <p>
-          The project aimed to strengthen the reputation of Sångvägen, a residential area in Järfälla, by creating a welcoming digital platform dedicated to its community. 
+          As part of Chas Challenge, an annual initiative at Chas Academy where students from UX/UI, Frontend, Fullstack, and DevOps programs work together in cross-functional teams to develop
+          digital solutions for real clients, we collaborated with Järfällahus and local stakeholders to create an accessible and engaging platform for Sångvägen, a residential area in Järfälla.
         </p>
         <p>
-          Developed in collaboration with Järfällahus and local stakeholders during our studies at Chas Academy, the platform was shaped by real
-          user insights and built by a cross-functional team from UX/UI, Fullstack, and DevOps programs.
+
+        </p>
+        <p>
+          In my role as UX/UI designer, I led the user research and turned insights from local residents into design strategies and interactive prototypes, helping the team address real community needs and strengthen engagement in the neighborhood.
         </p>
         <div className="project-image-wrapper">
           <img src={GroupPhoto} alt="Group photo" className="project-image" />
@@ -96,7 +99,7 @@ const Project1 = () => {
           in the community. The experience map and user archetypes guided our discussions, helping us prioritize features and functionalities that mattered most to residents.
         </p>
         <p>
-          Key concepts that emerged included:
+          <strong>Key concepts that emerged included:</strong>
         </p>
         <div className="project-image-wrapper">
           <img src={keyConcepts} alt="Key concepts visual summary" className="project-image" />
@@ -136,7 +139,7 @@ const Project1 = () => {
           content clarity, and overall engagement.
         </p>
         <p>
-          Key outcomes include:
+          <strong>Key outcomes include:</strong>
         </p>
         <div className="project-image-wrapper">
           <img src={KeyOutcomes} alt="Key outcomes visual summary" className="project-image" />
