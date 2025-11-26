@@ -6,7 +6,7 @@ import ExperienceMap from "../assets/images/experiencemap.jpg";
 import UserArchetypes from "../assets/images/userarchetypes.jpg";
 import keyConcepts from "../assets/images/keyconcepts.jpg";
 import KeyOutcomes from "../assets/images/Keyoutcomes.png";
-
+import Quotes from "../assets/images/quotes.png";
 
 import "../styles/ProjectLayout.css";
 
@@ -24,9 +24,6 @@ const Project1 = () => {
         <p>
           As part of Chas Challenge, an annual initiative at Chas Academy where students from UX/UI, Frontend, Fullstack, and DevOps programs work together in cross-functional teams to develop
           digital solutions for real clients, we collaborated with Järfällahus and local stakeholders to create an accessible and engaging platform for Sångvägen, a residential area in Järfälla.
-        </p>
-        <p>
-
         </p>
         <p>
           In my role as UX/UI designer, I led the user research and turned insights from local residents into design strategies and interactive prototypes, helping the team address real community needs and strengthen engagement in the neighborhood.
@@ -55,30 +52,37 @@ const Project1 = () => {
       <section id="research" className="project-content">
         <h2>Research</h2>
         <p>
-          To ensure the platform addressed real user needs, we started by conducting market research to understand how other municipalities engage 
-          residents digitally and build trust. This helped us identify best practices and informed our approach for Sångvägen.
+          To ensure the platform addressed real user needs, we started by conducting market research to understand how other municipalities engage residents digitally and build trust. 
+          This helped us identify best practices and informed our approach for Sångvägen.
         </p>
         <p>
           Next, we carried out qualitative interviews with five residents, including two with experience living specifically in Sångvägen. 
-          The goal was to understand how residents perceive safety, inclusion, and community engagement, and to gather insights on how a 
-          dedicated platform could support a stronger, more connected neighborhood.
+          The goal was to understand how residents perceive safety, inclusion, and community engagement, and to gather insights on how a dedicated platform could support a stronger, more connected neighborhood.
         </p>
         <p>
-          From these interviews, several key insights emerged. Residents emphasized the need for clear, transparent communication,
-          mobile-first access, and content that feels inclusive and easy to understand. These interviews also helped us understand
-          what types of local initiatives sparked participation and how engagement varied depending on motivation, digital habits,
-          and preferred ways of interacting with the community.
+          From the interviews, several patterns emerged. Residents expressed low engagement and a lack of appealing local activities:
+        </p>
+        <div className="project-image-wrapper">
+          <img src={Quotes} alt="Quotes" className="project-image" />
+        </div>
+        <p>
+          Participants also emphasized the need for accessible digital information, especially regarding local news, events and family-friendly initiatives. Suggestions included event notifications, calendars,
+          clearer categorization, and community-driven content.
         </p>
         <p>
-          Building on these insights, we created an experience map to visualize how different behaviors and needs connect to the core
-          values of Safety, Inclusion, and Vibrancy, which guided our design decisions and served as a foundation for generating ideas.
+          Based on the findings, several key insights were identified. Residents emphasized the importance of transparent communication, mobile-first access, and content that feels inclusive and easy to understand.
+          We also noticed that engagement levels varied depending on motivation, digital habits, and preferred ways of interacting with the community.
+        </p>
+        <p>
+          Building on these insights, we created an experience map to visualize how residents’ needs connect to the core values of Safety,
+          Inclusion, and Vibrancy. This guided early ideation and helped us structure engagement strategies for different types of users.
         </p>
         <div className="project-image-wrapper">
           <img src={ExperienceMap} alt="Experience map" className="project-image" />
         </div>
         <p>
-          Finally, we defined three user archetypes based on research findings to ensure that our design decisions remained user-centered
-          throughout the project, and to help us tailor both content and interaction patterns to different ways of engaging with the community.
+          We then defined three user archetypes based on the research insights. These archetypes ensured that our design decisions remained user-centered and adaptable to different levels of digital confidence
+          and motivation to engage. They also influenced interaction flows, content hierarchy and tone of voice throughout the project.
         </p>
         <div className="project-image-wrapper">
           <img src={UserArchetypes} alt="User archetypes" className="project-image" />
