@@ -166,14 +166,22 @@ const Project1 = () => {
       <section id="reflection" className="project-content">
         <h2>Reflection</h2>
         <p>
-          This project strengthened my ability to move from research insights to concrete design decisions. Throughout the process, I was reminded
-          of the value of real user feedback, not just to validate ideas, but to challenge assumptions and simplify what felt complex in the beginning.
+          This project strengthened my ability to move from research insights to concrete design decisions. Throughout the process, I was reminded of the value of real user feedback, not only to validate ideas
+          but to challenge assumptions and simplify what felt complex in the beginning.
         </p>
         <p>
-          Working closely with developers and DevOps also highlighted how collaboration shapes better outcomes. Early discussions around feasibility helped keep the design realistic and made iteration smoother.
+          Working closely with a cross-functional team also highlighted how collaboration shapes stronger outcomes. Early discussions about what was achievable helped keep the design realistic and made iteration smoother.
         </p>
         <p>
-          Overall, the project reinforced a core principle: empathy, clarity, and collaboration are essential when designing for diverse communities.
+          One of the biggest learnings was understanding how meaningful real user voices are when shaping a solution. Talking to residents showed that good design is less about adding features and more about listening,
+          simplifying and building trust through clarity.
+        </p>
+        <p>
+          Looking ahead, I would like to explore how the platform could evolve with features such as personalized notifications or multilingual support to improve inclusivity for residents with different backgrounds. With more time,
+          I would love to conduct usability testing with local residents to validate the design in a real context and measure its long-term impact.
+        </p>
+        <p>
+          Overall, the project reinforced a core principle: empathy, clarity and collaboration are essential when designing for diverse communities.
         </p>
         <a 
           href="https://www.figma.com/proto/RF0gKgH7IwxrMxnB9VxU5u/J%C3%A4rf%C3%A4lla-Hus-Wireframes?node-id=811-2965&t=ytTDxxy6bfhO257L-1&starting-point-node-id=811%3A2965"
