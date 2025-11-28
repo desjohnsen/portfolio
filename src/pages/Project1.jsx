@@ -7,7 +7,6 @@ import UserArchetypes from "../assets/images/userarchetypes.jpg";
 import keyConcepts from "../assets/images/keyconcepts.jpg";
 import KeyOutcomes from "../assets/images/Keyoutcomes.png";
 import Quotes from "../assets/images/quotes.png";
-
 import "../styles/ProjectLayout.css";
 
 const Project1 = () => {
@@ -136,20 +135,24 @@ const Project1 = () => {
       <section id="outcome" className="project-content">
         <h2>Outcome</h2>
         <p>
-          The final platform successfully addressed the challenges identified in the research phase, providing residents with a clear, accessible, and engaging way to interact with their community.
+          The platform successfully addressed the challenges identified in the research phase by providing residents with a clear, accessible and engaging way to connect with their neighborhood.
         </p>
         <p>
-          Interactive prototypes were tested through usability testing and guerrilla testing to observe real user behavior in context. Insights from these tests guided iterative refinements, improving navigation,
-          content clarity, and overall engagement.
+          Throughout the project, we continuously tested our interactive prototypes with residents to observe real behaviors and reactions. These usability sessions helped us refine navigation, 
+          improve content clarity and enhance the feeling of trust and belonging. Iterations were guided by what users struggled with and what they naturally gravitated toward, ensuring that changes contributed to a smoother and more intuitive experience.
         </p>
         <p>
-          <strong>Key outcomes include:</strong>
+          The final platform helped overcome several key barriers to engagement. Information became easier to find as neighborhood updates, event registration and activity hubs were clearly structured and centralized. Engagement increased through interactive
+          features that encouraged participation across different levels of motivation. The visual tone and wording supported feelings of safety and inclusion, while a mobile-first approach ensured that the platform could be accessed easily by residents with varying levels of digital confidence.
+        </p>
+        <p>
+          To highlight the impact visually, a key outcomes summary was created to show how insights from the research were turned into practical improvements across usability, engagement and trust.
         </p>
         <div className="project-image-wrapper">
           <img src={KeyOutcomes} alt="Key outcomes visual summary" className="project-image" />
         </div>
         <p>
-          User feedback confirmed that the platform is intuitive, enjoyable to use, and effectively strengthens connections within the community.
+          User feedback confirmed that the final platform felt intuitive and enjoyable to use, while remaining closely aligned with the needs of the local community.
         </p>
        
       </section>
