@@ -27,6 +27,9 @@ const Project1 = () => {
         <p>
           In my role as UX/UI designer, I led the user research and turned insights from local residents into design strategies and interactive prototypes, helping the team address real community needs and strengthen engagement in the neighborhood.
         </p>
+        <p>
+          This case study reflects not only the final outcome, but also my process of learning how to design for real human needs and community impact.
+        </p>
         <div className="project-image-wrapper">
           <img src={GroupPhoto} alt="Group photo" className="project-image" />
         </div>
@@ -122,8 +125,12 @@ const Project1 = () => {
           interacting via smartphones. Key features like event registration, activity hubs, and neighborhood updates were carefully positioned to encourage participation and community engagement.
         </p>
         <p>
-          Throughout the design phase, the process remained iterative. We continuously tested wireframes and early prototypes with developers, DevOps, and residents, incorporating feedback to refine
-          interaction patterns, accessibility, and content clarity. Every adjustment aimed to strengthen the platform’s safety, inclusivity, and vibrancy while maintaining a user-friendly experience for residents with varying digital habits.
+          To make the platform inclusive for residents with different ages, technical abilities and language backgrounds, accessibility was considered throughout the design decisions. This guided choices such as clear iconography,
+          readable typography and a simplified navigation structure that would feel intuitive even for first-time users. Basic WCAG principles were used as guidance to support residents who might have limited digital confidence.
+        </p>
+        <p>
+          Throughout the design phase, the process remained iterative. We continuously tested wireframes and early prototypes with developers, DevOps and residents, gathering feedback to refine interaction patterns, accessibility and content clarity.
+          Each adjustment aimed to strengthen the platform’s safety, inclusivity and vibrancy while maintaining a user-friendly experience for residents with varying digital habits.
         </p>
 
         <div className="project-image-wrapper">
