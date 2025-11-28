@@ -94,21 +94,20 @@ const Project1 = () => {
       <section id="ideation" className="project-content">
         <h2>Ideation</h2>
         <p>
-          Based on the insights from research, we explored various ways to address the challenges faced by Sångvägen residents. Our goal was to create a platform
-          that felt welcoming, accessible, and engaging for different user archetypes.
+          After analysing the research insights, we explored different ways to address the challenges faced by Sångvägen residents. Our goal was to create a platform that felt welcoming, accessible and engaging for different user archetypes.
         </p>
         <p>
-          We brainstormed ideas as a cross-functional team, considering both the content and interaction patterns that would best support safety, inclusion, and vibrancy  
-          in the community. The experience map and user archetypes guided our discussions, helping us prioritize features and functionalities that mattered most to residents.
+          As a cross-functional team, we brainstormed ideas around content and interaction patterns that would support safety, inclusion and community engagement. The experience map and user archetypes guided our discussions and helped us prioritise
+          features that mattered most to residents.
         </p>
         <p>
-          <strong>Key concepts that emerged included:</strong>
+          To show how insights were turned into early design directions, a concept summary was created to capture the core ideas shaping the platform such as accessible information, interactive features and mobile-first design.
         </p>
         <div className="project-image-wrapper">
           <img src={keyConcepts} alt="Key concepts visual summary" className="project-image" />
         </div>
         <p>
-          These ideas served as the foundation for creating wireframes and prototypes, allowing us to quickly test assumptions and iterate based on user feedback.
+          These ideas became the foundation for our wireframes and prototypes, allowing us to quickly test assumptions and iterate based on user feedback.
         </p>
       </section>
 
