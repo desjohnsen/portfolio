@@ -175,18 +175,8 @@
   gap: 2rem;
 }
 
-.link {
-  color: inherit;
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-.link:hover {
-  color: #817f7f; 
-}
-
 .cta-button {
-  display: inline-block;
+  display: inline-flex;
   background:#f9f9f9;
   border: 1px solid #e5e5e5; 
   padding: 0.8rem 1.3rem; 
@@ -196,7 +186,6 @@
   color: #111111; 
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-  margin: 0 auto 0;
   text-align: center;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05); 
   cursor: pointer;
@@ -205,6 +194,26 @@
   background-color: rgba(0, 0, 0, 0.05);
   border-color: #111111; 
   color: #111111; 
+}
+
+.cta-button.primary {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000;
+}
+
+.cta-button.primary:hover {
+  background-color: #f2f2f2;
+  border: 1px solid #373737;
+  color: #000000;
+}
+
+.project-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem; 
+  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
