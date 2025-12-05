@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectLayout from "../components/ProjectLayout";
-import phoneImage from "../assets/images/jarfallahus.png";
+import PhoneImage from "../assets/images/jarfallahus.png";
 import GroupPhoto from "../assets/images/GroupPhoto.jpg";
 import ExperienceMap from "../assets/images/experiencemap.jpg";
 import UserArchetypes from "../assets/images/userarchetypes.jpg";
@@ -134,7 +134,7 @@ const Project1 = () => {
         </p>
 
         <div className="project-image-wrapper">
-          <img src={phoneImage} alt="Järfällahus app" className="project-image" />
+          <img src={PhoneImage} alt="Järfällahus app" className="project-image" />
         </div>
       </section>
 

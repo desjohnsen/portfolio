@@ -30,7 +30,7 @@ const Project3 = () => {
           The app is structured into separate, reusable components for the Todo list, individual items, and the form, keeping the code modular and maintainable. A celebratory animation appears when all tasks are completed, adding a playful touch and enhancing the overall user experience.
         </p>
         <div className="project-image-wrapper">
-        <img src={todo} alt="todo app" className="project-image" />
+          <img src={todo} alt="todo app" className="project-image" />
       </div>
       </section>
 
@@ -43,6 +43,7 @@ const Project3 = () => {
           It reinforced the importance of writing clean, maintainable code, while also giving me hands-on experience with React Router and localStorage for practical functionality.
         </p>
       </section>
+      
       <div className="project-actions">
         <a
           href="https://desjohnsen-todo-app.netlify.app/"
