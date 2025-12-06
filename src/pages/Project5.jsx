@@ -8,7 +8,7 @@ const Project5 = () => {
       title="MISSION USAGE IMPOSSIBLE"
       subtitle="A deliberately frustrating app built with React Native, Expo, and Firebase Authentication."
       role="Developer"
-      timeframe="1 week"
+      timeframe="2 weeks"
       tools="React Native, Expo, Firebase"
     >
       <section id="overview" className="project-content">
