@@ -30,9 +30,9 @@ const Project4 = () => {
           The site is built with a mobile-first approach and scales up using CSS Grid and Flexbox. 
           The interface includes dynamic content loading, a filtering system and secure handling of API keys stored in localStorage.
         </p>
-      <div className="project-image-wrapper">
-        <img src={MusicFestival} alt="Music Festival" className="project-image" />
-      </div>
+        <div className="project-image-wrapper">
+          <img src={MusicFestival} alt="Music Festival" className="project-image" />
+        </div>
       </section>
 
       <section id="reflection" className="project-content">

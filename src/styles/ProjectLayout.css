@@ -216,6 +216,120 @@
   margin-top: 1rem;
 }
 
+.test-credentials {
+  background: #f9f9f9;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem; 
+  margin: 2rem auto 2rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem; 
+  border: 1px solid #eee;
+}
+
+.credential-title {
+  font-size: 0.8rem; 
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 0;
+}
+
+.test-credentials .credential-subtitle {
+  font-size: 0.75rem; 
+  color: #666; 
+  margin-bottom: 0.6rem; 
+  margin-top: 0.2rem;
+  font-weight: 400;      
+  letter-spacing: 0;
+}
+
+.credential-group {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem; 
+  font-size: 0.9rem;
+  background: #fff;
+  padding: 0.6rem 1.2rem; 
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02); 
+}
+
+.credential-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.credential-item .label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #aaa; 
+  letter-spacing: 0.5px;
+  margin-top: 1px; 
+}
+
+.credential-item .value {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", "Menlo", monospace;
+  font-weight: 600;  
+  color: #636363;       
+  font-size: 0.67rem; 
+  letter-spacing: 0;  
+}
+
+.separator {
+  width: 1px;
+  height: 16px;
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 500px) {
+  .test-credentials {
+    padding: 1.5rem 1.2rem; 
+    width: 90%; 
+    max-width: 350px; 
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .credential-group {
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .credential-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 100%;
+    gap: 0.6rem; 
+  }
+
+  .credential-item .label {
+    min-width: auto; 
+    width: auto;
+    text-align: left;
+    flex-shrink: 0;
+  }
+
+  .credential-item .value {
+    text-align: left;
+    position: relative;
+    top: 1px; 
+  }
+  
+  .separator { display: none; }
+}
+
 @media (min-width: 768px) {
   .case-study-layout {
     flex-direction: row;
