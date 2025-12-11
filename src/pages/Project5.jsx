@@ -46,7 +46,7 @@ const Project5 = () => {
 
       <div className="test-credentials">
         <span className="credential-title">Try the Live Demo</span>
-      <p className="credential-subtitle">Use these credentials to log in:</p>
+        <p className="credential-subtitle">Use these credentials to log in:</p>
         
         <div className="credential-group">
           <div className="credential-item">
@@ -55,12 +55,17 @@ const Project5 = () => {
           </div>
           
           <div className="separator"></div>
-          
+
           <div className="credential-item">
             <span className="label">Password:</span>
             <span className="value">test123</span>
           </div>
         </div>
+          <p className="project-disclaimer">
+            The web version works on desktop for a quick preview,
+            but for the best mobile experience, use Expo Go.
+            See the README in the GitHub repo for setup instructions.
+          </p>
       </div>
 
       <div className="project-actions">
