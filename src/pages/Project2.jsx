@@ -19,7 +19,7 @@ const Project2 = () => {
         fast-paced mornings smoother while maintaining a calm and welcoming café experience
         inspired by Japanese aesthetics. The app addresses stress during peak hours for both
         customers and staff while reinforcing brand identity and everyday engagement. 
-        Developed individually as part of a school assignment, the project allowed me to explore
+        Developed as part of a school assignment, the project allowed me to explore
         the concept from early assumptions to final design decisions.
       </p>
     </section>
@@ -147,7 +147,7 @@ const Project2 = () => {
     <section id="reflection" className="project-content">
       <h2>Reflection</h2>
       <p>
-        Working on this project reinforced the importance of keeping user needs at the center while turning abstract ideas into a concrete interface.
+        Working on this project reinforced the importance of keeping user needs at the center while turning abstract ideas into a clear and usable interface.
         I learned how subtle design choices like visual hierarchy, spacing, and typography can greatly influence how calm and intuitive an experience feels.
       </p>
       <p>
@@ -159,7 +159,7 @@ const Project2 = () => {
         while testing with real users would validate assumptions and ensure the app continues to offer a calm, intuitive, and enjoyable experience.
       </p>
     </section>
-    
+
   </ProjectLayout>
  );
 };
