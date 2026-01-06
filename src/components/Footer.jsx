@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/Footer.css";
-
+  
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
-      <div>© 2025 Desirée Johnsen</div>
+      <div>© {currentYear} Desirée Johnsen</div>
       <div className="footer-links">
         <a href="mailto:des.johnsen@gmail.com">Email</a>
         <a href="tel:+46700009903">Phone</a>
@@ -15,7 +17,5 @@ const Footer = () => {
 };
 
 export default Footer;
-  
-
 
 
