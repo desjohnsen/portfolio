@@ -61,11 +61,6 @@ const Project5 = () => {
             <span className="value">test123</span>
           </div>
         </div>
-          <p className="project-disclaimer">
-            The web version works on desktop for a quick preview,
-            but for the best mobile experience, use Expo Go.
-            See the README in the GitHub repo for setup instructions.
-          </p>
       </div>
 
       <div className="project-actions">
