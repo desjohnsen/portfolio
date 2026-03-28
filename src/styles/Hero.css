@@ -254,6 +254,33 @@ body {
   }
 }
 
+@media (min-width: 601px) and (max-width: 714px) {
+  .hero-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.8rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1rem !important;
+    margin-bottom: 0.7rem !important;
+  }
+
+  .hero-text p {
+    font-size: 0.532rem !important;
+    max-width: 35ch !important;
+    line-height: 1.5;
+    margin-bottom: 0.6rem !important;
+  }
+
+  .btn {
+    font-size: 0.6rem !important;
+    padding: 0.3rem 3.44rem !important;
+  }
+}
+
 @media (min-width: 601px) and (max-width: 767px) {
   .hero {
     min-height: 70vh;
