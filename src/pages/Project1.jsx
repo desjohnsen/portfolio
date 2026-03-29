@@ -153,7 +153,20 @@ const Project1 = () => {
         <p>
           <strong>Strengthened trust:</strong> An inclusive, mobile-first design with clear iconography and accessible language fostered a sense of belonging and perceived safety.
         </p>
+
+        <div className="project-image-wrapper" style={{ overflow: "hidden", display: "flex", justifyContent: "center", padding: "1.5rem" }}>
+          <iframe 
+            style={{ border: "none", width: "100%", height: "500px", maxWidth: "420px", borderRadius: "1rem" }} 
+            src="https://embed.figma.com/proto/RF0gKgH7IwxrMxnB9VxU5u/J%C3%A4rf%C3%A4lla-Hus-Wireframes?node-id=811-2965&starting-point-node-id=811%3A2965&embed-host=share" 
+            allowFullScreen
+            title="Järfällahus Interactive Prototype"
+          ></iframe>
+        </div>
       </section>
+
+      
+
+      
 
       <section id="reflection" className="project-content">
         <h2>Reflection</h2>
