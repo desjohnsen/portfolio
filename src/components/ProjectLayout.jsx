@@ -3,7 +3,6 @@ import {
   BookOpenText,
   AlertCircle,
   Search,
-  Pencil,
   Palette,
   Trophy,
   MessageSquare,
@@ -75,15 +74,6 @@ const ProjectLayout = ({ title, subtitle, role, timeframe, tools, children }) =>
                 className={activeSection === "research" ? "active" : ""}
               >
                 <Search size={16} /> <span>Research</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#ideation"
-                onClick={(e) => scrollToSection("ideation", e)}
-                className={activeSection === "ideation" ? "active" : ""}
-              >
-                <Pencil size={16} /> <span>Ideation</span>
               </a>
             </li>
             <li>
