@@ -164,10 +164,6 @@ const Project1 = () => {
         </div>
       </section>
 
-      
-
-      
-
       <section id="reflection" className="project-content">
         <h2>Reflection</h2>
 
