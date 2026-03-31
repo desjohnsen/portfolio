@@ -47,7 +47,8 @@ const Project1 = () => {
             ></iframe>
           </div>
           <p style={{ fontSize: "0.9rem", color: "#666", fontStyle: "italic" }}>
-              Järfällahus Interactive Prototype 
+              Järfällahus Interactive Prototype <br/> 
+              (It takes a few seconds to initialize)
           </p>
         </div>
         
