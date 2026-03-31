@@ -46,7 +46,7 @@ const Project1 = () => {
               title="Järfällahus Interactive Prototype"
             ></iframe>
           </div>
-          <p style={{ fontSize: "0.9rem", color: "#666", fontStyle: "italic" }}>
+          <p style={{ fontSize: "0.9rem", color: "#666", fontStyle: "italic", textAlign: 'center' }}>
               Järfällahus Interactive Prototype <br/> 
               (It takes a few seconds to initialize)
           </p>
