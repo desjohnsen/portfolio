@@ -16,7 +16,42 @@ const Project1 = () => {
       timeframe="10 weeks"
       tools="Figma"
     > 
-    <section id="overview" className="project-content">
+    <div style={{ 
+          display: "flex", 
+          flexDirection: "column",
+          alignItems: "center",
+          margin: "4rem 0",
+          gap: "1.5rem"
+        }}>
+          <div style={{
+            width: "320px",
+            height: "650px",
+            borderRadius: "2.5rem",
+            border: "none",
+            overflow: "hidden",
+            backgroundColor: "#fff",
+            boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+            position: "relative"
+          }}>
+            <iframe 
+              style={{ 
+                border: "none", 
+                width: "100%", 
+                height: "100%",
+                transform: "scale(1.02)",
+                transformOrigin: "center"
+              }} 
+              src="https://embed.figma.com/proto/sVvwWCQcIqikcSiv57Vuud/J%C3%A4rf%C3%A4llahus?node-id=811-4643&starting-point-node-id=811%3A4643&scaling=scale-down-width&content-scaling=fixed&hide-ui=1&bg=ffffff&embed-host=share" 
+              allowFullScreen
+              title="Järfällahus Interactive Prototype"
+            ></iframe>
+          </div>
+          <p style={{ fontSize: "0.9rem", color: "#666", fontStyle: "italic" }}>
+              Järfällahus Interactive Prototype 
+          </p>
+        </div>
+        
+        <section id="overview" className="project-content">
         <h2>Overview</h2>
         
         <p>
@@ -63,7 +98,7 @@ const Project1 = () => {
       <section id="research" className="project-content">
         <h2>Research</h2>
         <p>
-          To ensure the platform addressed real user needs, we started by conducting market research to identify best practices. Next, we carried out qualitative interviews with five residents to understand how they perceived safety, inclusion, and community engagement.
+          To ensure the platform addressed real user needs, we started by conducting <strong>market research</strong> to identify best practices. Next, we carried out <strong>qualitative interviews</strong> with five residents to understand how they perceived <strong>safety, inclusion, and community engagement.</strong>
         </p>
 
         <p>
@@ -75,7 +110,7 @@ const Project1 = () => {
         </div>
 
         <p>
-          Based on the findings, three key insights were identified:
+          Based on the findings, <strong>three key insights were identified:</strong>
         </p>
 
         <p>
@@ -91,7 +126,7 @@ const Project1 = () => {
         </p>
 
         <p>
-          Building on these insights, we created an experience map to visualize how residents’ needs connect to the core values of <strong>Safety, Inclusion, and Vibrancy</strong>. This guided early ideation and engagement strategies.
+          Building on these insights, we created an <strong>experience map</strong> to visualize how residents’ needs connect to the core values of <strong>Safety, Inclusion, and Vibrancy</strong>. This guided early ideation and engagement strategies.
         </p>
 
         <div className="project-image-wrapper">
@@ -99,7 +134,7 @@ const Project1 = () => {
         </div>
 
         <p>
-          We then defined three user archetypes based on the research. These archetypes ensured that our design decisions remained user-centered and adaptable to different levels of digital confidence and motivation.
+          We then defined <strong>three user archetypes</strong> based on the research. These archetypes ensured that our design decisions remained user-centered and adaptable to different levels of digital confidence and motivation.
         </p>
 
         <div className="project-image-wrapper">
@@ -139,7 +174,7 @@ const Project1 = () => {
         </p>
 
         <p>
-          Final user feedback confirmed that the platform felt intuitive and enjoyable to use. The key improvements can be summarized as:
+          Final user feedback confirmed that the platform felt intuitive and enjoyable to use. <strong>The key improvements can be summarized as:</strong>
         </p>
 
         <p>
@@ -154,14 +189,6 @@ const Project1 = () => {
           <strong>Strengthened trust:</strong> An inclusive, mobile-first design with clear iconography and accessible language fostered a sense of belonging and perceived safety.
         </p>
 
-        <div className="project-image-wrapper" style={{ overflow: "hidden", display: "flex", justifyContent: "center", padding: "1.5rem" }}>
-          <iframe 
-            style={{ border: "none", width: "100%", height: "500px", maxWidth: "420px", borderRadius: "1rem" }} 
-            src="https://embed.figma.com/proto/RF0gKgH7IwxrMxnB9VxU5u/J%C3%A4rf%C3%A4lla-Hus-Wireframes?node-id=811-2965&starting-point-node-id=811%3A2965&embed-host=share" 
-            allowFullScreen
-            title="Järfällahus Interactive Prototype"
-          ></iframe>
-        </div>
       </section>
 
       <section id="reflection" className="project-content">
@@ -180,7 +207,7 @@ const Project1 = () => {
         </p>
 
         <p>
-          Overall, the project reinforced a core principle: empathy, clarity, and collaboration are essential when designing for diverse communities.
+          Overall, the project reinforced a core principle:<strong> empathy, clarity, and collaboration</strong> are essential when designing for diverse communities.
         </p>
 
         <div className="project-actions">
