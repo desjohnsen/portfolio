@@ -3,66 +3,11 @@ import Hero from '../components/Hero';
 import MarqueeSlider from "../components/MarqueeSlider";
 import ProjectCard from '../components/ProjectCard';
 import Contact from "../components/Contact";
-import Chowa from '../assets/images/Chowa.png';
-import Jarfallahus from '../assets/images/jarfallahus-desktop.png';
-import Todo from '../assets/images/todo.png';
-import Musicfestival from '../assets/images/music-festival.png';
-import MissionImpossible from '../assets/images/mission-usage-impossible.png';
+import { projects } from '../data/projects';
 import '../styles/Home.css';
 
 const Home = ({ projectSectionRef, contactSectionRef }) => {
   const [activeCategory, setActiveCategory] = useState('All');
-
-  const projects = [
-    {
-      title: "JÄRFÄLLAHUS",
-      description: "",
-      projectId: "1",
-      image: Jarfallahus,
-      tags: ["Team project"],
-      customClass: "blue-background",
-      category: "UX/UI",
-    },
-    {
-      title: "CHOWA",
-      description: "",
-      projectId: "2",
-      image: Chowa,
-      tags: ["Branding"],
-      customClass: "green-background",
-      category: "UX/UI",
-    },
-    {
-      title: "TODO",
-      description: "",
-      projectId: "3",
-      image: Todo,
-      tags: ["React + Vite"],
-      buttonLabel: "Read more →",
-      customClass: "beige-background",
-      category: "Frontend",
-    },
-    {
-      title: "MUSIC FESTIVAL", 
-      description: "",
-      projectId: "4", 
-      image: Musicfestival, 
-      tags: ["API Integration"],
-      buttonLabel: "Read more →",
-      customClass: "pink-background", 
-      category: "Frontend",
-    },
-    {
-      title: "MISSION USAGE IMPOSSIBLE", 
-      description: "",
-      projectId: "5", 
-      image: MissionImpossible, 
-      tags: ["React Native"], 
-      buttonLabel: "Read more →",
-      customClass: "gray-background", 
-      category: "Frontend",
-    },
-  ];
 
   const categories = ["All", "UX/UI", "Frontend"];
 
@@ -92,10 +37,10 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
         <div className="projects-wrapper">
           {filteredProjects.map((project) => (
             <ProjectCard
-              key={project.projectId}
+              key={project.slug}
               title={project.title}
               description={project.description}
-              projectId={project.projectId}
+              projectSlug={project.slug}
               image={project.image}
               tags={project.tags}
               buttonLabel={project.buttonLabel}

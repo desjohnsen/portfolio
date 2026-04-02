@@ -1,30 +1,37 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
 import Project1 from './Project1';
 import Project2 from './Project2';
 import Project3 from './Project3';
 import Project4 from './Project4';
 import Project5 from './Project5';
+import { projects } from '../data/projects';
 
-
+const projectComponents = {
+  jarfallahus: Project1,
+  chowa: Project2,
+  todo: Project3,
+  "music-festival": Project4,
+  "mission-usage-impossible": Project5,
+};
 
 const Project = () => {
-  const { projectId } = useParams();
+  const { projectSlug } = useParams();
+  const matchedProject = projects.find(
+    (project) => project.slug === projectSlug || project.legacyId === projectSlug
+  );
 
-  switch (projectId) {
-    case "1":
-      return <Project1 />;
-    case "2":
-      return <Project2 />;
-    case "3":
-      return <Project3 />;
-    case "4":
-      return <Project4 />; 
-    case "5":
-      return <Project5 />;   
-    default:
-      return <div>Project not found.</div>;
+  if (!matchedProject) {
+    return <div>Project not found.</div>;
   }
+
+  if (matchedProject.slug !== projectSlug) {
+    return <Navigate to={`/project/${matchedProject.slug}`} replace />;
+  }
+
+  const SelectedProject = projectComponents[matchedProject.slug];
+
+  return <SelectedProject />;
 };
 
 export default Project;

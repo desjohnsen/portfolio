@@ -34,7 +34,7 @@ const App = () => {
             } 
           />
           <Route path="/about" element={<About />} />
-          <Route path="/project/:projectId" element={<Project />} />
+          <Route path="/project/:projectSlug" element={<Project />} />
         </Routes>
       </main>
 

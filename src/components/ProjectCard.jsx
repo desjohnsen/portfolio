@@ -5,7 +5,7 @@ import "../styles/ProjectCard.css";
 const ProjectCard = ({
   title,
   description,
-  projectId,
+  projectSlug,
   image,
   tags = [],
   buttonLabel = "Case study →",
@@ -31,7 +31,7 @@ const ProjectCard = ({
           ))}
         </div>
         {buttonLabel && (
-          <Link to={`/project/${projectId}`} className="case-study-btn">
+          <Link to={`/project/${projectSlug}`} className="case-study-btn">
             {buttonLabel}
           </Link>
         )}
