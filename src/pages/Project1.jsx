@@ -151,15 +151,19 @@ const Project1 = () => {
         </p>
         
         <p>
-          <strong>Visual identity:</strong> The UI was inspired by Järfällahus’s existing brand guidelines but softened with rounded elements and modern, mobile-first layouts to create a welcoming and approachable feel for the residents.
-        </p>
-        
-        <p>
-          <strong>Inclusive & Accessible:</strong> To accommodate varying levels of digital confidence, basic WCAG principles guided our choices. We prioritized clear iconography, readable typography, and a simplified navigation structure to ensure key features like event registration and activity hubs were easy to find.
+          <strong>Visual identity:</strong>  The UI was inspired by Järfällahus’s existing brand guidelines but softened with rounded elements and modern layouts to create a welcoming and approachable feel for the residents.
         </p>
 
         <p>
-          <strong>Iterative testing:</strong> Throughout the process, we continuously tested early prototypes with both our technical team (to ensure feasibility) and local residents. Their feedback drove iterations on content clarity and interaction patterns, ensuring the final design fostered inclusion and engagement.
+          <strong>Design decisions:</strong> Based on our research, we simplified the navigation to four primary categories to reduce cognitive load and help residents quickly find relevant content. We also prioritized local events and neighborhood activities on the homepage to increase visibility and make participation feel more accessible.
+        </p>
+
+        <p>
+          <strong>Inclusive & Accessible:</strong> To accommodate varying levels of digital confidence, basic WCAG principles guided our choices. We structured the content with clear hierarchy and labeling to improve scannability and reduce confusion during navigation.
+        </p>
+
+        <p>
+          <strong>Iterative testing:</strong> Throughout the process, we tested early prototypes with both our technical team to ensure feasibility and with local residents. Their feedback drove iterations on content clarity and interaction patterns, resulting in a more intuitive and engaging experience.
         </p>
 
         <div className="project-image-wrapper">
