@@ -175,27 +175,22 @@ const Project1 = () => {
         <h2>Outcome</h2>
         
         <p>
-          The final platform successfully addressed the barriers identified in our research. By moving away from general housing information and focusing on neighborhood-specific needs, we created a digital space where residents felt informed and welcomed.
+          The final platform addressed the main barriers identified in the research by making local information easier to access and more relevant to residents. By shifting the focus from general housing content to neighborhood-specific needs, the platform created a clearer and more engaging user experience.
         </p>
 
         <p>
-          Final user feedback confirmed that the platform felt intuitive and enjoyable to use. <strong>The key improvements can be summarized as:</strong>
+          <strong>User testing showed</strong> that residents could more easily find local events and complete tasks with less confusion. A simplified structure and clearer content hierarchy helped reduce friction and made key features feel more accessible.
         </p>
 
         <p>
-          <strong>Centralized information:</strong> Simplified navigation, clear categorization, and a shared calendar made local news and events effortless to find and access.
-        </p>
-        
-        <p>
-          <strong>Increased participation:</strong> Interactive features like event registration and activity hubs successfully lowered the barrier for residents to engage at their own motivation level.
-        </p>
-        
-        <p>
-          <strong>Strengthened trust:</strong> An inclusive, mobile-first design with clear iconography and accessible language fostered a sense of belonging and perceived safety.
+          The introduction of event-focused content and interactive features lowered the barrier to participation, allowing residents to engage with their community at their own level. This contributed to a stronger sense of awareness and connection within the neighborhood.
         </p>
 
+        <p>
+          Overall, the project demonstrated how small structural and content decisions can significantly improve <strong>usability, engagement, and perceived trust</strong>.
+        </p>
       </section>
-
+       
       <section id="reflection" className="project-content">
         <h2>Reflection</h2>
 
