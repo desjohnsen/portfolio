@@ -51,7 +51,7 @@ const Project1 = () => {
               (It takes a few seconds to initialize)
           </p>
         </div>
-        
+
         <section id="overview" className="project-content">
         <h2>Overview</h2>
         
@@ -62,9 +62,9 @@ const Project1 = () => {
         <p>
           <strong>Role:</strong> In my role as UX/UI designer, I led the user research and turned insights from local residents into design strategies and interactive prototypes. This ensured our final product helped the team address real community needs and strengthen engagement in the neighborhood rather than relying on assumptions.
         </p>
-        
+
         <p>
-          <strong>Impact:</strong> Working closely with developers taught me how to balance UX vision with technical constraints. The project resulted in a tested, user-centric platform that successfully addressed the community's needs, and gave me invaluable experience in cross-functional agile teamwork.
+          <strong>Result:</strong> We delivered a mobile-first prototype focused on making local initiatives easier to find and engage with. By simplifying the structure and prioritizing relevant content, the platform reduces friction and supports stronger community participation.
         </p>
 
         <div className="project-image-wrapper">
