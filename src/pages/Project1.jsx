@@ -187,7 +187,7 @@ const Project1 = () => {
         </p>
 
         <p>
-          Overall, the project demonstrated how small structural and content decisions can significantly improve <strong>usability, engagement, and perceived trust</strong>.
+          Overall, the project shows how thoughtful structure and content prioritization can turn low engagement into accessible and meaningful participation.
         </p>
       </section>
        
