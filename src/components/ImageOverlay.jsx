@@ -53,7 +53,14 @@ const ImageOverlay = ({ src, alt, className = "project-image" }) => {
               onClick={() => setIsOpen(false)}
               aria-label="Close image"
             >
-              <span className="overlay-close-icon" aria-hidden="true" />
+              <svg
+                className="overlay-close-icon"
+                aria-hidden="true"
+                viewBox="0 0 20 20"
+              >
+                <line x1="5" y1="5" x2="15" y2="15" />
+                <line x1="15" y1="5" x2="5" y2="15" />
+              </svg>
             </button>
             <img src={src} alt={alt} className="lightbox-image" />
           </div>
