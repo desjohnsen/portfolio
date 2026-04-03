@@ -72,10 +72,31 @@
 }
 
 .lightbox-close-icon {
-  font-size: 1.35rem;
-  line-height: 1;
-  font-weight: 400;
-  transform: translateY(-1px);
+  position: relative;
+  width: 0.95rem;
+  height: 0.95rem;
+  display: block;
+}
+
+.lightbox-close-icon::before,
+.lightbox-close-icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  border-radius: 999px;
+  transform-origin: center;
+}
+
+.lightbox-close-icon::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.lightbox-close-icon::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .lightbox-close:hover,
@@ -106,7 +127,12 @@
   }
 
   .lightbox-close-icon {
-    font-size: 1.5rem;
-    font-weight: 500;
+    width: 0.82rem;
+    height: 0.82rem;
+  }
+
+  .lightbox-close-icon::before,
+  .lightbox-close-icon::after {
+    height: 1.8px;
   }
 }
