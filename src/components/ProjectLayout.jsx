@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 
 import "../styles/ProjectLayout.css";
+import "../styles/ImageOverlay.css";
 
 const ProjectLayout = ({ title, subtitle, role, timeframe, tools, children }) => {
   const [activeSection, setActiveSection] = useState("");

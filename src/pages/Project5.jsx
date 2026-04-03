@@ -1,6 +1,7 @@
 import React from 'react';
 import MissionUsageImpossible from "../assets/images/mission-usage-impossible.png";
 import ProjectLayout from "../components/ProjectLayout";
+import ImageOverlay from "../components/ImageOverlay";
 
 const Project5 = () => {
   return (
@@ -32,7 +33,7 @@ const Project5 = () => {
           The app embraces chaotic fun while remaining fully functional. Despite the intentionally poor UX, the code is organized and modular, ensuring all features work as intended.
         </p>
         <div className="project-image-wrapper">
-          <img src={MissionUsageImpossible} alt="Mission Usage Impossible" className="project-image" />
+          <ImageOverlay src={MissionUsageImpossible} alt="Mission Usage Impossible" />
         </div>
       </section>
 

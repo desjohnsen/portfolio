@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectLayout from "../components/ProjectLayout";
+import ImageOverlay from "../components/ImageOverlay";
 import PhoneImage from "../assets/images/jarfallahus.png";
 import GroupPhoto from "../assets/images/GroupPhoto.jpg";
 import ExperienceMap from "../assets/images/experiencemap.jpg";
@@ -68,7 +69,7 @@ const Project1 = () => {
         </p>
 
         <div className="project-image-wrapper">
-          <img src={GroupPhoto} alt="Group photo" className="project-image" />
+          <ImageOverlay src={GroupPhoto} alt="Group photo" />
         </div>
       </section>
 
@@ -107,7 +108,7 @@ const Project1 = () => {
         </p>
 
         <div className="project-image-wrapper">
-          <img src={Quotes} alt="Quotes" className="project-image" />
+          <ImageOverlay src={Quotes} alt="Quotes" />
         </div>
 
         <p>
@@ -131,7 +132,7 @@ const Project1 = () => {
         </p>
 
         <div className="project-image-wrapper">
-          <img src={ExperienceMap} alt="Experience map" className="project-image" />
+          <ImageOverlay src={ExperienceMap} alt="Experience map" />
         </div>
 
         <p>
@@ -139,7 +140,7 @@ const Project1 = () => {
         </p>
 
         <div className="project-image-wrapper">
-          <img src={UserArchetypes} alt="User archetypes" className="project-image" />
+          <ImageOverlay src={UserArchetypes} alt="User archetypes" />
         </div>
       </section>
 
@@ -167,7 +168,7 @@ const Project1 = () => {
         </p>
 
         <div className="project-image-wrapper">
-          <img src={PhoneImage} alt="Järfällahus app" className="project-image" />
+          <ImageOverlay src={PhoneImage} alt="Järfällahus app" />
         </div>
       </section>
 

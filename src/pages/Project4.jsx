@@ -1,6 +1,7 @@
 import React from 'react';
 import MusicFestival from "../assets/images/music-festival.png";
 import ProjectLayout from "../components/ProjectLayout";
+import ImageOverlay from "../components/ImageOverlay";
 
 const Project4 = () => {
   return (
@@ -31,7 +32,7 @@ const Project4 = () => {
           The interface includes dynamic content loading, a filtering system and secure handling of API keys stored in localStorage.
         </p>
         <div className="project-image-wrapper">
-          <img src={MusicFestival} alt="Music Festival" className="project-image" />
+          <ImageOverlay src={MusicFestival} alt="Music Festival" />
         </div>
       </section>
 

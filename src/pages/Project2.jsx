@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectLayout from "../components/ProjectLayout"
+import ImageOverlay from "../components/ImageOverlay";
 import phoneImage from "../assets/images/Chowa.png"; 
 
 const Project2 = () => {
@@ -88,7 +89,7 @@ const Project2 = () => {
         </p>
 
         <div className="project-image-wrapper">
-          <img src={phoneImage} alt="Chowa mobile UI" className="project-image" />
+          <ImageOverlay src={phoneImage} alt="Chowa mobile UI" />
         </div>
       </section>
 

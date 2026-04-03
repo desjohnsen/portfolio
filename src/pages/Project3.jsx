@@ -1,6 +1,7 @@
 import React from 'react';
 import todo from "../assets/images/todo.png";
 import ProjectLayout from "../components/ProjectLayout"; 
+import ImageOverlay from "../components/ImageOverlay";
 
 const Project3 = () => {
   return (
@@ -27,7 +28,7 @@ const Project3 = () => {
           A celebratory animation appears when all tasks are completed, adding a playful touch and enhancing the overall user experience.
         </p>
         <div className="project-image-wrapper">
-          <img src={todo} alt="todo app" className="project-image" />
+          <ImageOverlay src={todo} alt="todo app" />
         </div>
       </section>
 
