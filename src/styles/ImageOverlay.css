@@ -75,10 +75,7 @@
   width: 0.95rem;
   height: 0.95rem;
   display: block;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 2.15;
-  stroke-linecap: round;
+  stroke-width: 2.35;
 }
 
 .lightbox-close:hover,
@@ -93,7 +90,7 @@
   }
 
   .lightbox-content {
-    width: min(100%, 340px);
+    width: min(100%, 360px);
   }
 
   .lightbox-image {
@@ -109,8 +106,8 @@
   }
 
   .overlay-close-icon {
-    width: 1.08rem;
-    height: 1.08rem;
-    stroke-width: 2.25;
+    width: 1.18rem;
+    height: 1.18rem;
+    stroke-width: 2.5;
   }
 }

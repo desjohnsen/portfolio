@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { X } from "lucide-react";
 
 const ImageOverlay = ({ src, alt, className = "project-image" }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,14 +54,7 @@ const ImageOverlay = ({ src, alt, className = "project-image" }) => {
               onClick={() => setIsOpen(false)}
               aria-label="Close image"
             >
-              <svg
-                className="overlay-close-icon"
-                aria-hidden="true"
-                viewBox="0 0 20 20"
-              >
-                <line x1="5" y1="5" x2="15" y2="15" />
-                <line x1="15" y1="5" x2="5" y2="15" />
-              </svg>
+              <X className="overlay-close-icon" aria-hidden="true" />
             </button>
             <img src={src} alt={alt} className="lightbox-image" />
           </div>
