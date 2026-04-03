@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ProjectLayout from "../components/ProjectLayout";
 import ImageOverlay from "../components/ImageOverlay";
 import PhoneImage from "../assets/images/jarfallahus.png";
@@ -9,6 +9,25 @@ import Quotes from "../assets/images/quotes.png";
 import "../styles/ProjectLayout.css";
 
 const Project1 = () => {
+  const [isPrototypeLoading, setIsPrototypeLoading] = useState(true);
+  const [isPrototypeReady, setIsPrototypeReady] = useState(false);
+
+  useEffect(() => {
+    let timeoutId;
+
+    if (isPrototypeReady) {
+      timeoutId = window.setTimeout(() => {
+        setIsPrototypeLoading(false);
+      }, 4200);
+    }
+
+    return () => {
+      if (timeoutId) {
+        window.clearTimeout(timeoutId);
+      }
+    };
+  }, [isPrototypeReady]);
+
   return (
     <ProjectLayout
       title="Järfällahus"
@@ -34,16 +53,72 @@ const Project1 = () => {
             boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
             position: "relative"
           }}>
+            {isPrototypeLoading && (
+              <div
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "1.15rem",
+                  background: `linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(247, 247, 245, 0.92) 100%), url(${PhoneImage}) center / cover no-repeat`,
+                  zIndex: 1,
+                  textAlign: "center",
+                  padding: "2rem 1.5rem",
+                  backdropFilter: "blur(6px)"
+                }}
+              >
+                <div
+                  style={{
+                    width: "2.25rem",
+                    height: "2.25rem",
+                    borderRadius: "999px",
+                    border: "3px solid rgba(88, 141, 52, 0.15)",
+                    borderTopColor: "#588d34",
+                    animation: "spin 0.9s linear infinite"
+                  }}
+                />
+                <div
+                  style={{
+                    width: "100%",
+                    maxWidth: "240px",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center"
+                  }}
+                >
+                  <p
+                    style={{
+                      margin: 0,
+                      fontSize: "1rem",
+                      fontWeight: "700",
+                      color: "#222",
+                      lineHeight: 1.2,
+                      letterSpacing: "-0.01em"
+                    }}
+                  >
+                    Loading prototype
+                  </p>
+                </div>
+              </div>
+            )}
             <iframe 
               style={{ 
                 border: "none", 
                 width: "100%", 
                 height: "100%",
                 transform: "scale(1.02)",
-                transformOrigin: "center"
+                transformOrigin: "center",
+                opacity: isPrototypeLoading ? 0 : 1,
+                transition: "opacity 0.25s ease"
               }} 
               src="https://embed.figma.com/proto/sVvwWCQcIqikcSiv57Vuud/J%C3%A4rf%C3%A4llahus?node-id=811-4643&starting-point-node-id=811%3A4643&scaling=scale-down-width&content-scaling=fixed&hide-ui=1&bg=ffffff&embed-host=share" 
               allowFullScreen
+              onLoad={() => setIsPrototypeReady(true)}
               title="Järfällahus Interactive Prototype"
             ></iframe>
           </div>

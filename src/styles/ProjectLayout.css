@@ -9,6 +9,12 @@
   --card-radius: 1.5rem;
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .case-study-layout {
   max-width: 1200px;
   width: 100%;
