@@ -101,14 +101,14 @@
   .overlay-close-button {
     top: 0.4rem;
     right: 0.4rem;
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
   }
 
   .overlay-close-icon {
-    width: 22px;
-    height: 22px;
-    stroke-width: 2.8;
+    width: 18px;
+    height: 18px;
+    stroke-width: 2.55;
     flex-shrink: 0;
   }
 }
