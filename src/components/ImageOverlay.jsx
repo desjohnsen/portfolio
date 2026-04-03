@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { X } from "lucide-react";
 
 const ImageOverlay = ({ src, alt, className = "project-image" }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +53,9 @@ const ImageOverlay = ({ src, alt, className = "project-image" }) => {
               onClick={() => setIsOpen(false)}
               aria-label="Close image"
             >
-              <X size={16} />
+              <span className="lightbox-close-icon" aria-hidden="true">
+                ×
+              </span>
             </button>
             <img src={src} alt={alt} className="lightbox-image" />
           </div>

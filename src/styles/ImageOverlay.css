@@ -71,6 +71,13 @@
   transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
 }
 
+.lightbox-close-icon {
+  font-size: 1.35rem;
+  line-height: 1;
+  font-weight: 400;
+  transform: translateY(-1px);
+}
+
 .lightbox-close:hover,
 .lightbox-close:focus-visible {
   background: rgba(17, 17, 17, 0.86);
@@ -98,9 +105,8 @@
     height: 1.75rem;
   }
 
-  .lightbox-close svg {
-    width: 26px;
-    height: 26px;
-    stroke-width: 3.4;
+  .lightbox-close-icon {
+    font-size: 1.5rem;
+    font-weight: 500;
   }
 }
