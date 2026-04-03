@@ -38,25 +38,25 @@ const ImageOverlay = ({ src, alt, className = "project-image" }) => {
 
       {isOpen && (
         <div
-          className="lightbox-overlay"
+          className="overlay-backdrop"
           role="dialog"
           aria-modal="true"
           aria-label={alt}
           onClick={() => setIsOpen(false)}
         >
           <div
-            className="lightbox-content"
+            className="overlay-content"
             onClick={(event) => event.stopPropagation()}
           >
             <button
               type="button"
-              className="lightbox-close"
+              className="overlay-close-button"
               onClick={() => setIsOpen(false)}
               aria-label="Close image"
             >
               <X className="overlay-close-icon" aria-hidden="true" />
             </button>
-            <img src={src} alt={alt} className="lightbox-image" />
+            <img src={src} alt={alt} className="overlay-image" />
           </div>
         </div>
       )}

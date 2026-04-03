@@ -23,7 +23,7 @@
   outline-offset: 4px;
 }
 
-.lightbox-overlay {
+.overlay-backdrop {
   position: fixed;
   inset: 0;
   z-index: 1000;
@@ -35,7 +35,7 @@
   backdrop-filter: blur(1.5px);
 }
 
-.lightbox-content {
+.overlay-content {
   position: relative;
   width: min(100%, 720px);
   max-height: 100%;
@@ -44,7 +44,7 @@
   justify-content: center;
 }
 
-.lightbox-image {
+.overlay-image {
   width: 100%;
   max-height: min(70vh, 620px);
   object-fit: contain;
@@ -54,7 +54,7 @@
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.26);
 }
 
-.lightbox-close {
+.overlay-close-button {
   position: absolute;
   top: 0.9rem;
   right: 0.9rem;
@@ -78,27 +78,27 @@
   stroke-width: 2.35;
 }
 
-.lightbox-close:hover,
-.lightbox-close:focus-visible {
+.overlay-close-button:hover,
+.overlay-close-button:focus-visible {
   background: rgba(17, 17, 17, 0.86);
   transform: scale(1.02);
 }
 
 @media (max-width: 640px) {
-  .lightbox-overlay {
+  .overlay-backdrop {
     padding: 1rem;
   }
 
-  .lightbox-content {
+  .overlay-content {
     width: min(100%, 360px);
   }
 
-  .lightbox-image {
+  .overlay-image {
     max-height: 62vh;
     border-radius: 0.7rem;
   }
 
-  .lightbox-close {
+  .overlay-close-button {
     top: 0.4rem;
     right: 0.4rem;
     width: 1.75rem;
