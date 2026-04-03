@@ -71,15 +71,15 @@
   transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
 }
 
-.lightbox-close-icon {
+.overlay-close-icon {
   position: relative;
   width: 0.95rem;
   height: 0.95rem;
   display: block;
 }
 
-.lightbox-close-icon::before,
-.lightbox-close-icon::after {
+.overlay-close-icon::before,
+.overlay-close-icon::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -91,11 +91,11 @@
   transform-origin: center;
 }
 
-.lightbox-close-icon::before {
+.overlay-close-icon::before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.lightbox-close-icon::after {
+.overlay-close-icon::after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
@@ -126,13 +126,13 @@
     height: 1.75rem;
   }
 
-  .lightbox-close-icon {
+  .overlay-close-icon {
     width: 0.82rem;
     height: 0.82rem;
   }
 
-  .lightbox-close-icon::before,
-  .lightbox-close-icon::after {
+  .overlay-close-icon::before,
+  .overlay-close-icon::after {
     height: 1.8px;
   }
 }
