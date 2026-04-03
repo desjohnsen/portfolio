@@ -84,13 +84,13 @@
   transform: scale(1.02);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px), (hover: none) and (pointer: coarse) {
   .overlay-backdrop {
     padding: 1rem;
   }
 
   .overlay-content {
-    width: min(100%, 360px);
+    width: min(100%, 368px);
   }
 
   .overlay-image {
@@ -101,13 +101,14 @@
   .overlay-close-button {
     top: 0.4rem;
     right: 0.4rem;
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 34px;
+    height: 34px;
   }
 
   .overlay-close-icon {
-    width: 1.4rem;
-    height: 1.4rem;
-    stroke-width: 2.65;
+    width: 22px;
+    height: 22px;
+    stroke-width: 2.8;
+    flex-shrink: 0;
   }
 }
