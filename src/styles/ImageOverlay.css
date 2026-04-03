@@ -31,35 +31,38 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3rem;
+  padding: 1rem;
   backdrop-filter: blur(1.5px);
 }
 
 .overlay-content {
   position: relative;
-  width: min(100%, 720px);
+  width: min(100%, 368px);
   max-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.overlay-image {
-  width: 100%;
-  max-height: min(70vh, 620px);
-  object-fit: contain;
-  display: block;
-  border-radius: 0.9rem;
+  padding: 0.35rem;
+  border-radius: 0.85rem;
   background: #fff;
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.26);
 }
 
+.overlay-image {
+  width: 100%;
+  max-height: 62vh;
+  object-fit: contain;
+  display: block;
+  border-radius: 0.55rem;
+  background: #fff;
+}
+
 .overlay-close-button {
   position: absolute;
-  top: 0.9rem;
-  right: 0.9rem;
-  width: 2rem;
-  height: 2rem;
+  top: 0.95rem;
+  right: 1rem;
+  width: 28px;
+  height: 28px;
   border: 0;
   border-radius: 999px;
   background: rgba(17, 17, 17, 0.74);
@@ -72,10 +75,11 @@
 }
 
 .overlay-close-icon {
-  width: 0.95rem;
-  height: 0.95rem;
+  width: 15px;
+  height: 15px;
   display: block;
-  stroke-width: 2.35;
+  stroke-width: 2.45;
+  flex-shrink: 0;
 }
 
 .overlay-close-button:hover,
@@ -84,31 +88,32 @@
   transform: scale(1.02);
 }
 
-@media (max-width: 640px), (hover: none) and (pointer: coarse) {
+@media (min-width: 641px) {
   .overlay-backdrop {
-    padding: 1rem;
+    padding: 3rem;
   }
 
   .overlay-content {
-    width: min(100%, 368px);
+    width: min(100%, 720px);
+    padding: 0.55rem;
+    border-radius: 1.1rem;
   }
 
   .overlay-image {
-    max-height: 62vh;
-    border-radius: 0.7rem;
+    max-height: min(70vh, 620px);
+    border-radius: 0.95rem;
   }
 
   .overlay-close-button {
-    top: 0.4rem;
-    right: 0.4rem;
-    width: 28px;
-    height: 28px;
+    top: 1.29rem;
+    right: 1.29rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   .overlay-close-icon {
-    width: 15px;
-    height: 15px;
-    stroke-width: 2.45;
-    flex-shrink: 0;
+    width: 0.95rem;
+    height: 0.95rem;
+    stroke-width: 2.35;
   }
 }
