@@ -94,7 +94,7 @@ const About = () => {
         </div>*/}
 
         <header>
-          <h2 className="about-title">Experience overview</h2>
+          <h2 className="about-title">Project overview</h2>
         </header>
 
         <ul className="experience-section">
