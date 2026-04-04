@@ -4,6 +4,55 @@
     gap: 2.5rem;
     padding: 0 1rem;
   }
+
+  .projects-toggle {
+    display: none;
+  }
+
+  .projects-toggle-status {
+    color: #7a7a7a;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+  }
+
+  .projects-toggle-separator {
+    width: 4px;
+    height: 4px;
+    border-radius: 999px;
+    background-color: #d8d8d8;
+    flex-shrink: 0;
+  }
+
+  .projects-toggle-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #111111;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    padding: 0;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.22em;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease, opacity 0.2s ease;
+  }
+
+  .projects-toggle-button:hover {
+    color: #111111;
+    text-decoration-color: currentColor;
+    opacity: 0.78;
+  }
+
+  .projects-toggle-button:focus-visible {
+    outline: 2px solid rgba(17, 17, 17, 0.12);
+    outline-offset: 3px;
+  }
   
   .categories {
     margin: 0.01rem 0 2.3rem 0;
@@ -50,6 +99,10 @@
       justify-items: center; 
     }
 
+    .projects-toggle {
+      margin-top: 4rem;
+    }
+
     .categories {
       display: flex;
       justify-content: center;
@@ -61,6 +114,17 @@
     
     .categories button {
       padding: 0.6rem 1.2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .projects-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.55rem;
+      margin-top: 2.15rem;
+      padding: 0 1rem;
     }
   }
   
