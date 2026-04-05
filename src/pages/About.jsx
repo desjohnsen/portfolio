@@ -93,74 +93,78 @@ const About = () => {
           </div>
         </div>*/}
 
-        <header>
-          <h2 className="about-title">Project overview</h2>
-        </header>
+        <section className="about-projects">
+          <header>
+            <h2 className="about-title">Project overview</h2>
+          </header>
 
-        <ul className="experience-section">
-          <li className="about-text">
-            <strong>Chas Challenge – Järfällahus (2025)</strong>
-            <br />
-            • Team of 11 (UX, DevOps, Fullstack)
-            <br />
-            • UX research, wireframes, interactive prototypes
-            <br />
-            • Usability testing & design iteration
-            <br />
-            • Accessibility-focused design
-            <br />
-            • Agile Scrum workflow
-          </li>
-          <li className="about-text">
-            <strong>Mobile App – Mission: Usage Impossible (2025)</strong>
-            <br />
-            • Two-person project
-            <br />
-            • React Native, Expo, Firebase Authentication
-            <br />
-            • Retro-inspired UI
-            <br />
-            • Playful interaction design
-          </li>
-          <li className="about-text">
-            <strong>Online Shop Project (2025)</strong>
-            <br />
-            • Team of 6 UX students
-            <br />
-            • Wireframes & mockups in Figma
-            <br />
-            • Frontend with React, Vite, react-router-dom
-            <br />
-            • Integrated existing API
-            <br />
-            • Responsive design
-            <br />
-            • GitHub collaboration
-          </li>
-          <li className="about-text">
-            <strong>Visual Identity & UX Design – Chowa (2024)</strong>
-            <br />
-            • Identified user need and designed solution
-            <br />
-            • Created visual identity: colors, typography, logo
-            <br />
-            • Built component library
-            <br />
-            • Lo-fi → hi-fi wireframes
-            <br />
-            • Interactive prototype in Figma
-          </li>
-        </ul>
+          <ul className="experience-section">
+            <li className="about-text">
+              <strong>Chas Challenge – Järfällahus (2025)</strong>
+              <br />
+              • Team of 11 (UX, DevOps, Fullstack)
+              <br />
+              • UX research, wireframes, interactive prototypes
+              <br />
+              • Usability testing & design iteration
+              <br />
+              • Accessibility-focused design
+              <br />
+              • Agile Scrum workflow
+            </li>
+            <li className="about-text">
+              <strong>Mobile App – Mission: Usage Impossible (2025)</strong>
+              <br />
+              • Two-person project
+              <br />
+              • React Native, Expo, Firebase Authentication
+              <br />
+              • Retro-inspired UI
+              <br />
+              • Playful interaction design
+            </li>
+            <li className="about-text">
+              <strong>Online Shop Project (2025)</strong>
+              <br />
+              • Team of 6 UX students
+              <br />
+              • Wireframes & mockups in Figma
+              <br />
+              • Frontend with React, Vite, react-router-dom
+              <br />
+              • Integrated existing API
+              <br />
+              • Responsive design
+              <br />
+              • GitHub collaboration
+            </li>
+            <li className="about-text">
+              <strong>Visual Identity & UX Design – Chowa (2024)</strong>
+              <br />
+              • Identified user need and designed solution
+              <br />
+              • Created visual identity: colors, typography, logo
+              <br />
+              • Built component library
+              <br />
+              • Lo-fi → hi-fi wireframes
+              <br />
+              • Interactive prototype in Figma
+            </li>
+          </ul>
+        </section>
 
-      {/* MOBILE ONLY: Profile picture under "About me" */}
-        <div className="mobile-pic">
-          <img src={profilePicMobile} alt="Profile mobile" className="about-image" />
+        <div className="about-signoff">
+        {/* MOBILE ONLY: Profile picture under "About me" */}
+          <div className="mobile-pic">
+            <img src={profilePicMobile} alt="Profile mobile" className="about-image" />
+          </div>
+
+          <p className="about-text about-signoff-text">
+            Designed and built by me with React.js and Vite, this portfolio combines
+            design and frontend development
+          </p>
         </div>
-
-        <p className="about-text" style={{ fontStyle: "italic", color: "#888" }}>
-          Designed and built by me with React.js and Vite, this portfolio combines
-          design and frontend development
-        </p>
       </div>
 
       {/* Desktop/Tablet: Original aside layout; mobile order handled separately */}
