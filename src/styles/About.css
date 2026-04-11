@@ -161,29 +161,13 @@
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.about-projects {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.about-signoff {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.2rem;
-  margin-top: 0.55rem;
-  padding-top: 0.7rem;
+  padding-left: 0;  
 }
 
 .mobile-pic {
   display: block; /* Only visible on mobile */
   text-align: center;
-  margin: 0;
+  margin: 0.95rem 0 0.1rem;
 }
 
 .mobile-pic img {
@@ -192,13 +176,6 @@
   height: auto;
   object-fit: cover;
   border-radius: 0.5rem;
-}
-
-.about-signoff-text {
-  margin-bottom: 0;
-  font-style: italic;
-  color: #888;
-  text-align: center;
 }
 
 .mobile-skills {
@@ -260,50 +237,10 @@
   }
 }
 
-@media (max-width: 767px) {
-  .experience-section {
-    gap: 0;
-  }
-
-  .experience-section .about-text {
-    margin-bottom: 0;
-    padding: 0.72rem 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
-    border: none;
-    border-bottom: 1px solid #e5e5e5;
-  }
-
-  .about-projects .about-title {
-    margin-bottom: 0.45rem;
-  }
-
-  .experience-section li:last-child {
-    border-bottom: none;
-  }
-
-}
-
 @media (min-width: 768px) {
   .mobile-pic,
   .mobile-skills {
     display: none;
-  }
-
-  .about-projects {
-    gap: 0;
-  }
-
-  .about-signoff {
-    display: block;
-    margin-top: 0;
-    padding-top: 0;
-    border-top: none;
-  }
-
-  .about-signoff-text {
-    text-align: left;
   }
 
   .about-image-wrapper {
