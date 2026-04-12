@@ -112,7 +112,7 @@ const About = () => {
             • Agile Scrum workflow
           </li>
           <li className="about-text">
-            <strong>Mobile App – Mission: Usage Impossible (2025)</strong>
+            <strong>Mission: Usage Impossible (2025)</strong>
             <br />
             • Two-person project
             <br />
@@ -123,7 +123,7 @@ const About = () => {
             • Playful interaction design
           </li>
           <li className="about-text">
-            <strong>Online Shop Project (2025)</strong>
+            <strong>Online Shop (2025)</strong>
             <br />
             • Team of 6 UX students
             <br />
@@ -138,7 +138,7 @@ const About = () => {
             • GitHub collaboration
           </li>
           <li className="about-text">
-            <strong>Visual Identity & UX Design – Chowa (2024)</strong>
+            <strong>Chowa (2024)</strong>
             <br />
             • Identified user need and designed solution
             <br />
