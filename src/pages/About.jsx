@@ -93,62 +93,43 @@ const About = () => {
           </div>
         </div>*/}
 
-        <header>
-          <h2 className="about-title">Project overview</h2>
+        <header className="experience-header">
+          <h2 className="about-title">Experience overview</h2>
         </header>
 
         <ul className="experience-section">
           <li className="about-text">
-            <strong>Chas Challenge – Järfällahus (2025)</strong>
+            <strong>UX Design Intern – Svenska Spel (Ongoing)</strong>
             <br />
-            • Team of 11 (UX, DevOps, Fullstack)
+            • Working in an agile, cross-functional environment
             <br />
-            • UX research, wireframes, interactive prototypes
+            • Aligning UX with business and technical goals
             <br />
-            • Usability testing & design iteration
+            • Journey mapping and friction point analysis
             <br />
-            • Accessibility-focused design
-            <br />
-            • Agile Scrum workflow
+            • Building component for the 'Nova' design system
           </li>
           <li className="about-text">
-            <strong>Mission: Usage Impossible (2025)</strong>
+            <strong>UI Design Intern – Sundbybergs stad</strong>
             <br />
-            • Two-person project
+            • Designed UI for the landing page
             <br />
-            • React Native, Expo, Firebase Authentication
+            • Improved hierarchy, structure, and clarity
             <br />
-            • Retro-inspired UI
+            • Collaborated with strategists & external agency
             <br />
-            • Playful interaction design
+            • Designs selected and implemented on the live site
           </li>
           <li className="about-text">
-            <strong>Online Shop (2025)</strong>
+            <strong>UX Research – Domira</strong>
             <br />
-            • Team of 6 UX students
+            • Conducted usability testing of the mobile app
             <br />
-            • Wireframes & mockups in Figma
+            • Identified key pain points and unclear flows
             <br />
-            • Frontend with React, Vite, react-router-dom
+            • Proposed improvements to user flows
             <br />
-            • Integrated existing API
-            <br />
-            • Responsive design
-            <br />
-            • GitHub collaboration
-          </li>
-          <li className="about-text">
-            <strong>Chowa (2024)</strong>
-            <br />
-            • Identified user need and designed solution
-            <br />
-            • Created visual identity: colors, typography, logo
-            <br />
-            • Built component library
-            <br />
-            • Lo-fi → hi-fi wireframes
-            <br />
-            • Interactive prototype in Figma
+            • Suggested UI refinements
           </li>
         </ul>
 
@@ -157,7 +138,7 @@ const About = () => {
           <img src={profilePicMobile} alt="Profile mobile" className="about-image" />
         </div>
 
-        <p className="about-text" style={{ fontStyle: "italic", color: "#888" }}>
+        <p className="about-text about-signoff" style={{ fontStyle: "italic", color: "#888" }}>
           Designed and built by me with React.js and Vite, this portfolio combines
           design and frontend development
         </p>

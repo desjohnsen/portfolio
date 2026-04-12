@@ -44,6 +44,10 @@
   text-align: center;
 }
 
+.experience-header {
+  margin-top: 0;
+}
+
 .about-text {
   font-size: 0.77rem;
   color: var(--gray-text);
@@ -53,6 +57,10 @@
   text-align: left;
   margin-left: 0;
   margin-right: 0;
+}
+
+.about-signoff {
+  margin-top: 0;
 }
 
 .about-image-wrapper {
@@ -246,7 +254,7 @@
   .about-image-wrapper {
     display: flex;
     order: 0;
-    margin-top: 3.9rem;
+    margin-top: 5.6rem;
   }
 
   .about-section {
@@ -272,11 +280,27 @@
     font-size: 1.6rem;
   }
 
+  .experience-header {
+    margin-top: 1.69rem;
+  }
+
   .about-text {
     font-size: 0.85rem;
     max-width: 39.8ch;
     margin-right: 5px;
     margin-left: 56px;
+  }
+
+  .experience-section > .about-text {
+    margin-bottom: 1.4rem;
+  }
+
+  .experience-section > .about-text:last-child {
+    margin-bottom: 0;
+  }
+
+  .about-signoff {
+    margin-top: 1.7rem;
   }
 
   .skills-grid {
