@@ -21,7 +21,7 @@ export const projects = [
     slug: "chowa",
     legacyId: "2",
     image: Chowa,
-    tags: ["Branding"],
+    tags: ["Concept"],
     customClass: "green-background",
     category: "UX/UI",
   },
