@@ -17,6 +17,16 @@ export const projects = [
     category: "UX/UI",
   },
   {
+    title: "VOLONTÄRPOOLEN",
+    description: "",
+    slug: "volontarpoolen",
+    legacyId: "6",
+    image: Volontarpool,
+    tags: ["Crisis Response"],
+    customClass: "orange-background",
+    category: "UX/UI",
+  },
+  {
     title: "CHOWA",
     description: "",
     slug: "chowa",
@@ -36,16 +46,6 @@ export const projects = [
     buttonLabel: "Read more →",
     customClass: "gray-background",
     category: "Frontend",
-  },
-  {
-    title: "VOLONTÄRPOOLEN",
-    description: "",
-    slug: "volontarpoolen",
-    legacyId: "6",
-    image: Volontarpool,
-    tags: ["Crisis Response"],
-    customClass: "orange-background",
-    category: "UX/UI",
   },
   {
     title: "MUSIC FESTIVAL",
