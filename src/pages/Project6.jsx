@@ -202,7 +202,7 @@ const Project6 = () => {
         </p>
 
         <p>
-          <strong>Future Focus:</strong> With more time, I would use <strong>usability testing</strong> to further develop social features. Comparing progress with friends or followers could further drive engagement and lower the entry barrier for new volunteers.
+          <strong>Future Explorations:</strong> Given more time, I would have liked to further explore and validate social features through <strong>usability testing</strong>, such as progress comparison with friends or followers, to further drive long-term engagement and lower the entry barrier for new volunteers.
         </p>
 
         <div className="project-actions">
