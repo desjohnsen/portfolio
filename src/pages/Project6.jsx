@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectLayout from "../components/ProjectLayout";
 import ImageOverlay from "../components/ImageOverlay";
-import volontarpoolenImage from "../assets/images/volontarpool.png";
+import volontarpoolenImage from "../assets/images/volontarpoolen.png";
 
 const Project6 = () => {
   return (
