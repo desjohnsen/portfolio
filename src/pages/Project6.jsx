@@ -123,7 +123,7 @@ const Project6 = () => {
         </p>
 
         <p>
-          <strong>My Role:</strong> Working in a team of five UX designers, I focused on the post-onboarding experience. I took ownership of designing the personal hub "Min Profil" <strong>(My Profile)</strong> and the technical settings architecture to ensure long-term retention and trust.
+          <strong>My Role:</strong> Working in a team of five UX designers, I focused on the post-onboarding experience. I was responsible for designing the personal hub "Min Profil" <strong>(My Profile)</strong> and the technical settings architecture to ensure long-term retention and trust.
         </p>
       </section>
 
@@ -158,6 +158,10 @@ const Project6 = () => {
         <p>
           <strong>Visual Trust:</strong> To build immediate credibility, we established a visual identity that balances warmth with professionalism. We paired the serif typeface <strong>Merriweather</strong> for headings with the clean sans-serif <strong>Lexend</strong> for functional text. The palette utilizes sunset oranges and muted teals to feel authentic, while the heart-handshake logo serves as a visual metaphor for the platform's core values of community and mutual support.
         </p>
+
+        <p>
+          <strong>Crisis Mode & Low Bandwidth:</strong> During emergencies, the platform shifts focus to support rapid response through a <strong>Map First</strong> approach, helping users immediately locate where help is needed. To ensure reliability on poor rural connections, we developed a <strong>Low Bandwidth Mode</strong> stripped of heavy assets. This optimization <strong>reduces cognitive load</strong>, enabling clearer decision making in high pressure situations.
+        </p>
        
        <p>
           <strong>Personal Hub:</strong> I designed <strong>"Min Profil"</strong> with a clear navigation bar consisting of three main tabs for saved favorites, volunteer opportunities, and settings, allowing users to manage their commitments and interests separately.
@@ -189,17 +193,16 @@ const Project6 = () => {
 
       <section id="reflection" className="project-content">
         <h2>Reflection</h2>
-        
         <p>
-          <strong>Defining the MVP:</strong> Balancing everyday volunteering with emergency preparedness required a systems-oriented approach. This project taught me how to prioritize core features for an <strong>MVP</strong>, such as ensuring functionality even in <strong>low-bandwidth rural areas</strong>, to maintain a consistent experience for all stakeholders.
+          <strong>Strategic MVP:</strong> Prioritizing the <strong>MVP</strong> taught me to focus on what truly matters in a crisis. Ensuring functionality in <strong>low-bandwidth areas</strong> was essential to create a reliable experience for the entire community.
         </p>
 
         <p>
-          <strong>Design for Crisis:</strong> This project reinforced that UX must adapt to the user’s context. During a crisis, we must minimize cognitive load and prioritize speed. In contrast, for the <strong>"My Profile"</strong> section, the focus shifts toward providing a sense of competence and managing the social rewards of helping others.
+          <strong>Adaptive Design:</strong> This project proved that UX must change with the context. While crisis response requires speed and minimal cognitive load, the <strong>"My Profile"</strong> section focuses on long-term engagement by highlighting personal accomplishments and social impact.
         </p>
 
         <p>
-          <strong>Future Explorations:</strong> Given more time, I would have liked to further explore and validate social features through <strong>usability testing</strong>, such as progress comparison with friends or followers, to further drive long-term engagement.
+          <strong>Future Focus:</strong> With more time, I would use <strong>usability testing</strong> to further develop social features. Comparing progress with friends or followers could further drive engagement and lower the entry barrier for new volunteers.
         </p>
 
         <div className="project-actions">
