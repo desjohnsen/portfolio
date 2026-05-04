@@ -1,5 +1,6 @@
 import Chowa from "../assets/images/Chowa.png";
 import Jarfallahus from "../assets/images/jarfallahus-desktop.png";
+import Volontarpool from "../assets/images/volontarpoolen.png";
 import Todo from "../assets/images/todo.png";
 import Musicfestival from "../assets/images/music-festival.png";
 import MissionImpossible from "../assets/images/mission-usage-impossible.png";
@@ -11,7 +12,7 @@ export const projects = [
     slug: "jarfallahus",
     legacyId: "1",
     image: Jarfallahus,
-    tags: ["Team project"],
+    tags: ["Community"],
     customClass: "blue-background",
     category: "UX/UI",
   },
@@ -37,6 +38,16 @@ export const projects = [
     category: "Frontend",
   },
   {
+    title: "VOLONTÄRPOOLEN",
+    description: "",
+    slug: "volontarpoolen",
+    legacyId: "6",
+    image: Volontarpool,
+    tags: ["Platform"],
+    customClass: "orange-background",
+    category: "UX/UI",
+  },
+  {
     title: "MUSIC FESTIVAL",
     description: "",
     slug: "music-festival",
@@ -55,7 +66,7 @@ export const projects = [
     image: Todo,
     tags: ["React + Vite"],
     buttonLabel: "Read more →",
-    customClass: "beige-background",
+    customClass: "yellow-background",
     category: "Frontend",
   },
 ];

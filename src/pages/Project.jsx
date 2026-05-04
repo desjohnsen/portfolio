@@ -5,6 +5,7 @@ import Project2 from './Project2';
 import Project3 from './Project3';
 import Project4 from './Project4';
 import Project5 from './Project5';
+import Project6 from './Project6';
 import { projects } from '../data/projects';
 
 const projectComponents = {
@@ -13,6 +14,7 @@ const projectComponents = {
   todo: Project3,
   "music-festival": Project4,
   "mission-usage-impossible": Project5,
+  volontarpoolen: Project6,
 };
 
 const Project = () => {

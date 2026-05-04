@@ -105,12 +105,12 @@ const About = () => {
             <br />
             • Aligning UX with business and technical goals
             <br />
-            • Journey mapping and friction point analysis
+            • Building UI components for the <i>Nova</i> platform
             <br />
-            • Building component for the 'Nova' design system
+            • Facilitating and participating in usability testing
           </li>
           <li className="about-text">
-            <strong>UI Design Intern – Sundbybergs stad</strong>
+            <strong>UX/UI Design Intern – Sundbybergs stad</strong>
             <br />
             • Designed UI for the landing page
             <br />
