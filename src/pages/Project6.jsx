@@ -104,7 +104,7 @@ const Project6 = () => {
                 transform: isMobile ? "translate(-2px, -2px)" : "scale(1.01)", 
                 transformOrigin: "center"
               }} 
-              src="https://embed.figma.com/proto/gE8tBe8gfCFd2T2DXvf5qd/Volont%C3%A4rpool?node-id=520-40204&p=f&viewport=422%2C309%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=520%3A40204&page-id=511%3A15459&embed-host=share&hide-ui=1" 
+              src="https://embed.figma.com/proto/iwdUMYZSS7o6jpVofYO0pf/Volont%C3%A4rpool-prototype?node-id=520-40204&p=f&viewport=422%2C309%2C0.02&scaling=scale-down-width&content-scaling=fixed&page-id=511%3A15459&starting-point-node-id=520%3A40204&embed-host=share&hide-ui=1" 
               allowFullScreen
               onLoad={() => setIsPrototypeReady(true)}
               title="Volontärpoolen Desktop Prototype"
@@ -207,7 +207,7 @@ const Project6 = () => {
 
         <div className="project-actions">
           <a
-            href="https://www.figma.com/proto/gE8tBe8gfCFd2T2DXvf5qd/Volont%C3%A4rpool?node-id=520-40204&p=f&viewport=422%2C309%2C0.02&t=zOAqa1LIFrTLpsiD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=520%3A40204&page-id=511%3A15459"
+            href="https://www.figma.com/proto/iwdUMYZSS7o6jpVofYO0pf/Volont%C3%A4rpool-prototype?node-id=520-40204&p=f&t=45uwyPAVWIjoZE7o-1&scaling=scale-down&content-scaling=fixed&page-id=511%3A15459&starting-point-node-id=520%3A40204"
             target="_blank"
             rel="noopener noreferrer"
             className="cta-button"

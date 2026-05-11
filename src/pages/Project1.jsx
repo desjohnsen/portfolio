@@ -116,7 +116,7 @@ const Project1 = () => {
                 opacity: isPrototypeLoading ? 0 : 1,
                 transition: "opacity 0.25s ease"
               }} 
-              src="https://embed.figma.com/proto/sVvwWCQcIqikcSiv57Vuud/J%C3%A4rf%C3%A4llahus?node-id=811-4643&starting-point-node-id=811%3A4643&scaling=scale-down-width&content-scaling=fixed&hide-ui=1&bg=ffffff&embed-host=share" 
+              src="https://embed.figma.com/proto/CzTfMyM44NyYI3Tm8rQGqo/J%C3%A4rf%C3%A4llahus--Copy-?node-id=811-4643&starting-point-node-id=811%3A4643&scaling=scale-down-width&content-scaling=fixed&hide-ui=1&bg=ffffff&page-id=68%3A2430&embed-host=share" 
               allowFullScreen
               onLoad={() => setIsPrototypeReady(true)}
               title="Järfällahus Interactive Prototype"
@@ -288,7 +288,7 @@ const Project1 = () => {
 
         <div className="project-actions">
           <a 
-            href="https://www.figma.com/proto/RF0gKgH7IwxrMxnB9VxU5u/J%C3%A4rf%C3%A4lla-Hus-Wireframes?node-id=811-2965&t=ytTDxxy6bfhO257L-1&starting-point-node-id=811%3A2965"
+            href="https://www.figma.com/proto/uMbwFMO11Iey1DSQDZOSip/J%C3%A4rf%C3%A4llahus-wireframes-prototype?node-id=1-4112&p=f&t=NW1dt95mjJ9uYUgI-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4112"
             target="_blank"
             rel="noopener noreferrer"
             className="cta-button"
