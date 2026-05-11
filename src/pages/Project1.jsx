@@ -116,7 +116,7 @@ const Project1 = () => {
                 opacity: isPrototypeLoading ? 0 : 1,
                 transition: "opacity 0.25s ease"
               }} 
-              src="https://embed.figma.com/proto/CzTfMyM44NyYI3Tm8rQGqo/J%C3%A4rf%C3%A4llahus--Copy-?node-id=811-4643&starting-point-node-id=811%3A4643&scaling=scale-down-width&content-scaling=fixed&hide-ui=1&bg=ffffff&page-id=68%3A2430&embed-host=share" 
+              src="https://embed.figma.com/proto/CzTfMyM44NyYI3Tm8rQGqo/J%C3%A4rf%C3%A4llahus-prototype?node-id=811-4643&starting-point-node-id=811%3A4643&scaling=scale-down-width&content-scaling=fixed&hide-ui=1&bg=ffffff&page-id=68%3A2430&embed-host=share" 
               allowFullScreen
               onLoad={() => setIsPrototypeReady(true)}
               title="Järfällahus Interactive Prototype"
