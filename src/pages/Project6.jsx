@@ -97,11 +97,11 @@ const Project6 = () => {
             <iframe 
               style={{ 
                 border: "none", 
-                width: "100%", 
-                height: "100%",
+                width: isMobile ? "calc(100% + 4px)" : "100%", 
+                height: isMobile ? "calc(100% + 4px)" : "100%",
                 opacity: isPrototypeLoading ? 0 : 1,
                 transition: "opacity 0.4s ease",
-                transform: isMobile ? "scale(1)" : "scale(1.01)", 
+                transform: isMobile ? "translate(-2px, -2px)" : "scale(1.01)", 
                 transformOrigin: "center"
               }} 
               src="https://embed.figma.com/proto/gE8tBe8gfCFd2T2DXvf5qd/Volont%C3%A4rpool?node-id=520-40204&p=f&viewport=422%2C309%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=520%3A40204&page-id=511%3A15459&embed-host=share&hide-ui=1" 
