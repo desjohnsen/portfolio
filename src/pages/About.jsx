@@ -45,9 +45,8 @@ const About = () => {
           accessible digital solutions.
         </p>
         <p className="about-text">
-          In high school, I studied aesthetics and media alongside programming
-          and web development, a balance of creativity and logic that still
-          shapes how I approach design and problem-solving.
+          My background in media, visual communication and web development gave me an early foundation 
+          in both creativity and logic, a combination that still shapes how I approach design and problem-solving.
         </p>
         <p className="about-text">
           As a UX/UI and Frontend student at Chas Academy, I’m now refining this
