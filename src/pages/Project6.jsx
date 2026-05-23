@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import ProjectLayout from "../components/ProjectLayout";
 import ImageOverlay from "../components/ImageOverlay";
 import volontarpoolImage from "../assets/images/volontarpoolen.png"; 
+import volontarpoolenStyleGuide from "../assets/images/volontarpoolenStyleGuide.png";
+import volontarpoolenCrisis from "../assets/images/volontarpoolenCrisis.png";
+import volontarpoolenClarity from "../assets/images/volontarpoolenClarity.png";
 import "../styles/ProjectLayout.css";
 
 const Project6 = () => {
@@ -123,7 +126,7 @@ const Project6 = () => {
         </p>
 
         <p>
-          <strong>My Role:</strong> Working in a team of five UX designers, I focused on the post-onboarding experience. I was responsible for designing the personal hub "Min Profil" <strong>(My Profile)</strong> and the technical settings architecture to ensure long-term retention and trust.
+          <strong>My Role:</strong> Working in a team of five UX designers, I focused on the post-onboarding experience. I was responsible for designing the personal hub <strong>"Min Profil"</strong> and the technical settings architecture to ensure long-term retention and trust.
         </p>
       </section>
 
@@ -159,9 +162,17 @@ const Project6 = () => {
           <strong>Visual Trust:</strong> To build immediate credibility, we established a visual identity that balances warmth with professionalism. We paired the serif typeface <strong>Merriweather</strong> for headings with the clean sans-serif <strong>Lexend</strong> for functional text. The palette utilizes sunset oranges and muted teals to feel authentic, while the heart-handshake logo serves as a visual metaphor for the platform's core values of community and mutual support.
         </p>
 
+        <div className="project-image-wrapper">
+          <ImageOverlay src={volontarpoolenStyleGuide} alt="Volontärpoolen visual identity showcasing the logo and primary color palette with hex codes" />
+        </div>
+
         <p>
           <strong>Crisis Mode & Low Bandwidth:</strong> During emergencies, the platform shifts focus to support rapid response through a <strong>Map First</strong> approach, helping users immediately locate where help is needed. To ensure reliability on poor rural connections, we developed a <strong>Low Bandwidth Mode</strong> stripped of heavy assets. This optimization <strong>reduces cognitive load</strong>, enabling clearer decision making in high pressure situations.
         </p>
+
+        <div className="project-image-wrapper">
+          <ImageOverlay src={volontarpoolenCrisis} alt="Volontärpoolen Crisis Mode interface, highlighting the map-first approach and low-bandwidth optimization" />
+        </div>
        
        <p>
           <strong>Personal Hub:</strong> I designed <strong>"Min Profil"</strong> with a clear navigation bar consisting of three main tabs for saved favorites, volunteer opportunities, and settings, allowing users to manage their commitments and interests separately.
@@ -174,10 +185,6 @@ const Project6 = () => {
         <p>
           <strong>Gamification Strategy:</strong> Although not fully implemented, I explored how triggering <strong>"dopamine loops"</strong> through trophies and levels could foster retention. By leveraging the <strong>Goal-Gradient Effect</strong>, users feel more motivated as they get closer to their next engagement milestone.
         </p>
-
-        <div className="project-image-wrapper">
-          <ImageOverlay src={volontarpoolImage} alt="Volontärpoolen Profile and Settings interface" />
-        </div>
       </section>
 
       <section id="outcome" className="project-content">
@@ -189,6 +196,13 @@ const Project6 = () => {
         <p>
           <strong>From Confusion to Clarity:</strong> Testing revealed that our initial use of checkbox icons was misinterpreted as interactive buttons. To resolve this, we transitioned to clear bullet points to present requirements as static information rather than actions. We also introduced a subtle background tint between sections to further improve scannability and structure.
         </p>
+        
+        <div className="project-image-wrapper">
+          <ImageOverlay 
+            src={volontarpoolenClarity} 
+            alt="Before and after design comparison showing the iteration from confusing checkbox icons to static bullet points for clarity" 
+          />
+        </div>
       </section>
 
       <section id="reflection" className="project-content">
