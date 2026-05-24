@@ -5,7 +5,6 @@ import PhoneImage from "../assets/images/jarfallahus.png";
 import GroupPhoto from "../assets/images/GroupPhoto.jpg";
 import ExperienceMap from "../assets/images/experiencemap.jpg";
 import UserArchetypes from "../assets/images/userarchetypes.jpg";
-import Quotes from "../assets/images/quotes.png";
 import "../styles/ProjectLayout.css";
 
 const Project1 = () => {
@@ -182,8 +181,42 @@ const Project1 = () => {
           From the interviews, several patterns emerged. Residents expressed low engagement and a lack of appealing local activities:
         </p>
 
-        <div className="project-image-wrapper">
-          <ImageOverlay src={Quotes} alt="Quotes" />
+        <div style={{ 
+          display: "flex", 
+          flexDirection: "column", 
+          gap: "1rem", 
+          margin: "1.5rem 0 2rem 0",
+          width: "100%"
+        }}>
+          <blockquote style={{
+            margin: 0,
+            backgroundColor: "#f7f9f6", 
+            borderLeft: "4px solid #588d34", 
+            padding: "1.25rem 1.5rem",
+            borderRadius: "0 0.5rem 0.5rem 0",
+            fontStyle: "italic",
+            color: "#444",
+            fontSize: "0.95rem",
+            lineHeight: "1.5",
+            textAlign: "left"
+          }}>
+            "I've attended events occasionally, but they're not particularly memorable."
+          </blockquote>
+
+          <blockquote style={{
+            margin: 0,
+            backgroundColor: "#f7f9f6",
+            borderLeft: "4px solid #588d34",
+            padding: "1.25rem 1.5rem",
+            borderRadius: "0 0.5rem 0.5rem 0",
+            fontStyle: "italic",
+            color: "#444",
+            fontSize: "0.95rem",
+            lineHeight: "1.5",
+            textAlign: "left"
+          }}>
+            "Not much happens in my area — if there were more, I'd probably be more engaged."
+          </blockquote>
         </div>
 
         <p>
@@ -241,10 +274,6 @@ const Project1 = () => {
         <p>
           <strong>Iterative testing:</strong> Throughout the process, we tested early prototypes with both our technical team to ensure feasibility and with local residents. Their feedback drove iterations on content clarity and interaction patterns, resulting in a more intuitive and engaging experience.
         </p>
-
-        <div className="project-image-wrapper">
-          <ImageOverlay src={PhoneImage} alt="Järfällahus app" />
-        </div>
       </section>
 
       <section id="outcome" className="project-content">
