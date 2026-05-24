@@ -126,7 +126,7 @@ const Project6 = () => {
         </p>
 
         <p>
-          <strong>My Role:</strong> Working in a team of five UX designers, I focused on the post-onboarding experience. I was responsible for designing the personal hub <strong>"Min Profil"</strong> and the technical settings architecture to ensure long-term retention and trust.
+          <strong>My Role:</strong> Working in a team of five UX designers, I focused on the post-onboarding experience. I was responsible for designing the personal hub <strong>"My Profile"</strong> and the technical settings architecture to ensure long-term retention and trust.
         </p>
       </section>
 
@@ -175,7 +175,7 @@ const Project6 = () => {
         </div>
        
        <p>
-          <strong>Personal Hub:</strong> I designed <strong>"Min Profil"</strong> with a clear navigation bar consisting of three main tabs for saved favorites, volunteer opportunities, and settings, allowing users to manage their commitments and interests separately.
+          <strong>Personal Hub:</strong> I designed <strong>"My Profile"</strong> with a clear navigation bar consisting of three main tabs for saved favorites, volunteer opportunities, and settings, allowing users to manage their commitments and interests separately.
         </p>
 
         <p>
@@ -196,7 +196,7 @@ const Project6 = () => {
         <p>
           <strong>From Confusion to Clarity:</strong> Testing revealed that our initial use of checkbox icons was misinterpreted as interactive buttons. To resolve this, we transitioned to clear bullet points to present requirements as static information rather than actions. We also introduced a subtle background tint between sections to further improve scannability and structure.
         </p>
-        
+
         <div className="project-image-wrapper">
           <ImageOverlay 
             src={volontarpoolenClarity} 
