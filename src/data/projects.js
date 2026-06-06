@@ -4,6 +4,8 @@ import Volontarpool from "../assets/images/volontarpoolen.png";
 import Todo from "../assets/images/todo.png";
 import Musicfestival from "../assets/images/music-festival.png";
 import MissionImpossible from "../assets/images/mission-usage-impossible.png";
+import SvenskaSpel from "../assets/images/svenska-spel-logo.jpg";
+import SundbybergsStad from "../assets/images/sundbybergs-stad-logo.png";
 
 export const projects = [
   {
@@ -24,6 +26,26 @@ export const projects = [
     image: Volontarpool,
     tags: ["Crisis Response"],
     customClass: "orange-background",
+    category: "UX/UI",
+  },
+  {
+    title: "SVENSKA SPEL",
+    description: "",
+    slug: "svenska-spel",
+    legacyId: "7",
+    image: SvenskaSpel,
+    tags: ["Internship"],
+    customClass: "white-background",
+    category: "UX/UI",
+  },
+  {
+    title: "SUNDBYBERGS STAD",
+    description: "",
+    slug: "sundbybergs-stad",
+    legacyId: "8",
+    image: SundbybergsStad,
+    tags: ["Internship"],
+    customClass: "white-background",
     category: "UX/UI",
   },
   {

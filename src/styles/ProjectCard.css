@@ -217,6 +217,39 @@
   }
 }
 
+.project-card.white-background .project-image {
+  background-color: #ffffff;
+}
+
+.project-card.white-background .image-wrapper {
+  height: 100%;
+}
+
+.project-card.white-background .image-wrapper img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+  mix-blend-mode: multiply;
+}
+
+.project-card.white-background .image-wrapper img {
+  max-width: 66%;
+  max-height: 62%;
+}
+
+@media (max-width: 767px) {
+  .project-card.white-background .project-image {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-card.white-background .project-image {
+    height: 294.5px;
+  }
+}
+
 @media (min-width: 1024px) {
   .case-study-btn {
     font-size: 0.9rem;
