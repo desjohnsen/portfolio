@@ -98,15 +98,15 @@ const About = () => {
 
         <ul className="experience-section">
           <li className="about-text">
-            <strong>UX Design Intern – Svenska Spel (Ongoing)</strong>
+            <strong>UX Design Intern – Svenska Spel</strong>
             <br />
-            • Working in an agile, cross-functional environment
+            • Worked in an agile, cross-functional environment
             <br />
-            • Aligning UX with business and technical goals
+            • Aligned UX with business and technical goals
             <br />
-            • Building UI components for the Nova platform
+            • Built UI components for the Nova platform
             <br />
-            • Facilitating and participating in usability tests
+            • Facilitated and participated in usability tests
           </li>
           <li className="about-text">
             <strong>UX/UI Design Intern – Sundbybergs stad</strong>
