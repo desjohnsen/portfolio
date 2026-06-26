@@ -39,24 +39,16 @@ const About = () => {
         </header>
 
         <p className="about-text">
-          I bring ideas to life through user-centered design and solid coding
-          skills. With hands-on experience in user research, wireframing,
-          prototyping and frontend development, I create intuitive and
-          accessible digital solutions.
+        For me, great design is about understanding people. With experience in user research, wireframing and frontend development, I focus on creating intuitive and accessible digital solutions.
         </p>
         <p className="about-text">
-          My background in media, visual communication and web development gave me an early foundation 
-          in both creativity and logic, a combination that still shapes how I approach design and problem-solving.
+        My early interest in media, visual communication and web development allowed me to connect creativity with logic. That foundation still guides my thinking, keeping me genuinely curious about both form and function.
         </p>
         <p className="about-text">
-          As a UX/UI and Frontend student at Chas Academy, I’m now refining this
-          approach by combining design thinking with technical execution to
-          create purposeful and visually engaging solutions.
+        As a UX/UI and Frontend graduate from Chas Academy, I focus on bridging the gap between design and code, ensuring visual layouts translate smoothly into working web applications.
         </p>
         <p className="about-text">
-          Driven by curiosity and a passion for design that makes a difference,
-          I approach every project with creativity, empathy and functional
-          precision.
+        Deeply committed to accessibility and inclusive design, I bring a collaborative spirit, empathy and a genuinely down-to-earth attitude to every project.
         </p>
 
          {/* MOBILE ONLY: Core skills placed before "Experience overview" 
