@@ -7,7 +7,7 @@ const Project7 = () => {
       title="Svenska Spel"
       subtitle="Internship"
       role="UX Design Intern"
-      timeframe="6 months"
+      timeframe="20 weeks"
       tools="Figma"
     />
   );

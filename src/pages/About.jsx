@@ -39,19 +39,25 @@ const About = () => {
         </header>
 
         <p className="about-text">
-        For me, great design is about understanding people. With experience in user research, wireframing and frontend development, I focus on creating intuitive and accessible digital solutions.
+          For me, great design is about understanding people. 
+          With experience in user research, wireframing and frontend development, 
+          I focus on creating intuitive and accessible digital solutions.
         </p>
         <p className="about-text">
-        My early interest in media, visual communication and web development allowed me to connect creativity with logic. That foundation still guides my thinking, keeping me genuinely curious about both form and function.
+          My early interest in media, visual communication and web development allowed me to connect creativity with logic. 
+          That foundation still guides my thinking, keeping me genuinely curious about both form and function.
         </p>
         <p className="about-text">
-        As a UX/UI and Frontend graduate from Chas Academy, I focus on bridging the gap between design and code, ensuring visual layouts translate smoothly into working web applications.
+          As a UX/UI and Frontend graduate from Chas Academy, 
+          I focus on bridging the gap between design and code, 
+          ensuring visual layouts translate smoothly into working web applications.
         </p>
         <p className="about-text">
-        Deeply committed to accessibility and inclusive design, I bring a collaborative spirit, empathy and a genuinely down-to-earth attitude to every project.
+          Deeply committed to accessibility and inclusive design, 
+          I bring a collaborative spirit, empathy and a genuinely down-to-earth attitude to every project.
         </p>
 
-         {/* MOBILE ONLY: Core skills placed before "Experience overview" 
+         {/* MOBILE ONLY: Core skills placed before "Experience overview"
          <div className="mobile-skills">
           <header className="skills-header">
             <h2 className="about-title">Core skills</h2>
