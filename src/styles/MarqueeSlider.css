@@ -13,12 +13,20 @@
 }
 
 .marquee {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  gap: 2rem;                
+  display: flex;
   align-items: center;
+  width: max-content;
   white-space: nowrap;
   animation: marqueeAnim 20s linear infinite;
+  will-change: transform;
+}
+
+.marquee-group {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 2rem;
+  padding-right: 2rem;
 }
 
 .marquee-item {
@@ -64,10 +72,10 @@
 
 @keyframes marqueeAnim {
   from {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -78,8 +86,9 @@
     padding-bottom: 1.5rem;
   }
 
-  .marquee {
+  .marquee-group {
     gap: 3rem;                 
+    padding-right: 3rem;
   }
 
   .marquee-container {

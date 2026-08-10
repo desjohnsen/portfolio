@@ -8,11 +8,39 @@ import '../styles/Home.css';
 
 const INITIAL_PROJECT_COUNT = 4;
 const DESKTOP_BREAKPOINT = 1024;
+const PROJECTS_EXPANDED_STORAGE_KEY = 'portfolioProjectsExpanded';
+
+const isPageReload = () => {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+
+  const navigationEntry = window.performance
+    ?.getEntriesByType('navigation')
+    ?.at(0);
+
+  return navigationEntry?.type === 'reload';
+};
+
+const getStoredProjectsExpanded = () => {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+
+  if (isPageReload()) {
+    window.sessionStorage.removeItem(PROJECTS_EXPANDED_STORAGE_KEY);
+    return false;
+  }
+
+  return window.sessionStorage.getItem(PROJECTS_EXPANDED_STORAGE_KEY) === 'true';
+};
 
 const Home = ({ projectSectionRef, contactSectionRef }) => {
   const [activeCategory, setActiveCategory] = useState('All');
-  const [showAllProjects, setShowAllProjects] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(false);
+  const [showAllProjects, setShowAllProjects] = useState(getStoredProjectsExpanded);
+  const [isDesktop, setIsDesktop] = useState(() => (
+    typeof window !== 'undefined' && window.innerWidth >= DESKTOP_BREAKPOINT
+  ));
   const toggleButtonRef = useRef(null);
 
   const categories = ["All", "UX/UI", "Frontend"];
@@ -32,6 +60,11 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
     shouldCollapseProjects && filteredProjects.length > INITIAL_PROJECT_COUNT;
 
   useEffect(() => {
+    if (activeCategory === "All") {
+      setShowAllProjects(getStoredProjectsExpanded());
+      return;
+    }
+
     setShowAllProjects(false);
   }, [activeCategory]);
 
@@ -46,15 +79,10 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
     return () => window.removeEventListener('resize', updateViewport);
   }, []);
 
-  useEffect(() => {
-    if (!shouldCollapseProjects) {
-      setShowAllProjects(false);
-    }
-  }, [shouldCollapseProjects]);
-
   const handleProjectToggle = () => {
     if (showAllProjects) {
       setShowAllProjects(false);
+      window.sessionStorage.setItem(PROJECTS_EXPANDED_STORAGE_KEY, 'false');
 
       window.requestAnimationFrame(() => {
         window.requestAnimationFrame(() => {
@@ -69,6 +97,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
     }
 
     setShowAllProjects(true);
+    window.sessionStorage.setItem(PROJECTS_EXPANDED_STORAGE_KEY, 'true');
   };
 
   return (

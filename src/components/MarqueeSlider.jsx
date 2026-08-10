@@ -14,11 +14,19 @@ const Marquee = () => {
   return (
     <div className="marquee-wrapper">
       <div className="marquee-container">
-        <div className="marquee">
-          {[...items, ...items].map((item, i) => (
-            <div className="marquee-item" key={i}>
-              <img src={item.src} alt={item.label} />
-              <span>{item.label}</span>
+        <div className="marquee" aria-label="Tools">
+          {[0, 1].map((groupIndex) => (
+            <div
+              className="marquee-group"
+              key={groupIndex}
+              aria-hidden={groupIndex === 1}
+            >
+              {items.map((item) => (
+                <div className="marquee-item" key={`${groupIndex}-${item.label}`}>
+                  <img src={item.src} alt={item.label} />
+                  <span>{item.label}</span>
+                </div>
+              ))}
             </div>
           ))}
         </div>
