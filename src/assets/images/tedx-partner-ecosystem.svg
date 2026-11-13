@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Hi TEDx partner ecosystem</title>
+  <desc id="description">TEDxStockholm contributes its brand and community, digital partners build and maintain the platform pro bono, and venue partners host in-person gatherings. Together they sustain the Hi TEDx network.</desc>
+  <rect width="1200" height="760" rx="32" fill="#f5f5f5"/>
+  <text x="600" y="86" text-anchor="middle" fill="#777" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">A MULTI-PARTNER MODEL</text>
+  <text x="600" y="137" text-anchor="middle" fill="#171717" font-family="Arial, sans-serif" font-size="38" font-weight="700">Shared effort keeps the community going</text>
+  <rect x="64" y="195" width="330" height="310" rx="22" fill="#fff" stroke="#e1e1e1" stroke-width="2"/>
+  <rect x="435" y="195" width="330" height="310" rx="22" fill="#fff" stroke="#e1e1e1" stroke-width="2"/>
+  <rect x="806" y="195" width="330" height="310" rx="22" fill="#fff" stroke="#e1e1e1" stroke-width="2"/>
+  <circle cx="112" cy="248" r="22" fill="#ed1c2e"/>
+  <text x="112" y="256" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="21" font-weight="700">01</text>
+  <text x="96" y="319" fill="#171717" font-family="Arial, sans-serif" font-size="27" font-weight="700">TEDxStockholm</text>
+  <text x="96" y="365" fill="#d7192d" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">BRINGS</text>
+  <text x="96" y="407" fill="#555" font-family="Arial, sans-serif" font-size="21">Brand · Community</text>
+  <text x="96" y="440" fill="#555" font-family="Arial, sans-serif" font-size="21">Trust · Ideas</text>
+  <circle cx="483" cy="248" r="22" fill="#ed1c2e"/>
+  <text x="483" y="256" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="21" font-weight="700">02</text>
+  <text x="467" y="319" fill="#171717" font-family="Arial, sans-serif" font-size="27" font-weight="700">Digital partners</text>
+  <text x="467" y="365" fill="#d7192d" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">CONTRIBUTE PRO BONO</text>
+  <text x="467" y="407" fill="#555" font-family="Arial, sans-serif" font-size="21">Build · Host</text>
+  <text x="467" y="440" fill="#555" font-family="Arial, sans-serif" font-size="21">Maintain · Moderate</text>
+  <circle cx="854" cy="248" r="22" fill="#ed1c2e"/>
+  <text x="854" y="256" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="21" font-weight="700">03</text>
+  <text x="838" y="319" fill="#171717" font-family="Arial, sans-serif" font-size="27" font-weight="700">Venue partners</text>
+  <text x="838" y="365" fill="#d7192d" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">MAKE SPACE FOR</text>
+  <text x="838" y="407" fill="#555" font-family="Arial, sans-serif" font-size="21">Curiosity Circles</text>
+  <text x="838" y="440" fill="#555" font-family="Arial, sans-serif" font-size="21">Skill Swaps · Idea Sprints</text>
+  <path d="M229 505v50h742v-50M600 505v52" fill="none" stroke="#b9b9b9" stroke-width="3"/>
+  <path d="m587 545 13 15 13-15" fill="none" stroke="#ed1c2e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="210" y="574" width="780" height="125" rx="20" fill="#111"/>
+  <text x="600" y="624" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="3">HI TEDX</text>
+  <text x="600" y="662" text-anchor="middle" fill="#d8d8d8" font-family="Arial, sans-serif" font-size="18" letter-spacing="2">A YEAR-ROUND IDEAS &amp; PEOPLE NETWORK</text>
+</svg>

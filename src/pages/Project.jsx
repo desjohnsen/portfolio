@@ -1,24 +1,18 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
-import Project1 from './Project1';
-import Project2 from './Project2';
-import Project3 from './Project3';
-import Project4 from './Project4';
-import Project5 from './Project5';
-import Project6 from './Project6';
-import Project7 from './Project7';
-import Project8 from './Project8';
 import { projects } from '../data/projects';
 
 const projectComponents = {
-  jarfallahus: Project1,
-  chowa: Project2,
-  todo: Project3,
-  "music-festival": Project4,
-  "mission-usage-impossible": Project5,
-  volontarpoolen: Project6,
-  "svenska-spel": Project7,
-  "sundbybergs-stad": Project8,
+  jarfallahus: lazy(() => import('./Project1')),
+  chowa: lazy(() => import('./Project2')),
+  todo: lazy(() => import('./Project3')),
+  "music-festival": lazy(() => import('./Project4')),
+  "mission-usage-impossible": lazy(() => import('./Project5')),
+  volontarpoolen: lazy(() => import('./Project6')),
+  "svenska-spel": lazy(() => import('./Project7')),
+  "sundbybergs-stad": lazy(() => import('./Project8')),
+  bonti: lazy(() => import('./Project9')),
+  tedxstockholm: lazy(() => import('./Project10')),
 };
 
 const Project = () => {
@@ -37,7 +31,11 @@ const Project = () => {
 
   const SelectedProject = projectComponents[matchedProject.slug];
 
-  return <SelectedProject />;
+  return (
+    <Suspense fallback={<div role="status">Loading project…</div>}>
+      <SelectedProject />
+    </Suspense>
+  );
 };
 
 export default Project;

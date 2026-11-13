@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Three tactile zones in the Bunddle organiser</title>
+  <desc id="desc">Ribbed texture for change essentials, smooth fabric for feeding essentials, and wave texture to separate personal items.</desc>
+  <rect width="1200" height="560" rx="38" fill="#f9f4ea"/>
+  <text x="72" y="88" fill="#191817" font-family="Arial, sans-serif" font-size="21" letter-spacing="3">DESIGNED TO BE FOUND BY FEEL</text>
+  <text x="72" y="146" fill="#191817" font-family="Georgia, serif" font-size="43">Three zones. Three tactile cues.</text>
+  <g transform="translate(72 198)">
+    <rect width="1056" height="94" rx="20" fill="#fff"/>
+    <rect x="20" y="18" width="58" height="58" rx="14" fill="#d9c1b3"/>
+    <path d="M32 24v46M42 24v46M52 24v46M62 24v46" stroke="#8f6958" stroke-width="3" opacity=".82"/>
+    <text x="106" y="39" fill="#191817" font-family="Arial, sans-serif" font-size="22" font-weight="700">CHANGE</text>
+    <text x="106" y="68" fill="#5d5852" font-family="Arial, sans-serif" font-size="18">Ribbed corduroy · nappies and hygiene essentials</text>
+    <text x="1005" y="57" text-anchor="end" fill="#877d71" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">QUICK ACCESS</text>
+  </g>
+  <g transform="translate(72 312)">
+    <rect width="1056" height="94" rx="20" fill="#fff"/>
+    <rect x="20" y="18" width="58" height="58" rx="14" fill="#e6ddd0"/>
+    <path d="M31 33h36M31 43h36M31 53h36M31 63h36" stroke="#a99c8b" stroke-width="2" opacity=".5"/>
+    <text x="106" y="39" fill="#191817" font-family="Arial, sans-serif" font-size="22" font-weight="700">FEED</text>
+    <text x="106" y="68" fill="#5d5852" font-family="Arial, sans-serif" font-size="18">Smooth canvas · feeding essentials together</text>
+    <text x="1005" y="57" text-anchor="end" fill="#877d71" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">EASY TO REACH</text>
+  </g>
+  <g transform="translate(72 426)">
+    <rect width="1056" height="94" rx="20" fill="#fff"/>
+    <rect x="20" y="18" width="58" height="58" rx="14" fill="#c7b4a7"/>
+    <path d="M25 34c8-10 16 10 24 0s16 10 24 0M25 48c8-10 16 10 24 0s16 10 24 0M25 62c8-10 16 10 24 0s16 10 24 0" fill="none" stroke="#866d5e" stroke-width="2.5"/>
+    <text x="106" y="39" fill="#191817" font-family="Arial, sans-serif" font-size="22" font-weight="700">COMFORT</text>
+    <text x="106" y="68" fill="#5d5852" font-family="Arial, sans-serif" font-size="18">Wave-textured nylon · personal items kept separate</text>
+    <text x="1005" y="57" text-anchor="end" fill="#877d71" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">SEPARATE &amp; FIND</text>
+  </g>
+</svg>

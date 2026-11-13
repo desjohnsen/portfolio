@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Hi TEDx matching concept</title>
+  <desc id="description">A sample question card invites people to explore whether technology can make us feel less alone, and meet someone curious about the same question.</desc>
+  <rect width="1200" height="760" rx="32" fill="#f5f5f5"/>
+  <rect x="120" y="70" width="960" height="620" rx="28" fill="#fff" stroke="#e5e5e5" stroke-width="2"/>
+  <path d="M148 70h904a28 28 0 0 1 28 28v52H120V98a28 28 0 0 1 28-28Z" fill="#111"/>
+  <text x="170" y="119" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="700">HI<tspan fill="#ed1c2e">TEDX</tspan></text>
+  <text x="1028" y="117" text-anchor="end" fill="#c7c7c7" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">IDEAS &amp; PEOPLE NETWORK</text>
+  <text x="190" y="198" fill="#d7192d" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">QUESTION 02 · TECH × HUMAN</text>
+  <text x="190" y="277" fill="#171717" font-family="Arial, sans-serif" font-size="48" font-weight="700">Can technology actually</text>
+  <text x="190" y="337" fill="#171717" font-family="Arial, sans-serif" font-size="48" font-weight="700">make us feel less alone?</text>
+  <text x="190" y="397" fill="#686868" font-family="Arial, sans-serif" font-size="23">Find one person who wants to explore the same question.</text>
+  <line x1="190" y1="452" x2="1010" y2="452" stroke="#e7e7e7" stroke-width="2"/>
+  <circle cx="229" cy="522" r="34" fill="#efefef"/>
+  <circle cx="229" cy="512" r="10" fill="#aaa"/>
+  <path d="M210 541c3-13 11-19 19-19s16 6 19 19" fill="#aaa"/>
+  <text x="285" y="515" fill="#171717" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="1">ALEX · VASASTAN</text>
+  <text x="285" y="548" fill="#777" font-family="Arial, sans-serif" font-size="18">8 people are curious</text>
+  <rect x="770" y="490" width="240" height="68" rx="34" fill="#ed1c2e"/>
+  <text x="890" y="533" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">I’M CURIOUS</text>
+  <rect x="120" y="610" width="960" height="80" rx="0 0 28 28" fill="#fafafa"/>
+  <text x="600" y="659" text-anchor="middle" fill="#555" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">FIND A TALK  →  FOLLOW THE IDEA  →  MEET THE PERSON</text>
+</svg>

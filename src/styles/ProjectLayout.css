@@ -157,6 +157,21 @@
   text-align: left;
 }
 
+.project-content blockquote {
+  max-width: 60ch;
+  margin: 1.35rem auto 1.75rem;
+  padding: 1.1rem 1.35rem;
+  border-left: 3px solid rgba(169, 154, 146, 0.45);
+  border-radius: 0 0.75rem 0.75rem 0;
+  background: #f9f4ea;
+  color: #333;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .project-image-wrapper {
   background: white;
   border-radius: 1.25rem;
@@ -173,6 +188,47 @@
   height: auto;
   padding: 1rem;
   display: block;
+}
+
+.project-content figure {
+  width: 100%;
+  max-width: 560px;
+  margin: 2rem auto;
+}
+
+.project-content figure .project-image-wrapper {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.bonti-figure {
+  width: 100%;
+  max-width: 560px;
+  margin: 2rem auto;
+}
+
+.bonti-visual {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background: #f9f4ea;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 26px rgba(31, 27, 23, 0.06);
+  margin: 0;
+}
+
+.bonti-visual .project-image {
+  padding: 0;
+}
+
+.project-content figcaption {
+  margin-top: 1.25rem;
+  color: #88837d;
+  font-size: 0.78rem;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .case-study-flex {

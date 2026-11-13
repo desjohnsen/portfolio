@@ -181,43 +181,13 @@ const Project1 = () => {
           From the interviews, several patterns emerged. Residents expressed low engagement and a lack of appealing local activities:
         </p>
 
-        <div style={{ 
-          display: "flex", 
-          flexDirection: "column", 
-          gap: "1rem", 
-          margin: "1.5rem 0 2rem 0",
-          width: "100%"
-        }}>
-          <blockquote style={{
-            margin: 0,
-            backgroundColor: "#f7f9f6", 
-            borderLeft: "4px solid #588d34", 
-            padding: "1.25rem 1.5rem",
-            borderRadius: "0 0.5rem 0.5rem 0",
-            fontStyle: "italic",
-            color: "#444",
-            fontSize: "0.95rem",
-            lineHeight: "1.5",
-            textAlign: "left"
-          }}>
+        <blockquote style={{ backgroundColor: "#f7f9f6", borderLeftColor: "#588d34" }}>
             "I've attended events occasionally, but they're not particularly memorable."
-          </blockquote>
+        </blockquote>
 
-          <blockquote style={{
-            margin: 0,
-            backgroundColor: "#f7f9f6",
-            borderLeft: "4px solid #588d34",
-            padding: "1.25rem 1.5rem",
-            borderRadius: "0 0.5rem 0.5rem 0",
-            fontStyle: "italic",
-            color: "#444",
-            fontSize: "0.95rem",
-            lineHeight: "1.5",
-            textAlign: "left"
-          }}>
+        <blockquote style={{ backgroundColor: "#f7f9f6", borderLeftColor: "#588d34" }}>
             "Not much happens in my area — if there were more, I'd probably be more engaged."
-          </blockquote>
-        </div>
+        </blockquote>
 
         <p>
           Based on the findings, <strong>three key insights were identified:</strong>

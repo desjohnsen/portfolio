@@ -6,8 +6,30 @@ import Musicfestival from "../assets/images/music-festival.png";
 import MissionImpossible from "../assets/images/mission-usage-impossible.png";
 import SvenskaSpel from "../assets/images/svenska-spel-logo.jpg";
 import SundbybergsStad from "../assets/images/sundbybergs-stad-logo.png";
+import BontiOrganizer from "../assets/images/bonti-organizer-card.png";
+import TEDxStockholm from "../assets/images/tedxstockholm-laptop-cutout.png";
 
 export const projects = [
+  {
+    title: "BONTI",
+    description: "",
+    slug: "bonti",
+    image: BontiOrganizer,
+    tags: ["Product Design"],
+    buttonLabel: "Case study →",
+    customClass: "white-background",
+    category: "UX/UI",
+  },
+  {
+    title: "TEDxSTOCKHOLM",
+    description: "",
+    slug: "tedxstockholm",
+    image: TEDxStockholm,
+    tags: ["Innovation Sprint"],
+    buttonLabel: "Case study →",
+    customClass: "gray-background",
+    category: "UX/UI",
+  },
   {
     title: "JÄRFÄLLAHUS",
     description: "",
@@ -26,28 +48,6 @@ export const projects = [
     image: Volontarpool,
     tags: ["Crisis Response"],
     customClass: "orange-background",
-    category: "UX/UI",
-  },
-  {
-    title: "SVENSKA SPEL",
-    description: "",
-    slug: "svenska-spel",
-    legacyId: "7",
-    image: SvenskaSpel,
-    tags: ["Internship"],
-    buttonLabel: "Read more →",
-    customClass: "white-background",
-    category: "UX/UI",
-  },
-  {
-    title: "SUNDBYBERGS STAD",
-    description: "",
-    slug: "sundbybergs-stad",
-    legacyId: "8",
-    image: SundbybergsStad,
-    tags: ["Internship"],
-    buttonLabel: "Read more →",
-    customClass: "white-background",
     category: "UX/UI",
   },
   {
@@ -92,5 +92,29 @@ export const projects = [
     buttonLabel: "Read more →",
     customClass: "yellow-background",
     category: "Frontend",
+  },
+  {
+    title: "SVENSKA SPEL",
+    description: "",
+    slug: "svenska-spel",
+    legacyId: "7",
+    image: SvenskaSpel,
+    tags: ["Internship"],
+    buttonLabel: "Read more →",
+    customClass: "white-background",
+    category: "UX/UI",
+    group: "internships",
+  },
+  {
+    title: "SUNDBYBERGS STAD",
+    description: "",
+    slug: "sundbybergs-stad",
+    legacyId: "8",
+    image: SundbybergsStad,
+    tags: ["Internship"],
+    buttonLabel: "Read more →",
+    customClass: "white-background",
+    category: "UX/UI",
+    group: "internships",
   },
 ];

@@ -42,6 +42,7 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
     typeof window !== 'undefined' && window.innerWidth >= DESKTOP_BREAKPOINT
   ));
   const toggleButtonRef = useRef(null);
+  const projectsCarouselRef = useRef(null);
 
   const categories = ["All", "UX/UI", "Frontend"];
 
@@ -100,58 +101,102 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
     window.sessionStorage.setItem(PROJECTS_EXPANDED_STORAGE_KEY, 'true');
   };
 
+  const moveProjectsCarousel = (direction) => {
+    const carousel = projectsCarouselRef.current;
+    if (!carousel) return;
+
+    carousel.scrollBy({
+      left: direction * carousel.clientWidth * 0.82,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <>
       <Hero />
       <MarqueeSlider />
 
       <div className="projects-section" ref={projectSectionRef}>
-        <div className="categories">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              className={cat === activeCategory ? "active" : ""}
-              onClick={() => setActiveCategory(cat)}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
+        {visibleProjects.length > 0 && (
+          <section className="project-group" aria-label="Projects">
+            <div className="categories">
+              {categories.map((cat) => (
+                <button
+                  key={cat}
+                  className={cat === activeCategory ? "active" : ""}
+                  onClick={() => setActiveCategory(cat)}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
 
-        <div className="projects-wrapper">
-          {visibleProjects.map((project) => (
-            <ProjectCard
-              key={project.slug}
-              title={project.title}
-              description={project.description}
-              projectSlug={project.slug}
-              image={project.image}
-              tags={project.tags}
-              buttonLabel={project.buttonLabel}
-              customClass={project.customClass}
-            />
-          ))}
-        </div>
-
-        {hasHiddenProjects && (
-          <div className="projects-toggle">
-            <span className="projects-toggle-status">
-              {showAllProjects
-                ? `Showing all ${filteredProjects.length} projects`
-                : `Showing ${INITIAL_PROJECT_COUNT} of ${filteredProjects.length} projects`}
-            </span>
-            <span className="projects-toggle-separator" aria-hidden="true" />
-            <button
-              ref={toggleButtonRef}
-              type="button"
-              className="projects-toggle-button"
-              onClick={handleProjectToggle}
-              aria-expanded={showAllProjects}
+            <div
+              className="projects-wrapper"
+              id="projects-carousel"
+              ref={projectsCarouselRef}
+              tabIndex={0}
+              role="region"
+              aria-label="Projects"
             >
-              {showAllProjects ? "Show less" : "Show all"}
-            </button>
-          </div>
+              {visibleProjects.map((project) => (
+                <ProjectCard
+                  key={project.slug}
+                  title={project.title}
+                  description={project.description}
+                  projectSlug={project.slug}
+                  image={project.image}
+                  coverType={project.coverType}
+                  tags={project.tags}
+                  buttonLabel={project.buttonLabel}
+                  customClass={project.customClass}
+                />
+              ))}
+            </div>
+
+            <div className="projects-carousel-controls" role="group" aria-label="Project carousel controls">
+              <button
+                type="button"
+                className="projects-carousel-button"
+                onClick={() => moveProjectsCarousel(-1)}
+                aria-label="Previous projects"
+                aria-controls="projects-carousel"
+              >
+                ‹
+              </button>
+              <button
+                type="button"
+                className="projects-carousel-button"
+                onClick={() => moveProjectsCarousel(1)}
+                aria-label="Next projects"
+                aria-controls="projects-carousel"
+              >
+                ›
+              </button>
+            </div>
+
+            {hasHiddenProjects && (
+              <div className="projects-toggle">
+                <span className="projects-toggle-status">
+                  {showAllProjects
+                    ? `Showing all ${filteredProjects.length} projects`
+                    : `Showing ${INITIAL_PROJECT_COUNT} of ${filteredProjects.length} projects`}
+                </span>
+                <span className="projects-toggle-separator" aria-hidden="true" />
+                <button
+                  ref={toggleButtonRef}
+                  type="button"
+                  className="projects-toggle-button"
+                  onClick={handleProjectToggle}
+                  aria-expanded={showAllProjects}
+                >
+                  {showAllProjects ? "Show less" : "Show all"}
+                </button>
+              </div>
+            )}
+          </section>
         )}
+
       </div>
 
       <Contact contactSectionRef={contactSectionRef} />
