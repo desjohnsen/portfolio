@@ -8,35 +8,33 @@ import tedxPartnerEcosystem from '../assets/images/tedx-partner-ecosystem.svg';
 const Project10 = () => (
   <ProjectLayout
     title="TEDxSTOCKHOLM"
-    subtitle="A year-round digital and physical ecosystem designed for TEDxStockholm to transform passive event attendees into an active, self-sustaining community."
-    role="Product Strategist"
+    subtitle="Turning passive event attendees into an active community"
+    role="UX Designer"
     timeframe="5 days"
-    tools="Figma"
+    tools="Design Sprint"
   >
     <section id="overview" className="project-content">
       <h2>Overview</h2>
       <p>
-        During a five-day Innovation Week sprint at Hyper Island, our cross-functional team collaborated with TEDxStockholm. As a volunteer-run organization with a globally recognized brand, they faced a core challenge: the energy and inspiration generated at their live events quickly faded once guests went home, leaving attendees passive between main-stage moments.
+        During a five-day Innovation Week sprint at Hyper Island, our cross-functional team of eight collaborated with <strong>TEDxStockholm</strong>. As a volunteer-run organization with zero budget, they needed a way to keep the energy alive between main-stage events.
       </p>
       <p>
-        Working in a multidisciplinary team of eight, I contributed across user research, concept strategy, and UX/UI design. My focus was on translating community insights into a tangible digital experience by designing the platform interface and shaping how digital matching connects to real-world meetups. Together, we developed Hi TEDx, a year-round “Ideas &amp; People Network” that acts as a third space between major events and everyday life. To respect TEDxStockholm’s strict zero-budget and volunteer-only constraints, we paired the platform with a strategic pro-bono partnership model where commercial partners fund, host, and provide physical spaces in exchange for brand association.
+        Focusing on user research, assumption testing, and concept strategy, I helped translate community insights into <strong>Hi TEDx</strong>, a year-round “third space” ecosystem backed by a self-sustaining pro-bono partnership model.
       </p>
     </section>
 
     <section id="problem" className="project-content">
       <h2>Problem</h2>
       <p>
-        While live events create intense bursts of inspiration, TEDxStockholm lacked a continuous ecosystem to keep members connected during the long stretches between events. Observations showed a stark contrast between offline and online engagement. At intimate Evening Experiences, audiences lingered for hours debating ideas, yet TEDxStockholm’s social media channels were nearly silent, suffering from minimal likes, comments, and interaction.
+        Live TEDx events spark intense inspiration, yet social channels went silent the day after, leaving attendees passive for months. Without paid staff or funding to moderate an open forum, any digital-only community risked degrading into spam and low-value noise.
       </p>
-      <p>
-        Any viable solution had to work within three non-negotiable operational constraints. There was zero budget to build, host, or maintain a complex platform, and the organization relied entirely on volunteers with limited spare time and no dedicated staff to moderate feeds or run daily social media. Without active moderation, an open digital community also faced a high risk of degrading into spam, ads, or low-value noise.
-      </p>
+      <blockquote>“How might we keep the TEDx spirit alive every day without a budget or full-time staff?”</blockquote>
     </section>
 
     <section id="research" className="project-content">
       <h2>Research</h2>
       <p>
-        To understand what keeps people engaged beyond the stage, we analyzed attendee behavior, reviewed past decentralized initiatives like TEDxStockholm Week, and interviewed community members. A clear pattern emerged showing that attendees do not just want to passively consume talks; they want to discuss, challenge, and explore ideas together. Because exclusive evening events run on tight guest lists, many curious minds are left outside the room still wanting to participate in the conversation.
+        Through assumption mapping, polls, and personal interviews with attendees, we tested whether people only attended TEDx for status and networking. The findings revealed that people did not want passive content feeds; they craved <strong>real-world debates</strong> and <strong>intimate group discussions</strong>.
       </p>
       <figure>
         <div className="project-image-wrapper">
@@ -48,14 +46,14 @@ const Project10 = () => (
         <figcaption>Conversation continues after the talks end.</figcaption>
       </figure>
       <p>
-        Instead of viewing the lack of budget as a dead end, we reframed TEDxStockholm’s biggest asset: its brand credibility. Our stakeholder insights showed that companies with real revenue actively want to be associated with TEDx to position themselves as innovative, forward-thinking, and idea-driven.
+        At the same time, stakeholder research uncovered TEDxStockholm’s greatest asset: <strong>brand credibility</strong>. Commercial companies actively want to associate with TEDx to position themselves as innovative, creating a clear opportunity for value exchange rather than cash sponsorship.
       </p>
     </section>
 
     <section id="design" className="project-content">
       <h2>Design</h2>
       <p>
-        We designed Hi TEDx to bridge digital discovery with physical connection. Users can browse and revisit every TEDx talk, and instead of the experience ending when the video stops, they can match with like-minded thinkers to continue the discussion. Borrowing intuitive mechanics from modern matching apps, users match based on shared curiosity, chat, and meet up in person. To remove social friction and eliminate small talk, we introduced structured micro-challenges, such as a 30-minute screen-free walk or a 15-minute focused coffee meetup.
+        We designed <strong>Hi TEDx</strong> to bridge digital discovery with physical connection. Instead of endless scrolling, users match with like-minded peers around shared questions using <strong>curated conversation prompts</strong> and <strong>guided micro-challenges</strong>, such as a 30-minute screen-free walk or a 15-minute focused coffee meetup.
       </p>
       <figure>
         <div className="project-image-wrapper">
@@ -67,7 +65,7 @@ const Project10 = () => (
         <figcaption>A question becomes an invitation to meet someone who shares your curiosity.</figcaption>
       </figure>
       <p>
-        To solve the maintenance and hosting dilemma without burdening volunteers, we designed a multi-partner ecosystem rather than relying on a single sponsor. Digital and tech partners such as Telia, Microsoft, and digital agencies host, build, and maintain the platform pro bono, utilizing AI-assisted moderation to keep volunteer workload near zero. Alongside them, physical “third space” partners like Espresso House, CONVENDUM, A House, and Norrsken provide accessible, low-barrier venues for recurring Curiosity Circles, Skill Swaps, and Idea Sprints.
+        To eliminate operational costs for volunteers, we built a <strong>three-way pro-bono ecosystem</strong>. Tech partners such as Telia and Microsoft host and maintain the platform using AI-assisted moderation, while physical “third space” partners like Espresso House, CONVENDUM, A House, and Norrsken provide accessible venues for Curiosity Circles, Skill Swaps, and Idea Sprints.
       </p>
       <figure>
         <div className="project-image-wrapper">
@@ -83,20 +81,20 @@ const Project10 = () => (
     <section id="outcome" className="project-content">
       <h2>Outcome</h2>
       <p>
-        Rather than treating the partnership model as pure theory, our team actively reached out to potential commercial partners during the five-day sprint to pitch the concept. The response validated our hypothesis, as every company we spoke to expressed strong interest in partnering with TEDxStockholm and wanted to book follow-up meetings right away to explore pro-bono collaboration.
+        Rather than treating partnerships as theory, our team pitched the concept directly to potential commercial partners during the sprint. Every company we spoke with expressed strong interest in partnering with TEDxStockholm and requested follow-up meetings to explore pro-bono collaboration.
       </p>
       <p>
-        By the end of the week, we delivered a complete growth blueprint to TEDxStockholm, combining a validated business model, a tangible digital prototype, and concrete partner leads ready for a six-week pilot.
+        By the end of the week, we delivered a complete <strong>Growth Blueprint</strong> combining a validated business model, warm partner leads for a six-week pilot, and an interactive concept site for Hi TEDx.
       </p>
     </section>
 
     <section id="reflection" className="project-content">
       <h2>Reflection</h2>
       <p>
-        Working under a five-day deadline with zero budget taught me that business feasibility and UX design are inseparable, because a great interface means nothing if the client lacks the resources to maintain it. The biggest insight from this project was realizing that online feeds often fail because they lack real-world stakes. By using digital tools simply as a catalyst to get people into a physical room, or out on a 30-minute walk, we solved the engagement problem in a way that feels authentically human.
+        Designing under a five-day deadline with zero budget proved that <strong>business feasibility and UX design are inseparable</strong>; a great concept means nothing if a volunteer team lacks the resources to maintain it.
       </p>
       <p>
-        Given more time, I would run usability tests on the matching and challenge flows with actual TEDx attendees to fine-tune the onboarding experience, ensuring it feels welcoming to newcomers rather than an exclusive insider club.
+        The biggest insight was realizing that online feeds often fail because they lack real-world stakes. By using digital tools purely as a catalyst to get people into a physical room or out on a 30-minute walk, we solved the engagement gap in a way that feels authentically human.
       </p>
     </section>
 
@@ -107,7 +105,7 @@ const Project10 = () => (
         rel="noopener noreferrer"
         className="cta-button primary"
       >
-        Live Demo
+        Visit Hi TEDx
       </a>
     </div>
   </ProjectLayout>
