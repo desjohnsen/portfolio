@@ -134,8 +134,12 @@ const About = () => {
         </ul>
 
         <p className="about-text about-signoff" style={{ fontStyle: "italic", color: "#888" }}>
-          Designed and built by me with React.js and Vite, this portfolio combines
-          design and frontend development
+          <span className="about-signoff-first-line">
+            Designed and built by me with React.js and Vite, this
+          </span>{" "}
+          <span className="about-signoff-second-line">
+            portfolio combines design and frontend development
+          </span>
         </p>
       </div>
 
