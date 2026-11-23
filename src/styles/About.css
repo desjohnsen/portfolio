@@ -527,11 +527,13 @@
   }
 
   .experience-header {
-    margin: 1.15rem 0 0.45rem;
+    margin: 3rem 0 0.9rem;
   }
 
   .experience-section {
-    gap: 0.4rem;
+    gap: 0.55rem;
+    margin: 0;
+    padding-left: 0;
   }
 
   .experience-section .about-text {
@@ -603,8 +605,8 @@
   }
 }
 
-/* Keep the landscape refinements active on phones whose CSS width crosses the tablet breakpoint. */
-@media (orientation: landscape) and (max-height: 500px) {
+/* Keep landscape refinements active across phone widths, including those above the tablet breakpoint. */
+@media (orientation: landscape) and (max-width: 1023px) {
   .about-signoff {
     width: 100%;
     max-width: 56ch;
@@ -624,6 +626,20 @@
     width: 82%;
     max-width: 230px;
     margin: 2.8rem 0 0.9rem;
+  }
+
+  .about-content .experience-header {
+    margin: 3rem 0 0.9rem;
+  }
+
+  .experience-section {
+    gap: 0.55rem;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .experience-section > .about-text {
+    margin: 0;
   }
 
   .about-image-wrapper .skills-header .about-title {
@@ -660,7 +676,7 @@
   }
 }
 
-@media (orientation: landscape) and (max-height: 500px) and (max-width: 767px) {
+@media (orientation: landscape) and (max-width: 767px) {
   .about-image-wrapper .skills-header .about-title {
     font-size: 1.35rem;
   }
