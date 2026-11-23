@@ -368,7 +368,7 @@
     box-sizing: border-box;
     width: calc(100% - 2rem);
     max-width: 440px;
-    margin: 3.5rem auto 3rem;
+    margin: 6rem auto 3rem;
     padding: 1.35rem 1.15rem 1.5rem;
     gap: 1.25rem;
     background: #fff;
@@ -390,13 +390,13 @@
   .mobile-pic {
     align-self: center;
     margin: 0.8rem 0 1.25rem;
-    padding: 0.15rem 0.15rem 0.05rem;
+    padding: 0;
     width: 142px;
     box-sizing: border-box;
-    background: #fff;
-    border: 1px solid #ededed;
-    border-radius: 0.65rem;
-    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.12);
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
     transform: none;
   }
 
@@ -416,7 +416,7 @@
   }
 
   .experience-header {
-    margin: 1.35rem 0 0.55rem;
+    margin: 1.8rem 0 0.55rem;
     text-align: left;
   }
 
@@ -425,19 +425,21 @@
   }
 
   .experience-section {
-    gap: 0.45rem;
+    gap: 0.55rem;
     margin: 0;
   }
 
   .experience-section .about-text {
+    box-sizing: border-box;
     max-width: none;
     margin: 0;
-    padding: 0;
-    border: 0;
-    border-radius: 0;
-    background: transparent;
-    font-size: 0.84rem;
-    line-height: 1.65;
+    padding: 0.85rem 0.9rem;
+    border: 1px solid #eeeeee;
+    border-radius: 0.9rem;
+    background: #fafafa;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.025);
+    font-size: 0.8rem;
+    line-height: 1.6;
   }
 
   .experience-section strong {
@@ -485,8 +487,104 @@
   }
 
   .about-signoff {
-    margin: 0.55rem 0 0;
+    margin: 1.5rem 0 0;
     text-align: center;
     font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .about-section {
+    width: calc(100% - 3rem);
+    max-width: 690px;
+    margin: 5rem auto 3rem;
+    padding: 1.25rem;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .mobile-pic,
+  .mobile-skills {
+    display: none;
+  }
+
+  .about-content {
+    flex: 1 1 58%;
+    min-width: 0;
+    margin-top: 0.4rem;
+  }
+
+  .about-content > header .about-title {
+    text-align: left;
+    margin-bottom: 0.8rem;
+  }
+
+  .about-text {
+    margin-bottom: 0.55rem;
+    font-size: 0.72rem;
+    line-height: 1.5;
+  }
+
+  .experience-header {
+    margin: 1.15rem 0 0.45rem;
+  }
+
+  .experience-section {
+    gap: 0.4rem;
+  }
+
+  .experience-section .about-text {
+    padding: 0.55rem 0.65rem;
+    font-size: 0.67rem;
+    line-height: 1.45;
+  }
+
+  .about-image-wrapper {
+    display: flex;
+    flex: 0 0 38%;
+    min-width: 0;
+    margin-top: 0.5rem;
+  }
+
+  .about-image-wrapper > .about-image {
+    width: 82%;
+    max-width: 190px;
+    border-radius: 0.45rem;
+  }
+
+  .about-image-wrapper .skills-header {
+    align-self: center;
+    margin: 0.8rem 0 0.4rem;
+  }
+
+  .about-image-wrapper .skills-header .about-title {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .about-image-wrapper .skills-grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+    margin: 0;
+  }
+
+  .about-image-wrapper .skill-card {
+    width: 100%;
+    height: 38px;
+    padding: 0;
+  }
+
+  .about-image-wrapper .card-front,
+  .about-image-wrapper .card-back {
+    font-size: 0.62rem;
+    padding: 0.25rem;
+  }
+
+  .about-signoff {
+    margin-top: 0.9rem;
+    font-size: 0.65rem;
   }
 }
