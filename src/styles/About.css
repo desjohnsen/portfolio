@@ -349,16 +349,20 @@
   .skills-grid {
     margin-left: 60px;
     margin-right: 60px;
-    gap: 0;
+    row-gap: 1.1rem;
   }
 
   .skill-card {
-    padding: 0.7rem 0rem;
+    padding: 0;
   }
 
   .skills-header {
     margin-left: -155px;
     margin-top: 56px;
+  }
+
+  .skills-header .about-title {
+    margin-bottom: 0.75rem;
   }
 }
 
