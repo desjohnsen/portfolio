@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import MarqueeSlider from "../components/MarqueeSlider";
 import ProjectCard from '../components/ProjectCard';
@@ -44,14 +45,13 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
   const toggleButtonRef = useRef(null);
   const projectsCarouselRef = useRef(null);
 
-  const categories = ["All", "UX/UI", "Frontend", "Internships"];
+  const categories = ["All", "UX/UI", "Frontend"];
+  const internshipProjects = projects.filter((project) => project.group === "internships");
 
   const filteredProjects =
     activeCategory === "All"
-      ? projects
-      : activeCategory === "Internships"
-        ? projects.filter((project) => project.group === "internships")
-        : projects.filter((project) => project.category === activeCategory);
+      ? projects.filter((project) => project.group !== "internships")
+      : projects.filter((project) => project.category === activeCategory && project.group !== "internships");
 
   const shouldCollapseProjects = isDesktop && activeCategory === "All";
 
@@ -119,6 +119,22 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
       <MarqueeSlider />
 
       <div className="projects-section" ref={projectSectionRef}>
+        {internshipProjects.length > 0 && (
+          <section className="internship-highlight" aria-labelledby="internship-highlight-title">
+            <div className="internship-highlight-intro">
+              <h2 id="internship-highlight-title">Internship experience</h2>
+            </div>
+            <div className="internship-highlight-links" aria-label="Internship case studies">
+              {internshipProjects.map((project, index) => (
+                <Link key={project.slug} to={`/project/${project.slug}`} className="internship-highlight-link">
+                  <span className="internship-highlight-index" aria-hidden="true">0{index + 1}</span>
+                  <span className="internship-highlight-name">{project.title}</span>
+                  <span className="internship-highlight-arrow" aria-hidden="true">→</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
         {visibleProjects.length > 0 && (
           <section className="project-group" aria-label="Projects">
             <div className="categories">
