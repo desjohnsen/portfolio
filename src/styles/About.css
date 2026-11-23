@@ -535,9 +535,13 @@
   }
 
   .experience-section .about-text {
-    padding: 0.55rem 0.65rem;
-    font-size: 0.67rem;
-    line-height: 1.45;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    font-size: 0.72rem;
+    line-height: 1.5;
   }
 
   .about-image-wrapper {
@@ -565,9 +569,10 @@
   }
 
   .about-image-wrapper .skills-grid {
-    width: 100%;
+    width: 82%;
+    max-width: 190px;
     grid-template-columns: 1fr;
-    gap: 0.25rem;
+    gap: 0.55rem;
     margin: 0;
   }
 
