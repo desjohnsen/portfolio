@@ -300,7 +300,7 @@
   }
 
   .about-signoff {
-    margin-top: 1.2rem;
+    margin-top: 0.2rem;
   }
 
   .skills-grid {
@@ -359,5 +359,134 @@
   .skills-header {
     margin-left: -155px;
     margin-top: 56px;
+  }
+}
+
+/* Mobile-only visual refresh. Tablet and desktop layouts remain unchanged. */
+@media (max-width: 767px) {
+  .about-section {
+    box-sizing: border-box;
+    width: calc(100% - 2rem);
+    max-width: 440px;
+    margin: 3.5rem auto 3rem;
+    padding: 1.35rem 1.15rem 1.5rem;
+    gap: 1.25rem;
+    background: #fff;
+    border: 1px solid rgba(17, 17, 17, 0.06);
+    border-radius: 1.5rem;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.055);
+  }
+
+  .about-content {
+    gap: 0.05rem;
+  }
+
+  .about-title {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.2;
+  }
+
+  .mobile-pic {
+    align-self: center;
+    margin: 0.8rem 0 1.25rem;
+    padding: 0.15rem 0.15rem 0.05rem;
+    width: 142px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #ededed;
+    border-radius: 0.65rem;
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.12);
+    transform: none;
+  }
+
+  .mobile-pic img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    margin-top: 0;
+    border-radius: 0.15rem;
+  }
+
+  .about-text {
+    max-width: none;
+    margin: 0 0 0.65rem;
+    font-size: 0.84rem;
+    line-height: 1.65;
+  }
+
+  .experience-header {
+    margin: 1.35rem 0 0.55rem;
+    text-align: left;
+  }
+
+  .experience-header .about-title {
+    text-align: left;
+  }
+
+  .experience-section {
+    gap: 0.45rem;
+    margin: 0;
+  }
+
+  .experience-section .about-text {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    font-size: 0.84rem;
+    line-height: 1.65;
+  }
+
+  .experience-section strong {
+    display: inline-block;
+    margin-bottom: 0.15rem;
+    color: #222;
+    line-height: 1.45;
+  }
+
+  .mobile-skills {
+    margin: 0.75rem 0 0;
+  }
+
+  .mobile-skills .skills-header {
+    margin: 0 0 0.75rem;
+  }
+
+  .mobile-skills .skills-header .about-title {
+    text-align: left;
+  }
+
+  .mobile-skills .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+  }
+
+  .mobile-skills .skill-card {
+    width: 100%;
+    height: 68px;
+    font-size: 0.7rem;
+  }
+
+  .mobile-skills .card-front,
+  .mobile-skills .card-back {
+    border-radius: 0.7rem;
+    padding: 0.45rem;
+  }
+
+  .mobile-skills .card-front {
+    font-size: 0.72rem;
+  }
+
+  .mobile-skills .card-back {
+    font-size: 0.63rem;
+  }
+
+  .about-signoff {
+    margin: 0.55rem 0 0;
+    text-align: center;
+    font-size: 0.72rem;
   }
 }

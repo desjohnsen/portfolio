@@ -38,6 +38,10 @@ const About = () => {
           <h2 className="about-title">About me</h2>
         </header>
 
+        <div className="mobile-pic">
+          <img src={profilePicMobile} alt="Portrait of Desirée Johnsen" className="about-image" />
+        </div>
+
         <p className="about-text">
           For me, great design is about understanding people. 
           With experience in user research, wireframing and frontend development, 
@@ -57,8 +61,7 @@ const About = () => {
           I bring a collaborative spirit, empathy and a genuinely down-to-earth attitude to every project.
         </p>
 
-         {/* MOBILE ONLY: Core skills placed before "Experience overview"
-         <div className="mobile-skills">
+        <div className="mobile-skills">
           <header className="skills-header">
             <h2 className="about-title">Core skills</h2>
           </header>
@@ -88,7 +91,7 @@ const About = () => {
               back={<>Building responsive,<br />interactive web interfaces</>}
             />
           </div>
-        </div>*/}
+        </div>
 
         <header className="experience-header">
           <h2 className="about-title">Experience overview</h2>
@@ -129,11 +132,6 @@ const About = () => {
             • Suggested UI refinements
           </li>
         </ul>
-
-      {/* MOBILE ONLY: Profile picture under "About me" */}
-        <div className="mobile-pic">
-          <img src={profilePicMobile} alt="Profile mobile" className="about-image" />
-        </div>
 
         <p className="about-text about-signoff" style={{ fontStyle: "italic", color: "#888" }}>
           Designed and built by me with React.js and Vite, this portfolio combines

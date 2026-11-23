@@ -44,12 +44,14 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
   const toggleButtonRef = useRef(null);
   const projectsCarouselRef = useRef(null);
 
-  const categories = ["All", "UX/UI", "Frontend"];
+  const categories = ["All", "UX/UI", "Frontend", "Internships"];
 
   const filteredProjects =
     activeCategory === "All"
       ? projects
-      : projects.filter((project) => project.category === activeCategory);
+      : activeCategory === "Internships"
+        ? projects.filter((project) => project.group === "internships")
+        : projects.filter((project) => project.category === activeCategory);
 
   const shouldCollapseProjects = isDesktop && activeCategory === "All";
 

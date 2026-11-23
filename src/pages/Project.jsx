@@ -32,7 +32,7 @@ const Project = () => {
   const SelectedProject = projectComponents[matchedProject.slug];
 
   return (
-    <Suspense fallback={<div role="status">Loading project…</div>}>
+    <Suspense fallback={<div role="status" style={{ color: '#fff' }}>Loading project…</div>}>
       <SelectedProject />
     </Suspense>
   );
