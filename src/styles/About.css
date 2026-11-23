@@ -558,6 +558,42 @@
   }
 }
 
+@media (max-width: 767px) and (orientation: portrait) {
+  .experience-header {
+    margin-bottom: 0.8rem;
+  }
+
+  .experience-section {
+    gap: 0.8rem;
+  }
+
+  .experience-section .about-text {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .about-signoff {
+    font-size: clamp(0.62rem, 3vw, 0.72rem);
+  }
+
+  .about-signoff-first-line,
+  .about-signoff-second-line {
+    display: block;
+  }
+
+  .about-signoff-first-line {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 400px) and (orientation: portrait) {
+  .experience-section .about-text {
+    padding: 0.75rem 0.8rem;
+    font-size: 0.76rem;
+    line-height: 1.5;
+  }
+}
+
 @media (max-width: 767px) and (orientation: landscape) {
   .about-section {
     width: calc(100% - 3rem);
