@@ -362,6 +362,67 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) and (min-height: 501px) {
+  .about-image-wrapper > .about-image {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .about-image-wrapper .skills-header {
+    margin-top: 3.05rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .about-image-wrapper .skills-header .about-title {
+    font-size: 1.6rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .about-image-wrapper .skills-grid {
+    width: 100%;
+    max-width: 220px;
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+    margin-inline: auto;
+  }
+
+  .about-image-wrapper .skill-card {
+    width: 100%;
+    max-width: 220px;
+    height: 44px;
+    padding: 0;
+  }
+
+  .about-content > p.about-text:not(.about-signoff) {
+    font-size: 0.68rem;
+    line-height: 1.4;
+  }
+
+  .experience-section > .about-text {
+    max-width: none;
+    margin: 0 0 0.7rem 56px;
+    font-size: 0.68rem;
+    line-height: 1.4;
+  }
+
+  .about-signoff {
+    max-width: none;
+    margin-top: 0.8rem;
+    font-size: 0.63rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .about-signoff-first-line,
+  .about-signoff-second-line {
+    display: block;
+  }
+
+  .about-signoff-first-line {
+    white-space: nowrap;
+  }
+}
+
 /* Mobile-only visual refresh. Tablet and desktop layouts remain unchanged. */
 @media (max-width: 767px) {
   .about-section {
@@ -605,8 +666,8 @@
   }
 }
 
-/* Keep landscape refinements active across phone widths, including those above the tablet breakpoint. */
-@media (orientation: landscape) and (max-width: 1023px) {
+/* Phone landscape refinements; keep tablet widths on the original tablet layout. */
+@media (orientation: landscape) and (max-height: 500px) {
   .about-signoff {
     width: 100%;
     max-width: 56ch;
