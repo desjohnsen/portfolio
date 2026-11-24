@@ -26,13 +26,17 @@
   }
 
   .internship-highlight-intro h2 {
-    max-width: none;
+    max-width: 19ch;
     margin: 0;
     color: var(--dark-text, #111);
-    font-size: clamp(1.4rem, 2.4vw, 1.7rem);
+    font-size: clamp(1.35rem, 2.2vw, 1.6rem);
     font-family: inherit;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.25;
+  }
+
+  .internship-highlight-intro h2 em {
+    font-weight: inherit;
   }
 
   .internship-highlight-links {
@@ -149,7 +153,7 @@
   }
   
   .categories {
-    margin: 2.5rem auto 2rem;
+    margin: 4rem auto 2rem;
     display: flex;
     gap: 0.2rem;
     flex-wrap: wrap;
@@ -202,7 +206,7 @@
       justify-content: center;
       gap: 0.4rem;
       padding-inline: 0.9rem; 
-      margin-top: 3rem;
+      margin-top: 4rem;
       margin-bottom: 2.25rem;
     }
     
@@ -243,7 +247,9 @@
     }
 
     .internship-highlight-intro h2 {
-      font-size: 1.35rem;
+      max-width: none;
+      font-size: clamp(0.95rem, 4.5vw, 1.15rem);
+      white-space: nowrap;
     }
 
     .internship-highlight-links {
@@ -334,7 +340,7 @@
     }
 
     .categories {
-      margin-top: 2.5rem;
+      margin-top: 4rem;
       margin-bottom: 1.75rem;
     }
 

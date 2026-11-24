@@ -559,10 +559,6 @@
 }
 
 @media (max-width: 767px) and (orientation: portrait) {
-  .about-content > header:first-child {
-    display: none;
-  }
-
   .experience-header {
     margin-bottom: 0.8rem;
   }

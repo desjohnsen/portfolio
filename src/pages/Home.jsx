@@ -122,7 +122,11 @@ const Home = ({ projectSectionRef, contactSectionRef }) => {
         {internshipProjects.length > 0 && (
           <section className="internship-highlight" aria-labelledby="internship-highlight-title">
             <div className="internship-highlight-intro">
-              <h2 id="internship-highlight-title">Internship experience</h2>
+              <h2 id="internship-highlight-title">
+                Curious about <span className="internship-highlight-title-second-line">
+                  my <em>internships?</em>
+                </span>
+              </h2>
             </div>
             <div className="internship-highlight-links" aria-label="Internship case studies">
               {internshipProjects.map((project, index) => (
