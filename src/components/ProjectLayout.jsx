@@ -11,8 +11,29 @@ import {
 import "../styles/ProjectLayout.css";
 import "../styles/ImageOverlay.css";
 
-const ProjectLayout = ({ title, subtitle, role, timeframe, tools, children }) => {
+const sidebarItems = [
+  { id: "overview", label: "Overview", Icon: BookOpenText },
+  { id: "problem", label: "Problem", Icon: AlertCircle },
+  { id: "research", label: "Research", Icon: Search },
+  { id: "design", label: "Design", Icon: Palette },
+  { id: "outcome", label: "Outcome", Icon: Trophy },
+  { id: "reflection", label: "Reflection", Icon: MessageSquare },
+];
+
+const ProjectLayout = ({
+  title,
+  subtitle,
+  role,
+  timeframe,
+  tools,
+  children,
+  showSidebar = true,
+  sidebarSections,
+}) => {
   const [activeSection, setActiveSection] = useState("");
+  const visibleSidebarItems = sidebarSections
+    ? sidebarItems.filter(({ id }) => sidebarSections.includes(id))
+    : sidebarItems;
 
   const scrollToSection = (id, e) => {
     e.preventDefault();
@@ -46,68 +67,28 @@ const ProjectLayout = ({ title, subtitle, role, timeframe, tools, children }) =>
   }, []);
 
   return (
-    <div className="case-study-layout">
-      <aside className="sidebar-nav">
-        <nav>
-          <ul>
-            <li>
-              <a
-                href="#overview"
-                onClick={(e) => scrollToSection("overview", e)}
-                className={activeSection === "overview" ? "active" : ""}
-              >
-                <BookOpenText size={16} /> <span>Overview</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#problem"
-                onClick={(e) => scrollToSection("problem", e)}
-                className={activeSection === "problem" ? "active" : ""}
-              >
-                <AlertCircle size={16} /> <span>Problem</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#research"
-                onClick={(e) => scrollToSection("research", e)}
-                className={activeSection === "research" ? "active" : ""}
-              >
-                <Search size={16} /> <span>Research</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#design"
-                onClick={(e) => scrollToSection("design", e)}
-                className={activeSection === "design" ? "active" : ""}
-              >
-                <Palette size={16} /> <span>Design</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#outcome"
-                onClick={(e) => scrollToSection("outcome", e)}
-                className={activeSection === "outcome" ? "active" : ""}
-              >
-                <Trophy size={16} /> <span>Outcome</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="#reflection"
-                onClick={(e) => scrollToSection("reflection", e)}
-                className={activeSection === "reflection" ? "active" : ""}
-              >
-                <MessageSquare size={16} /> <span>Reflection</span>
-              </a>
-            </li>
-
-          </ul>
-        </nav>
-      </aside>
+    <div
+      className={`case-study-layout${showSidebar ? "" : " no-sidebar"}${sidebarSections ? " compact-sidebar" : ""}`}
+    >
+      {showSidebar && (
+        <aside className="sidebar-nav">
+          <nav>
+            <ul>
+              {visibleSidebarItems.map(({ id, label, Icon }) => (
+                <li key={id}>
+                  <a
+                    href={`#${id}`}
+                    onClick={(e) => scrollToSection(id, e)}
+                    className={activeSection === id ? "active" : ""}
+                  >
+                    <Icon size={16} /> <span>{label}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </aside>
+      )}
 
       <div className="project-main-content">
         <div className="project-container">

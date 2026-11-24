@@ -9,6 +9,7 @@ const Project8 = () => {
       role="UI Designer"
       timeframe="10 weeks"
       tools="Figma"
+      showSidebar={false}
     >
       <section id="overview" className="project-content">
         <h2>Overview</h2>

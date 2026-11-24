@@ -11,6 +11,7 @@ const Project5 = () => {
       role="Developer"
       timeframe="2 weeks"
       tools="React Native, Expo, Firebase"
+      sidebarSections={["overview", "design", "reflection"]}
     >
       <section id="overview" className="project-content">
         <h2>Overview</h2>

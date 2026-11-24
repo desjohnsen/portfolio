@@ -28,6 +28,10 @@
   margin-bottom: 3rem;
 }
 
+.case-study-layout.no-sidebar {
+  gap: 0;
+}
+
 .sidebar-nav {
   border-radius: 1rem;
   padding: 1rem;
@@ -467,6 +471,10 @@
     -ms-overflow-style: none;
   }
 
+  .case-study-layout.compact-sidebar .sidebar-nav {
+    top: 17.6rem;
+  }
+
   .sidebar-nav::-webkit-scrollbar {
     display: none;
   }
@@ -483,6 +491,10 @@
 
   .project-container {
     margin: 0;
+  }
+
+  .case-study-layout.no-sidebar .project-main-content {
+    justify-content: center;
   }
 }
 

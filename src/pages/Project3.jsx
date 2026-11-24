@@ -11,6 +11,7 @@ const Project3 = () => {
       role="Developer"
       timeframe="1 week"
       tools="React + Vite"
+      sidebarSections={["overview", "design", "reflection"]}
     >
       <section id="overview" className="project-content">
         <h2>Overview</h2>

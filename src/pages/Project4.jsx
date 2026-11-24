@@ -11,6 +11,7 @@ const Project4 = () => {
       role="Developer"
       timeframe="2 weeks"
       tools="JavaScript, CSS"
+      sidebarSections={["overview", "design", "reflection"]}
     >
       <section id="overview" className="project-content">
         <h2>Overview</h2>
