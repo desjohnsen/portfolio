@@ -347,8 +347,8 @@
   }
 
   .skills-grid {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 68.2px;
+    margin-right: 51.8px;
     row-gap: 1.1rem;
   }
 
@@ -375,6 +375,7 @@
   .about-image-wrapper .skills-header {
     margin-top: 3.05rem;
     margin-bottom: 0.55rem;
+    transform: translateX(-8px);
   }
 
   .about-image-wrapper .skills-header .about-title {
@@ -383,8 +384,8 @@
   }
 
   .about-image-wrapper .skills-grid {
-    width: 100%;
-    max-width: 220px;
+    width: 90%;
+    max-width: 198px;
     grid-template-columns: 1fr;
     gap: 0.65rem;
     margin-inline: auto;
@@ -392,7 +393,7 @@
 
   .about-image-wrapper .skill-card {
     width: 100%;
-    max-width: 220px;
+    max-width: 100%;
     height: 44px;
     padding: 0;
   }
@@ -424,6 +425,31 @@
 
   .about-signoff-first-line {
     white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (min-height: 501px) {
+  .about-image-wrapper .skills-header {
+    transform: translateX(20px);
+  }
+
+  .about-image-wrapper .card-front,
+  .about-image-wrapper .card-back {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) and (min-height: 501px) {
+  .about-image-wrapper .skills-grid {
+    width: 90%;
+    max-width: 256.5px;
+    justify-items: center;
+    margin-inline: auto;
+  }
+
+  .about-image-wrapper .skill-card {
+    width: 100%;
+    max-width: 100%;
   }
 }
 
